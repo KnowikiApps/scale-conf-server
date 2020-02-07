@@ -1,7 +1,7 @@
-var express = require('express')
-var router = express.Router()
-var createError = require('http-errors')
-var scheduleService = require('../services/schedule_service')
+const express = require('express')
+const router = express.Router()
+const createError = require('http-errors')
+const scheduleService = require('../services/schedule_service')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {

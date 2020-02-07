@@ -21,25 +21,20 @@ function refreshSchedule () {
 /**
  * Parse XML data into JSON
  * @param xmlData  stringified XML data
- * @return normalized object
+ * @return {object} normalized object
  */
 function _parseScaleFeed (xmlData) {
-  return new Promise(function (resolve, reject) {
-    xml2js.parseString(xmlData, function (err, result) {
-      if (!err) {
-        resolve(_normalizeSchedule(result))
-      } else {
-        console.error('Error parsing XML feed: %s.', err)
-        reject(err)
-      }
+  return xml2js.parseStringPromise(xmlData).then(jsonData => _normalizeSchedule(jsonData))
+    .catch(err => {
+      console.error('Error parsing XML feed: %s.', err)
+      throw err
     })
-  })
 }
 
 /**
  * Convert source data into a normalized structure
- * @parma jsonData  parsed source XML data source
- * @return normalized data format
+ * @param jsonData  parsed source XML data source
+ * @return {object} normalized data format
  */
 function _normalizeSchedule (jsonData) {
   if (!jsonData || !('nodes' in jsonData) || !('node' in jsonData.nodes)) {
