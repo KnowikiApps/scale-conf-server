@@ -9,7 +9,7 @@ router.get('/', function (req, res, next) {
 })
 
 /**
- * Get a let of schedule specific endpoints
+ * Get a list of schedule specific endpoints
  */
 router.get('/schedule', function (req, res) {
   res.json({
@@ -40,7 +40,7 @@ router.get('/events', function (req, res) {
 /**
  * Get a list of events for a single day
  *
- * @param day: string identifying the day to filter
+ * @param day  string identifying the day to filter
  */
 router.get('/events/:day', function (req, res, next) {
   const day = req.params.day
