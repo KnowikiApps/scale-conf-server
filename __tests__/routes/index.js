@@ -13,7 +13,7 @@ describe('Get schedule urls', () => {
       .get('/schedule')
       .then(response => {
         expect(response.statusCode).toBe(200)
-        expect(response.body.dates).toEqual(['2020-03-01', '2020-03-02', '2020-03-03'])
+        expect(response.body.dates).toEqual(['2020-03-05', '2020-03-06', '2020-03-07', '2020-03-08'])
         done()
       })
   })
@@ -25,9 +25,10 @@ describe('Get schedule urls', () => {
         expect(response.statusCode).toBe(200)
         expect(response.body.urls).toEqual(
           {
-            '2020-03-01': '/events/friday',
-            '2020-03-02': '/events/saturday',
-            '2020-03-03': '/events/sunday'
+            '2020-03-05': '/events/thursday',
+            '2020-03-06': '/events/friday',
+            '2020-03-07': '/events/saturday',
+            '2020-03-08': '/events/sunday'
           }
         )
         done()
