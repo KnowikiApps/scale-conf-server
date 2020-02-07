@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+  <user>
+    <Name>Jonathan Katz</Name>
+    <Job-title>Director of Cloud Engineering &amp; Growth</Job-title>
+    <Organization>Crunchy Data</Organization>
+    <Photo><img typeof="foaf:Image" src="https://www.socallinuxexpo.org/sites/default/files/speakers/headshot17.jpg" width="114" height="128" alt="" /></Photo>
+    <Biography><p>Jonathan S. Katz is the Director of Cloud Engineering &amp; Growth at Crunchy Data, the leading provider of trusted open source PostgreSQL technology, support, and training. Jonathan is also responsible for advocacy efforts of the PostgreSQL Global Development Group and is a board member of the nonprofit United States PostgreSQL Association.</p>
+<p>Prior to Crunchy Data, Jonathan was CTO at VenueBook, and before that, VP of Technology at Paperless Post. At both companies Jonathan developed robust platforms using PostgreSQL, taking advantage of its many features, from complex data types to its ability to stream logical changes. Jonathan graduated from Tufts University with a B.S. in Computer Science and a B.A. in Mathematics.</p>
+</Biography>
+    <Website><a href="https://www.crunchydata.com">Crunchy Data</a></Website>
+  </user>
+</users>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+  <user>
+    <Name>Jennifer Scheuerell</Name>
+    <Job-title>Senior Data Systems Consultant</Job-title>
+    <Organization>Sound Data</Organization>
+    <Photo><img typeof="foaf:Image" src="https://www.socallinuxexpo.org/sites/default/files/speakers/Screen%20Shot%202018-10-31%20at%202.23.56%20PM.png" width="551" height="524" alt="" /></Photo>
+    <Biography><p>Jennifer started Sound Data in 2008 after ten years building research databases at the University of Washington. She has built a wide variety of data systems for clients in science and engineering. She holds a MS from the University of Washington and is a certified Oracle Applications Developer.</p>
+</Biography>
+    <Website><a href="http://sound-data.com">Sound Data</a></Website>
+  </user>
+</users>

@@ -2,6 +2,7 @@ const express = require('express')
 const router = express.Router()
 const createError = require('http-errors')
 const scheduleService = require('../services/schedule_service')
+const constants = require('../constants')
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -34,7 +35,7 @@ router.get('/speakers', function (req, res) {
  * Get a list of all events
  */
 router.get('/events', function (req, res) {
-  res.json({})
+  res.redirect(constants.EVENTS_PATH.all)
 })
 
 /**
@@ -44,17 +45,31 @@ router.get('/events', function (req, res) {
  */
 router.get('/events/:day', function (req, res, next) {
   const day = req.params.day
-  if (!['thursday', 'friday', 'saturday', 'sunday'].includes(day)) {
+  if (!constants.EVENT_DAYS.includes(day)) {
     // FIXME: opt for a json error rather than this human readable error page.
     return next(createError(404, 'Requested schedule not found'))
   }
 
-  res.json({ val: 'success' })
+  res.redirect(constants.EVENTS_PATH[day])
+})
+
+router.get('/speakers', function (req, res) {
+  res.redirect(constants.SPEAKERS_PATH)
 })
 
 // For development purposes. Not sure if this will be exposed on the api.
 router.get('/refresh', function (req, res) {
   scheduleService.refreshSchedule()
+    .then(data => {
+      res.json(data)
+    })
+    .catch(err => {
+      res.send(err)
+    })
+})
+
+router.get('/refresh/speakers', function (req, res) {
+  scheduleService.refreshSpeakers()
     .then(data => {
       res.json(data)
     })

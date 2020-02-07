@@ -1,11 +1,8 @@
 /* eslint-env jest */
 
 const request = require('supertest')
-const express = require('express')
-const app = express()
-const indexRoute = require('../../routes/index')
 const async = require('async')
-app.use('/', indexRoute)
+const app = require('../../app')
 
 describe('Get schedule urls', () => {
   test('Expected schedule to provide dates', done => {
@@ -37,12 +34,19 @@ describe('Get schedule urls', () => {
 
   test('Expect that each data url resolves', (done) => {
     // async.series technique courtesy of https://stackoverflow.com/a/21090031
-    const req = request(app)
-    req.get('/schedule')
+    const proxy = request(app)
+    proxy.get('/schedule')
       .then(response => {
         const chainedCalls = response.body.dates.map(date => {
           const url = response.body.urls[date]
-          return function (cb) { req.get(url).expect(200, cb) }
+          return function (cb) {
+            // console.log(url)
+            proxy.get(url).redirects(1).then(response => {
+              // console.log(response)
+              expect(response.statusCode).toBe(200)
+              cb()
+            })
+          }
         })
         return async.series(chainedCalls, done)
       })
@@ -62,10 +66,18 @@ describe('Test schedule by day', () => {
   test('Expect day specific schedule for a valid day path', (done) => {
     request(app)
       .get('/events/friday')
-      .then(response => {
-        expect(response.statusCode).toBe(200)
-        expect(response.body).toEqual({ val: 'success' })
-        done()
-      })
+      .expect(302)
+      .expect('Location', '/_data/scale-x18-events-friday.json')
+      .end(done)
+  })
+})
+
+describe('Test all events schedule', () => {
+  test('Expect json extents list', done => {
+    request(app)
+      .get('/events')
+      .expect(302)
+      .expect('Location', '/_data/scale-x18-events.json')
+      .end(done)
   })
 })

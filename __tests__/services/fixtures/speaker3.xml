@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+  <user>
+    <Name>Darren Douglas</Name>
+    <Job-title>Chief Instructor</Job-title>
+    <Organization>PostgresCourse.com</Organization>
+    <Photo></Photo>
+    <Biography><p>Darren has 20 years of professional experience as a technology professional. His experience includes 10 years of developing and delivering software development, information technology, and project management training programs. As an independent technology consultant he implements software solutions to solve business problems for clients across multiple industries and also runs PostgresCourse.com.</p>
+</Biography>
+    <Website><a href="http://www.postgrescourse.com">PostgresCourse.com</a></Website>
+  </user>
+</users>

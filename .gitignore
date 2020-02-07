@@ -1,3 +1,6 @@
+# generated data
+public/_data/
+
 # Logs
 logs
 *.log
