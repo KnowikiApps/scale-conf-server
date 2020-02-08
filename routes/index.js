@@ -28,7 +28,8 @@ router.get('/schedule', function (req, res) {
  * Get a list of all speakers
  */
 router.get('/speakers', function (req, res) {
-  res.json({})
+  // res.json(speakerModel.getAll())
+  res.redirect(constants.SPEAKERS_PATH)
 })
 
 /**

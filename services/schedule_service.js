@@ -1,8 +1,10 @@
 const axios = require('axios')
 const xml2js = require('xml2js')
+const pLimit = require('p-limit')
 const constants = require('../constants')
 const eventModel = require('../models/events')
 const speakerModel = require('../models/speakers')
+const limit = pLimit(constants.PARALLEL_LIMIT)
 
 /**
  * Fetch schedule from upstream SCALE website and parse into defined JSON schema
@@ -24,9 +26,7 @@ function refreshSchedule () {
 
 function refreshSpeakers () {
   const idList = eventModel.getUniqueSpeakerIds()
-  // TODO rate limit requests to avoid overloading upstream server.
-  // TODO remove slice
-  return _refreshSpeakers(idList.slice(0, 3)).then(speakers => {
+  return _refreshSpeakers(idList).then(speakers => {
     speakerModel.save(speakers)
     return speakers
   })
@@ -68,11 +68,18 @@ function _parseSpeakerXml (xmlData) {
     })
 }
 
+/**
+ * Request user XML from upstream for each user ID in idList
+ * @param idList  list of unique user IDs for use in upstream request
+ * @returns {Promise<any>}
+ * @private
+ */
 function _refreshSpeakers (idList) {
   const speakers = {}
-  return Promise.all(idList.map(id => {
+  console.log(`Starting speaker refresh ${process.hrtime()}`)
+  return Promise.all(idList.map(id => limit(() => {
     const url = constants.UPSTREAM_SPEAKER_URL + id
-    console.log(`Fetching ${url}`)
+    console.log(`Fetching ${url} (${process.hrtime()})`)
     return axios.get(url)
       .then(res => _parseSpeakerXml(res.data))
       .then(speaker => {
@@ -82,7 +89,10 @@ function _refreshSpeakers (idList) {
         console.error(`Error fetching speaker data for id ${id}: ${err}`)
         speakers[id] = null
       })
-  })).then(() => speakers)
+  }))).then(() => {
+    console.log(`Completed speaker refresh ${process.hrtime()}`)
+    return speakers
+  })
 }
 
 /**
