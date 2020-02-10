@@ -82,10 +82,10 @@ function _parseSpeakerXml (xmlData) {
  */
 function _refreshSpeakers (idList) {
   const speakers = {}
-  console.log(`Starting speaker refresh ${process.hrtime()}`)
+  console.time('Speaker refresh')
   return Promise.all(idList.map(id => limit(() => {
     const url = constants.UPSTREAM_SPEAKER_URL + id
-    console.log(`Fetching ${url} (${process.hrtime()})`)
+    console.time(`Fetching ${url}`)
     return axios.get(url)
       .then(res => _parseSpeakerXml(res.data))
       .then(speaker => {
@@ -94,10 +94,13 @@ function _refreshSpeakers (idList) {
       }).catch(err => {
         console.error(`Error fetching speaker data for id ${id}: ${err}`)
         speakers[id] = null
+      }).finally(() => {
+        console.timeEnd(`Fetching ${url}`)
       })
-  }))).then(() => {
-    console.log(`Completed speaker refresh ${process.hrtime()}`)
+  }))).then(value => {
     return speakers
+  }).finally(() => {
+    console.timeEnd('Speaker refresh')
   })
 }
 
@@ -120,11 +123,8 @@ function _parseScaleFeed (xmlData) {
  * @return {object} normalized data format
  */
 function _normalizeSchedule (jsonData) {
-  if (!jsonData || !('nodes' in jsonData) || !('node' in jsonData.nodes)) {
-    return {}
-  }
-
-  const events = jsonData.nodes.node.map(node => {
+  const srcNodes = (jsonData && jsonData.nodes && jsonData.nodes.node) || []
+  const events = srcNodes.map(node => {
     return {
       day: _getFromFirst(node.Day),
       time: _getFromFirst(node.Time),
@@ -132,8 +132,8 @@ function _normalizeSchedule (jsonData) {
       photo: _getFromFirst(node.Photo),
       location: _getFromFirst(node.Room),
       // speakers return single-element array with string that may contain comma separated ids
-      speaker_id: _getFromFirst(node['Speaker-IDs']).split(',').map(el => el.trim()),
-      speakers: _getFromFirst(node.Speakers).split(',').map(el => el.trim()),
+      speaker_id: _getFromFirst(node['Speaker-IDs']).split(',').map(el => el.trim()).filter(el => el.length > 0),
+      speakers: _getFromFirst(node.Speakers).split(',').map(el => el.trim()).filter(el => el.length > 0),
       title: _getFromFirst(node.Title),
       topic: _getFromFirst(node.Topic),
       abstract: _getFromFirst(node['Short-abstract'])

@@ -54,22 +54,14 @@ describe('Refresh events from upstream data source', () => {
     axios.get.mockResolvedValue({ data: '<?xml version="1.0" encoding="UTF-8" ?>' })
     scheduleService.refreshSchedule().then(val => {
       expect(val).toEqual({
-        name: '',
-        title: '',
-        organization: '',
-        photo: '',
-        biography: '',
-        website: {
-          name: '',
-          url: ''
-        }
+        events: []
       })
       done()
     })
   })
 
   test('Expect empty XML nodes document to return empty dataset', (done) => {
-    axios.get.mockResolvedValue({ data: '<?xml version="1.0" encoding="UTF-8" ?>\n<nodes><node/></nodes>' })
+    axios.get.mockResolvedValue({ data: '<?xml version="1.0" encoding="UTF-8" ?>\n<nodes></nodes>' })
     scheduleService.refreshSchedule().then(val => {
       expect(val).toEqual({
         events: []
@@ -82,15 +74,20 @@ describe('Refresh events from upstream data source', () => {
     axios.get.mockResolvedValue({ data: '<?xml version="1.0" encoding="UTF-8" ?>\n<nodes><node/></nodes>' })
     scheduleService.refreshSchedule().then(val => {
       expect(val).toEqual({
-        name: '',
-        title: '',
-        organization: '',
-        photo: '',
-        biography: '',
-        website: {
-          name: '',
-          url: ''
-        }
+        events: [
+          {
+            abstract: '',
+            day: '',
+            time: '',
+            url: '',
+            photo: '',
+            location: '',
+            speaker_id: [],
+            speakers: [],
+            title: '',
+            topic: ''
+          }
+        ]
       })
       done()
     })
@@ -125,7 +122,7 @@ describe('Refresh speaker data from upstream data source', () => {
     })
   })
 
-  test('Expect that a network error on one of the requests will silently ignored -- is this the desired behavior?', (done) => {
+  test('Expect that a network error on one of the requests will continue with a single null record', (done) => {
     // Mock speaker IDs used by refreshSpeakers
     eventModel.getUniqueSpeakerIds.mockImplementation(() => [100, 200, 300])
 
@@ -142,12 +139,13 @@ describe('Refresh speaker data from upstream data source', () => {
     })
 
     scheduleService.refreshSpeakers().then(result => {
-      expect(Object.keys(result).length).toBe(2)
+      expect(Object.keys(result).length).toBe(3)
+      expect(result['200']).toBe(null)
       done()
     })
   })
 
-  test('Expect that a 403 access denied, which occurs if speaker is invalid, will be ignored', (done) => {
+  test('Expect that a 403 access denied, which occurs if speaker is invalid, will continue with a null record', (done) => {
     // Mock speaker IDs used by refreshSpeakers
     eventModel.getUniqueSpeakerIds.mockImplementation(() => [100, 200, 300])
 
@@ -156,7 +154,7 @@ describe('Refresh speaker data from upstream data source', () => {
       data: fs.readFileSync(path.resolve(__dirname, './fixtures/speaker1.xml')).toString()
     })
     // second request empty
-    axios.get.mockResjectedValueOnce({
+    axios.get.mockRejectedValueOnce({
       config: {},
       request: {},
       response: {
@@ -174,13 +172,13 @@ describe('Refresh speaker data from upstream data source', () => {
     })
 
     scheduleService.refreshSpeakers().then(result => {
-      console.log(result)
-      expect(Object.keys(result).length).toBe(2)
+      expect(Object.keys(result).length).toBe(3)
+      expect(result['200']).toBe(null)
       done()
     })
   })
 
-  test('Expect that an empty response in one response will be ignored', (done) => {
+  test('Expect that a valid empty response in one response will be an empty record', (done) => {
     // Mock speaker IDs used by refreshSpeakers
     eventModel.getUniqueSpeakerIds.mockImplementation(() => [100, 200, 300])
 
@@ -195,13 +193,23 @@ describe('Refresh speaker data from upstream data source', () => {
     })
 
     scheduleService.refreshSpeakers().then(result => {
-      console.log(result)
-      expect(Object.keys(result).length).toBe(2)
+      expect(Object.keys(result).length).toBe(3)
+      expect(result['200']).toEqual({
+        biography: '',
+        name: '',
+        organization: '',
+        photo: '',
+        title: '',
+        website: {
+          name: '',
+          url: ''
+        }
+      })
       done()
     })
   })
 
-  test('Expect that an empty xml doc in one response will be ignored', (done) => {
+  test('Expect that an empty xml doc in one response will be an empty record', (done) => {
     // Mock speaker IDs used by refreshSpeakers
     eventModel.getUniqueSpeakerIds.mockImplementation(() => [100, 200, 300])
 
@@ -210,18 +218,40 @@ describe('Refresh speaker data from upstream data source', () => {
       data: fs.readFileSync(path.resolve(__dirname, './fixtures/speaker1.xml')).toString()
     })
     // second request empty XML
-    axios.get.mockResolvedValue({ data: '<?xml version="1.0" encoding="UTF-8" ?>' })
+    axios.get.mockResolvedValueOnce({ data: '<?xml version="1.0" encoding="UTF-8" ?>' })
     axios.get.mockResolvedValueOnce({
       data: fs.readFileSync(path.resolve(__dirname, './fixtures/speaker3.xml')).toString()
     })
 
     scheduleService.refreshSpeakers().then(result => {
-      expect(Object.keys(result).length).toBe(2)
+      expect(Object.keys(result).length).toBe(3)
+      expect(result['200']).toEqual({
+        biography: '',
+        name: '',
+        organization: '',
+        photo: '',
+        title: '',
+        website: {
+          name: '',
+          url: ''
+        }
+      })
       done()
     })
   })
 
-  test('Expect an incompletedly defined xml dataset will be handled', (done) => {
-    done.fail('undefined')
+  test('Expect an incompletely defined xml dataset will be handled have empty string values', (done) => {
+    eventModel.getUniqueSpeakerIds.mockImplementation(() => [100])
+    axios.get.mockResolvedValueOnce({
+      data: fs.readFileSync(path.resolve(__dirname, './fixtures/speaker_partially_defined.xml')).toString()
+    })
+
+    const jsonData = JSON.parse(fs.readFileSync(path.resolve(__dirname, './fixtures/speaker_partially_defined.json')))
+
+    scheduleService.refreshSpeakers().then(result => {
+      expect(Object.keys(result).length).toBe(1)
+      expect(result['100']).toEqual(jsonData)
+      done()
+    })
   })
 })

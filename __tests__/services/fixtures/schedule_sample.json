@@ -22,10 +22,8 @@
             "location": "Room 103",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-05T09:30:00-08:00\">9:30</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-05T10:00:00-08:00\">10:00</span></span></span>",
             "title": "Workshop: e-ALE Embedded Training - Day 1",
@@ -400,10 +398,8 @@
             "location": "Room 103",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T09:30:00-08:00\">9:30</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T10:00:00-08:00\">10:00</span></span></span>",
             "title": "Workshop: e-ALE Embedded Training - Day 2",
@@ -416,10 +412,8 @@
             "location": "Room 106",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T09:30:00-08:00\">9:30</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T12:30:00-08:00\">12:30</span></span></span>",
             "title": "Workshop: Using the Mitre Attack Framework",
@@ -464,10 +458,8 @@
             "location": "Room 212",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T10:00:00-08:00\">10:00</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T13:00:00-08:00\">13:00</span></span></span>",
             "title": "Workshop: POP Culture: An intro to Plugin Oriented Programming",
@@ -676,10 +668,8 @@
             "location": "Room 211",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T13:00:00-08:00\">13:00</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T15:00:00-08:00\">15:00</span></span></span>",
             "title": "Linux Professional Institute LPIC-1 Preparation Session",
@@ -724,10 +714,8 @@
             "location": "Ballroom F",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T13:30:00-08:00\">13:30</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T17:30:00-08:00\">17:30</span></span></span>",
             "title": "GitLab Community Day",
@@ -788,10 +776,8 @@
             "location": "Room 212",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T14:00:00-08:00\">14:00</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-06T17:30:00-08:00\">17:30</span></span></span>",
             "title": "Workshop: Real-time Operationalized ML, Streaming, and Dashboards",
@@ -2100,10 +2086,8 @@
             "location": "Ballroom DE",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-08T10:00:00-07:00\">10:00</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-08T11:00:00-07:00\">11:00</span></span></span>",
             "title": "Keynote",
@@ -2116,10 +2100,8 @@
             "location": "Room 105",
             "photo": "",
             "speaker_id": [
-                ""
             ],
             "speakers": [
-                ""
             ],
             "time": "<span class=\"date-display-single\"><span class=\"date-display-range\"><span class=\"date-display-start\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-08T11:30:00-07:00\">11:30</span> to <span class=\"date-display-end\" property=\"dc:date\" datatype=\"xsd:dateTime\" content=\"2020-03-08T17:00:00-07:00\">17:00</span></span></span>",
             "title": "Open Source Career Day",
