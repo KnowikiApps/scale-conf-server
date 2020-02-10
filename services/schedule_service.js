@@ -16,7 +16,7 @@ function refreshSchedule () {
     eventModel.save(events)
 
     return {
-      events: events.events
+      events: events.events || []
     }
   }).catch(err => {
     // console.error(err);
@@ -33,6 +33,14 @@ function refreshSpeakers () {
   // return Promise.resolve(idList)
 }
 
+function _getFromFirst (val, defaultVal) {
+  if (defaultVal === undefined) {
+    defaultVal = ''
+  }
+
+  return (val && Array.isArray(val) && val[0]) || defaultVal
+}
+
 /**
  * Convert a single speaker's JSON convert XML into the app normalized speaker format
  * @param jsonData
@@ -40,20 +48,18 @@ function refreshSpeakers () {
  * @private
  */
 function _normalizeSpeaker (jsonData) {
-  if (!jsonData || !('users' in jsonData) || !('user' in jsonData.users)) {
-    return {}
-  }
-
-  const user = jsonData.users.user[0]
+  const user = (jsonData && jsonData.users && _getFromFirst(jsonData.users.user, {})) || {}
   return {
-    name: user.Name[0],
-    title: user['Job-title'][0],
-    organization: user.Organization[0],
-    photo: user.Photo[0],
-    biography: user.Biography[0],
+    name: _getFromFirst(user.Name),
+    title: _getFromFirst(user['Job-title']),
+    organization: _getFromFirst(user.Organization),
+    photo: _getFromFirst(user.Photo),
+    biography: _getFromFirst(user.Biography),
     website: {
-      name: user.Website[0].a[0]._,
-      url: user.Website[0].a[0].$.href
+      // get user.Website[0].a[0]._ || ''
+      name: _getFromFirst(_getFromFirst(user.Website, {}).a, {})._ || '',
+      // get user.Website[0].a[0].$.href || ''
+      url: _getFromFirst(_getFromFirst(user.Website, {}).a, { $: {} }).$.href || ''
     }
   }
 }
@@ -120,17 +126,17 @@ function _normalizeSchedule (jsonData) {
 
   const events = jsonData.nodes.node.map(node => {
     return {
-      day: node.Day,
-      time: node.Time,
-      url: node.Path,
-      photo: node.Photo,
-      location: node.Room,
+      day: _getFromFirst(node.Day),
+      time: _getFromFirst(node.Time),
+      url: _getFromFirst(node.Path),
+      photo: _getFromFirst(node.Photo),
+      location: _getFromFirst(node.Room),
       // speakers return single-element array with string that may contain comma separated ids
-      speaker_id: node['Speaker-IDs'][0].split(',').map(el => el.trim()),
-      speakers: node.Speakers,
-      title: node.Title,
-      topic: node.Topic,
-      abstract: node['Short-abstract']
+      speaker_id: _getFromFirst(node['Speaker-IDs']).split(',').map(el => el.trim()),
+      speakers: _getFromFirst(node.Speakers).split(',').map(el => el.trim()),
+      title: _getFromFirst(node.Title),
+      topic: _getFromFirst(node.Topic),
+      abstract: _getFromFirst(node['Short-abstract'])
     }
   })
 

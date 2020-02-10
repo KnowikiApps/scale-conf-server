@@ -10,15 +10,12 @@ function save (events) {
 
   const collatedByDay = {}
   events.events.forEach(evt => {
-    // day is an array of html strings
-    evt.day.forEach(day => {
-      // Each html string has attribute metadata and a simple day of the week in the text element.
-      const slug = cheerio.load(day).text().toLowerCase()
-      if (!collatedByDay[slug]) {
-        collatedByDay[slug] = []
-      }
-      collatedByDay[slug].push(evt)
-    })
+    // day is an html string with attribute metadata and a simple day of the week in the text element.
+    const slug = cheerio.load(evt.day).text().toLowerCase()
+    if (!collatedByDay[slug]) {
+      collatedByDay[slug] = []
+    }
+    collatedByDay[slug].push(evt)
   })
 
   constants.EVENT_DAYS.forEach(day => {
