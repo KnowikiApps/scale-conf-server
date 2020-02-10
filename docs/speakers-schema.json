@@ -1,0 +1,37 @@
+{
+    "type": "object",
+    "patternProperties": {
+        "^[0-9]+$": {
+            "type": "object",
+            "#ref": "#definitions/speaker"
+        }
+    },
+    "additionalProperties": false,
+    "definitions": {
+        "speaker": {
+            "type": "object",
+            "properties": {
+                "name": { "type": "string" },
+                "title": { "type": "string" },
+                "organization": { "type": "string" },
+                "photo": { "type": "string" },
+                "biography": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "default": []
+                },
+                "website": {
+                    "type": "object",
+                    "properties": {
+                        "name": { "type": "string" },
+                        "url": { "type": "string" }
+                    }
+                }
+            },
+            "required": [],
+            "additionalProperties": false
+        }
+    }
+}

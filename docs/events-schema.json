@@ -1,0 +1,41 @@
+{
+    "type": "object",
+    "properties": {
+        "events": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/event" },
+            "default": []
+        }
+    },
+    "definitions": {
+        "event": {
+            "type": "object",
+            "properties": {
+                "abstract": { "type": "string" },
+                "day": { "type": "string" },
+                "location": { "type": "string" },
+                "photo": { "type": "string" },
+                "speaker_id": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "default": []
+                },
+                "speakers": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    },
+                    "default": []
+                },
+                "time": { "type": "string" },
+                "title": { "type": "string" },
+                "topic": { "type": "string" },
+                "url": { "type": "string" }
+            },
+            "required": []
+        }
+    },
+    "additionalProperties": false
+}
