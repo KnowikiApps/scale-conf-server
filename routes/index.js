@@ -10,16 +10,25 @@ router.get('/', function (req, res, next) {
 })
 
 /**
- * Get a list of schedule specific endpoints
+ * Get a list of conference specific endpoints
  */
-router.get('/schedule', function (req, res) {
+router.get('/metadata', function (req, res) {
   res.json({
-    dates: ['2020-03-05', '2020-03-06', '2020-03-07', '2020-03-08'],
-    urls: {
-      '2020-03-05': '/events/thursday',
-      '2020-03-06': '/events/friday',
-      '2020-03-07': '/events/saturday',
-      '2020-03-08': '/events/sunday'
+    'scale-18x': {
+      name: 'Southern California Linux Expo 2019',
+      dates: ['2020-03-05', '2020-03-06', '2020-03-07', '2020-03-08'],
+      urls: {
+        events: {
+          all: '/events',
+          '2020-03-05': '/events/thursday',
+          '2020-03-06': '/events/friday',
+          '2020-03-07': '/events/saturday',
+          '2020-03-08': '/events/sunday'
+        },
+        speakers: {
+          all: '/speakers'
+        }
+      }
     }
   })
 })
