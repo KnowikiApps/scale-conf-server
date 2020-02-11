@@ -6,6 +6,7 @@ const constants = require('../constants')
 const eventModel = require('../models/events')
 const speakerModel = require('../models/speakers')
 const limit = pLimit(constants.PARALLEL_LIMIT)
+const xmlBuilder = new xml2js.Builder()
 
 /**
  * Fetch schedule from upstream SCALE website and parse into defined JSON schema
@@ -55,6 +56,23 @@ function _parseWebsite (htmlLink) {
   }
 }
 
+function _xmlToHtml (obj) {
+  return (obj && xmlBuilder.buildObject({ fragment: obj })) || obj
+}
+
+function _htmlToText (html) {
+  if (!html) {
+    return null
+  }
+
+  // Adopted from https://stackoverflow.com/a/59068839
+  const parsed = cheerio.load(html)
+  return (parsed('fragment *').contents().toArray()
+    .map(el => el.type === 'text' ? parsed(el).text().trim() : null)
+    .filter(text => text)
+    .join(' '))
+}
+
 /**
  * Convert a single speaker's JSON convert XML into the app normalized speaker format
  * @param jsonData
@@ -68,7 +86,7 @@ function _normalizeSpeaker (jsonData) {
     title: _getFromFirst(user['Job-title']),
     organization: _getFromFirst(user.Organization),
     photo: _parseSpeakerImage(_getFromFirst(user.Photo)),
-    biography: _getFromFirst(user.Biography),
+    biography: _htmlToText(_xmlToHtml(_getFromFirst(user.Biography))),
     website: _parseWebsite(_getFromFirst(user.Website, {}).a)
   }
 }
@@ -119,6 +137,9 @@ function _refreshSpeakers (idList) {
  * @return {object} normalized object
  */
 function _parseScaleFeed (xmlData) {
+  if (xmlData === undefined) {
+    return Promise.reject(new Error('No XML data to parse'))
+  }
   return xml2js.parseStringPromise(xmlData).then(jsonData => _normalizeSchedule(jsonData))
     .catch(err => {
       console.error('Error parsing XML feed: %s.', err)
@@ -143,7 +164,6 @@ function _parseEventWhen (day, time) {
 
 function _parseSpeakerImage (xmlImage) {
   const parsed = (xmlImage && _getFromFirst(xmlImage.img, {}).$) || {}
-  console.log(xmlImage)
   if (!parsed || !parsed.src) {
     return null
   }

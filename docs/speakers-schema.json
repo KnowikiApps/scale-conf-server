@@ -3,7 +3,7 @@
     "patternProperties": {
         "^[0-9]+$": {
             "type": "object",
-            "#ref": "#definitions/speaker"
+            "$ref": "#definitions/speaker"
         }
     },
     "additionalProperties": false,
@@ -14,16 +14,33 @@
                 "name": { "type": "string" },
                 "title": { "type": "string" },
                 "organization": { "type": "string" },
-                "photo": { "type": "string" },
+                "photo": {
+                    "type": ["object", "null"],
+                    "properties": {
+                        "alt": {
+                            "type": ["string", "null"]
+                        },
+                        "height": {
+                            "type": ["string", "null"]
+                        },
+                        "width": {
+                            "type": ["string", "null"]
+                        },
+                        "src": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    }
+                },
                 "biography": {
-                    "type": "array",
+                    "type": "string",
                     "items": {
                         "type": "string"
                     },
                     "default": []
                 },
                 "website": {
-                    "type": "object",
+                    "type": ["object", "null"],
                     "properties": {
                         "name": { "type": "string" },
                         "url": { "type": "string" }

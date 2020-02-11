@@ -25,3 +25,9 @@ Run tests: `npm test`
 Run lint: `npm run lint`.
 
 Autocorrect lint issues: `npx standard --fix`
+
+Verify json schemas.
+
+    pip install jsonschema
+    jsonschema -i __tests__/services/fixtures/schedule_sample.json docs/events-schema.json
+    jsonschema -i __tests__/services/fixtures/speaker_sample.json docs/speakers-schema.json

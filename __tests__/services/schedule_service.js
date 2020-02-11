@@ -40,7 +40,7 @@ describe('Refresh events from upstream data source', () => {
     scheduleService.refreshSchedule().then(val => {
       done.fail('Undefined dataset expected to result in xml parsing error')
     }).catch(err => {
-      expect(err).toEqual(new TypeError('Cannot read property \'toString\' of undefined'))
+      expect(err).toEqual(new Error('No XML data to parse'))
       done()
     })
   })

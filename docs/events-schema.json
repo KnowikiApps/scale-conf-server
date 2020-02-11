@@ -11,10 +11,26 @@
         "event": {
             "type": "object",
             "properties": {
-                "abstract": { "type": "string" },
-                "day": { "type": "string" },
-                "location": { "type": "string" },
-                "photo": { "type": "string" },
+                "abstract": { "type": ["string", "null"] },
+                "location": { "type": ["string", "null"] },
+                "photo": {
+                    "type": ["object", "null"],
+                    "properties": {
+                        "alt": {
+                            "type": ["string", "null"]
+                        },
+                        "height": {
+                            "type": ["string", "null"]
+                        },
+                        "width": {
+                            "type": ["string", "null"]
+                        },
+                        "src": {
+                            "type": "string",
+                            "format": "uri"
+                        }
+                    }
+                },
                 "speaker_id": {
                     "type": "array",
                     "items": {
@@ -29,10 +45,26 @@
                     },
                     "default": []
                 },
-                "time": { "type": "string" },
-                "title": { "type": "string" },
-                "topic": { "type": "string" },
-                "url": { "type": "string" }
+                "when": {
+                    "type": ["object", "null"],
+                    "properties": {
+                        "day": { "type": "string" },
+                        "startTime": {
+                            "type": "string",
+                            "format": "date-time"
+                        },
+                        "endTime": {
+                            "type": "string",
+                            "format": "date-time"
+                        }
+                    }
+                },
+                "title": { "type": ["string", "null"] },
+                "topic": { "type": ["string", "null"] },
+                "url": {
+                    "type": ["string", "null"],
+                    "format":"uri-reference"
+                }
             },
             "required": []
         }
