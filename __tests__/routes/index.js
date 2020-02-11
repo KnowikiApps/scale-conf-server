@@ -95,8 +95,8 @@ describe('Test schedule by day', () => {
   test('Expect day specific schedule for a valid day path', (done) => {
     request(app)
       .get('/events/friday')
-      .expect(302)
-      .expect('Location', '/_data/scale-18x-events-friday.json')
+      .expect(200)
+      .expect('Content-Type', 'application/json; charset=UTF-8')
       .end(done)
   })
 })
@@ -105,8 +105,8 @@ describe('Test all events schedule', () => {
   test('Expect json extents list', done => {
     request(app)
       .get('/events')
-      .expect(302)
-      .expect('Location', '/_data/scale-18x-events.json')
+      .expect(200)
+      .expect('Content-Type', 'application/json; charset=UTF-8')
       .end(done)
   })
 })

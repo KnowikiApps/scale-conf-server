@@ -37,15 +37,14 @@ router.get('/metadata', function (req, res) {
  * Get a list of all speakers
  */
 router.get('/speakers', function (req, res) {
-  // res.json(speakerModel.getAll())
-  res.redirect(constants.SPEAKERS_PATH)
+  res.sendFile(constants.SPEAKERS_FILE_PATH)
 })
 
 /**
  * Get a list of all events
  */
 router.get('/events', function (req, res) {
-  res.redirect(constants.EVENTS_PATH.all)
+  res.sendFile(constants.EVENTS_FILE_PATH.all)
 })
 
 /**
@@ -60,11 +59,11 @@ router.get('/events/:day', function (req, res, next) {
     return next(createError(404, 'Requested schedule not found'))
   }
 
-  res.redirect(constants.EVENTS_PATH[day])
+  res.sendFile(constants.EVENTS_FILE_PATH[day])
 })
 
 router.get('/speakers', function (req, res) {
-  res.redirect(constants.SPEAKERS_PATH)
+  res.sendFile(constants.SPEAKERS_FILE_PATH)
 })
 
 // For development purposes. Not sure if this will be exposed on the api.
