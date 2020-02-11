@@ -1,5 +1,4 @@
 const fs = require('fs')
-const cheerio = require('cheerio')
 const constants = require('../constants')
 
 function save (events) {
@@ -11,7 +10,7 @@ function save (events) {
   const collatedByDay = {}
   events.events.forEach(evt => {
     // day is an html string with attribute metadata and a simple day of the week in the text element.
-    const slug = cheerio.load(evt.day).text().toLowerCase()
+    const slug = (evt.when && evt.when.day && evt.when.day.toLowerCase()) || 'unspecified'
     if (!collatedByDay[slug]) {
       collatedByDay[slug] = []
     }
