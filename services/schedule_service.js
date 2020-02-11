@@ -1,6 +1,7 @@
 const axios = require('axios')
 const xml2js = require('xml2js')
 const pLimit = require('p-limit')
+const cheerio = require('cheerio')
 const constants = require('../constants')
 const eventModel = require('../models/events')
 const speakerModel = require('../models/speakers')
@@ -35,10 +36,23 @@ function refreshSpeakers () {
 
 function _getFromFirst (val, defaultVal) {
   if (defaultVal === undefined) {
-    defaultVal = ''
+    defaultVal = null
   }
 
   return (val && Array.isArray(val) && val[0]) || defaultVal
+}
+
+function _parseWebsite (htmlLink) {
+  if (!htmlLink || (!htmlLink)) {
+    return null
+  }
+
+  return {
+    // get user.Website[0].a[0]._ || ''
+    name: _getFromFirst(htmlLink, {})._ || '',
+    // get user.Website[0].a[0].$.href || ''
+    url: _getFromFirst(htmlLink, { $: {} }).$.href || ''
+  }
 }
 
 /**
@@ -53,14 +67,9 @@ function _normalizeSpeaker (jsonData) {
     name: _getFromFirst(user.Name),
     title: _getFromFirst(user['Job-title']),
     organization: _getFromFirst(user.Organization),
-    photo: _getFromFirst(user.Photo),
+    photo: _parseSpeakerImage(_getFromFirst(user.Photo)),
     biography: _getFromFirst(user.Biography),
-    website: {
-      // get user.Website[0].a[0]._ || ''
-      name: _getFromFirst(_getFromFirst(user.Website, {}).a, {})._ || '',
-      // get user.Website[0].a[0].$.href || ''
-      url: _getFromFirst(_getFromFirst(user.Website, {}).a, { $: {} }).$.href || ''
-    }
+    website: _parseWebsite(_getFromFirst(user.Website, {}).a)
   }
 }
 
@@ -117,6 +126,50 @@ function _parseScaleFeed (xmlData) {
     })
 }
 
+function _parseEventWhen (day, time) {
+  const htmlDay = day && cheerio.load(day)
+  const htmlTime = time && cheerio.load(time)
+
+  if (!htmlDay && !htmlTime) {
+    return null
+  }
+
+  return {
+    day: htmlDay.text() || null,
+    startTime: (htmlTime && htmlTime('.date-display-start').attr('content')) || null,
+    endTime: (htmlTime && htmlTime('.date-display-end').attr('content')) || null
+  }
+}
+
+function _parseSpeakerImage (xmlImage) {
+  const parsed = (xmlImage && _getFromFirst(xmlImage.img, {}).$) || {}
+  console.log(xmlImage)
+  if (!parsed || !parsed.src) {
+    return null
+  }
+
+  return {
+    alt: (parsed && parsed.alt) || null,
+    height: (parsed && parsed.height) || null,
+    width: (parsed && parsed.width) || null,
+    src: (parsed && parsed.src) || null
+  }
+}
+
+function _parseEventImage (image) {
+  const parsed = image && cheerio.load(image)('img')
+  if (!parsed) {
+    return null
+  }
+
+  return {
+    alt: parsed.attr('alt') || null,
+    height: parsed.attr('height') || null,
+    width: parsed.attr('width') || null,
+    src: parsed.attr('src') || null
+  }
+}
+
 /**
  * Convert source data into a normalized structure
  * @param jsonData  parsed source XML data source
@@ -126,14 +179,13 @@ function _normalizeSchedule (jsonData) {
   const srcNodes = (jsonData && jsonData.nodes && jsonData.nodes.node) || []
   const events = srcNodes.map(node => {
     return {
-      day: _getFromFirst(node.Day),
-      time: _getFromFirst(node.Time),
+      when: _parseEventWhen(_getFromFirst(node.Day), _getFromFirst(node.Time)),
       url: _getFromFirst(node.Path),
-      photo: _getFromFirst(node.Photo),
+      photo: _parseEventImage(_getFromFirst(node.Photo)),
       location: _getFromFirst(node.Room),
       // speakers return single-element array with string that may contain comma separated ids
-      speaker_id: _getFromFirst(node['Speaker-IDs']).split(',').map(el => el.trim()).filter(el => el.length > 0),
-      speakers: _getFromFirst(node.Speakers).split(',').map(el => el.trim()).filter(el => el.length > 0),
+      speaker_id: _getFromFirst(node['Speaker-IDs'], '').split(',').map(el => el.trim()).filter(el => el.length > 0),
+      speakers: _getFromFirst(node.Speakers, '').split(',').map(el => el.trim()).filter(el => el.length > 0),
       title: _getFromFirst(node.Title),
       topic: _getFromFirst(node.Topic),
       abstract: _getFromFirst(node['Short-abstract'])

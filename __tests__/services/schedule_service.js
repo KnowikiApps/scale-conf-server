@@ -18,6 +18,9 @@ describe('Refresh events from upstream data source', () => {
 
     scheduleService.refreshSchedule()
       .then(result => {
+        // Writing changed output as reference.
+        // fs.writeFileSync(path.resolve(__dirname, './fixtures/schedule_sample_update.json'), JSON.stringify(result))
+
         expect(result).toEqual(jsonData)
         expect(result.events.length).toBe(177)
         done()
@@ -76,16 +79,15 @@ describe('Refresh events from upstream data source', () => {
       expect(val).toEqual({
         events: [
           {
-            abstract: '',
-            day: '',
-            time: '',
-            url: '',
-            photo: '',
-            location: '',
+            abstract: null,
+            when: null,
+            url: null,
+            photo: null,
+            location: null,
             speaker_id: [],
             speakers: [],
-            title: '',
-            topic: ''
+            title: null,
+            topic: null
           }
         ]
       })
@@ -195,15 +197,12 @@ describe('Refresh speaker data from upstream data source', () => {
     scheduleService.refreshSpeakers().then(result => {
       expect(Object.keys(result).length).toBe(3)
       expect(result['200']).toEqual({
-        biography: '',
-        name: '',
-        organization: '',
-        photo: '',
-        title: '',
-        website: {
-          name: '',
-          url: ''
-        }
+        biography: null,
+        name: null,
+        organization: null,
+        photo: null,
+        title: null,
+        website: null
       })
       done()
     })
@@ -226,15 +225,12 @@ describe('Refresh speaker data from upstream data source', () => {
     scheduleService.refreshSpeakers().then(result => {
       expect(Object.keys(result).length).toBe(3)
       expect(result['200']).toEqual({
-        biography: '',
-        name: '',
-        organization: '',
-        photo: '',
-        title: '',
-        website: {
-          name: '',
-          url: ''
-        }
+        biography: null,
+        name: null,
+        organization: null,
+        photo: null,
+        title: null,
+        website: null
       })
       done()
     })

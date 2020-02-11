@@ -9,17 +9,10 @@
         "name": "Jonathan Katz",
         "organization": "Crunchy Data",
         "photo": {
-            "img": [
-                {
-                    "$": {
-                        "alt": "",
-                        "height": "128",
-                        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot17.jpg",
-                        "typeof": "foaf:Image",
-                        "width": "114"
-                    }
-                }
-            ]
+            "alt": null,
+            "height": "128",
+            "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot17.jpg",
+            "width": "114"
         },
         "title": "Director of Cloud Engineering & Growth",
         "website": {
@@ -36,17 +29,10 @@
         "name": "Jennifer Scheuerell",
         "organization": "Sound Data",
         "photo": {
-            "img": [
-                {
-                    "$": {
-                        "alt": "",
-                        "height": "524",
-                        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Screen%20Shot%202018-10-31%20at%202.23.56%20PM.png",
-                        "typeof": "foaf:Image",
-                        "width": "551"
-                    }
-                }
-            ]
+            "alt": null,
+            "height": "524",
+            "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Screen%20Shot%202018-10-31%20at%202.23.56%20PM.png",
+            "width": "551"
         },
         "title": "Senior Data Systems Consultant",
         "website": {
@@ -62,7 +48,7 @@
         },
         "name": "Darren Douglas",
         "organization": "PostgresCourse.com",
-        "photo": "",
+        "photo": null,
         "title": "Chief Instructor",
         "website": {
             "name": "PostgresCourse.com",
