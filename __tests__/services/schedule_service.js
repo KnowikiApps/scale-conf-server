@@ -19,6 +19,8 @@ describe('Refresh events from upstream data source', () => {
     scheduleService.refreshSchedule()
       .then(result => {
         // Writing changed output as reference.
+        // Output generates test reference with the following:
+        //     python -m json.tool --sort-keys __tests__/services/fixtures/schedule_sample_update.json > __tests__/services/fixtures/schedule_sample.json
         // fs.writeFileSync(path.resolve(__dirname, './fixtures/schedule_sample_update.json'), JSON.stringify(result))
 
         expect(result).toEqual(jsonData)

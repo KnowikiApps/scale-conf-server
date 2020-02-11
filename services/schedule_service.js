@@ -67,10 +67,19 @@ function _htmlToText (html) {
 
   // Adopted from https://stackoverflow.com/a/59068839
   const parsed = cheerio.load(html)
-  return (parsed('fragment *').contents().toArray()
-    .map(el => el.type === 'text' ? parsed(el).text().trim() : null)
+
+  // Replace break elements with explicit newline
+  // Reference https://github.com/cheeriojs/cheerio/issues/839#issuecomment-379737480
+  parsed('br').replaceWith('\n')
+
+  // Within mapping, trim space and tab but not newline so that embedded newlines are retained.
+  // After join, do full trim because empirically there is possible leading/trailing whitespace.
+  return (parsed('*').contents().toArray()
+    .map(el => el.type === 'text' ? parsed(el).text().replace(/^[ \t]+|[\t ]+$/g, '') : null)
     .filter(text => text)
-    .join(' '))
+    .join(' ')
+    .trim()
+    .replace(/\n/g, '\n'))
 }
 
 /**
@@ -208,7 +217,7 @@ function _normalizeSchedule (jsonData) {
       speakers: _getFromFirst(node.Speakers, '').split(',').map(el => el.trim()).filter(el => el.length > 0),
       title: _getFromFirst(node.Title),
       topic: _getFromFirst(node.Topic),
-      abstract: _getFromFirst(node['Short-abstract'])
+      abstract: _htmlToText(_getFromFirst(node['Short-abstract']))
     }
   })
 

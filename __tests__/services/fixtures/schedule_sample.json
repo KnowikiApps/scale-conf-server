@@ -1,7 +1,7 @@
 {
     "events": [
         {
-            "abstract": "<p>Passwords: they just work. You connect to your PostgreSQL database, type in the correct characters, and presto! you're in, safe and sound.</p>\n<p>But what if I told you that all was not as it seemed, and there was a better way to authenticate with passwords in PostgreSQL?</p>\n<p>In this talk, we will look at:</p>\n<ul><li>A history of password storage and authentication in PostgreSQL</li>\n<li>How SCRAM works with a step-by-step deep dive into the algorithm</li>\n<li>How to safely set and modify your passwords, and how to upgrade to SCRAM-SHA-256</li>\n</ul><p>and more!</p>\n",
+            "abstract": "Passwords: they just work. You connect to your PostgreSQL database, type in the correct characters, and presto! you're in, safe and sound. But what if I told you that all was not as it seemed, and there was a better way to authenticate with passwords in PostgreSQL? In this talk, we will look at: \n \n \n A history of password storage and authentication in PostgreSQL How SCRAM works with a step-by-step deep dive into the algorithm How to safely set and modify your passwords, and how to upgrade to SCRAM-SHA-256 and more!",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -25,7 +25,7 @@
             }
         },
         {
-            "abstract": "<p>ALE, the Apprentice Linux Engineer track, is a tutorial series driven by volunteer professional speakers who present apprentice-level material in a way that beginners can understand and use the information. These tutorial provide hands-on training, with embedded hardware designed and built by ALE volunteers. There is an additional fee for participating in these classes to cover the cost of the required hardware.</p>\n",
+            "abstract": "ALE, the Apprentice Linux Engineer track, is a tutorial series driven by volunteer professional speakers who present apprentice-level material in a way that beginners can understand and use the information. These tutorial provide hands-on training, with embedded hardware designed and built by ALE volunteers. There is an additional fee for participating in these classes to cover the cost of the required hardware.",
             "location": "Room 103",
             "photo": null,
             "speaker_id": [],
@@ -40,7 +40,7 @@
             }
         },
         {
-            "abstract": "<p>This hands-on tutorial is designed to get you quickly up and running with PostgreSQL. We will start with a quick introduction of fundamental relational theory, the SQL programming language, and PostgreSQL. We will then lead participants through creating a new database, creating and modifying tables, getting data into and out of the database, writing queries, and more. Bring a laptop with a recent version of PostgreSQL installed.</p>\n",
+            "abstract": "This hands-on tutorial is designed to get you quickly up and running with PostgreSQL. We will start with a quick introduction of fundamental relational theory, the SQL programming language, and PostgreSQL. We will then lead participants through creating a new database, creating and modifying tables, getting data into and out of the database, writing queries, and more. Bring a laptop with a recent version of PostgreSQL installed.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -66,7 +66,7 @@
             }
         },
         {
-            "abstract": "<p>FreeBSD is a free Unix-like operating system descended from Research Unix via the Berkeley Software Distribution (BSD), also known as \u201cBerkeley Unix.\u201d It\u2019s known for its reliability, stability, and advanced networking and performance. Join us for a full day workshop that will teach you how to install FreeBSD and the ports and packages necessary to get you up and running. You\u2019ll leave the workshop with the knowledge to install and administer a FreeBSD Operating System and know where to go to learn even more about using FreeBSD.</p>\n",
+            "abstract": "FreeBSD is a free Unix-like operating system descended from Research Unix via the Berkeley Software Distribution (BSD), also known as \u201cBerkeley Unix.\u201d It\u2019s known for its reliability, stability, and advanced networking and performance. Join us for a full day workshop that will teach you how to install FreeBSD and the ports and packages necessary to get you up and running. You\u2019ll leave the workshop with the knowledge to install and administer a FreeBSD Operating System and know where to go to learn even more about using FreeBSD.",
             "location": "Room 209",
             "photo": {
                 "alt": null,
@@ -92,7 +92,7 @@
             }
         },
         {
-            "abstract": "<p dir=\"ltr\">In this talk, you will learn about Cloud Native Buildpacks (CNB\u2019s) as a polyglot build process for Kubernetes and beyond. As a CNCF sandbox project, CNB\u2019s streamline adding monitoring agents, image scanning software, and more into containers. We\u2019ll use CNB\u2019s to install and keep an agent or scanning tools up to date.</p>\n",
+            "abstract": "In this talk, you will learn about Cloud Native Buildpacks (CNB\u2019s) as a polyglot build process for Kubernetes and beyond. As a CNCF sandbox project, CNB\u2019s streamline adding monitoring agents, image scanning software, and more into containers. We\u2019ll use CNB\u2019s to install and keep an agent or scanning tools up to date.",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [
@@ -113,7 +113,7 @@
             }
         },
         {
-            "abstract": "<p>Students will be introduced to the Techlab embedded learning hw kit which will be used through the rest of this Embedded Linux learning track. This session is part of a 2 day workshop, and requires an additional fee for the included hardware.</p>\n",
+            "abstract": "Students will be introduced to the Techlab embedded learning hw kit which will be used through the rest of this Embedded Linux learning track. This session is part of a 2 day workshop, and requires an additional fee for the included hardware.",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -137,7 +137,7 @@
             }
         },
         {
-            "abstract": "<p>Ready to dive a little deeper into the world of Kubernetes? Understand the first principles of a cloud native infrastructure, and then dig into our lab environment and deploy your first cluster. This training is designed for attendees who are early in their cloud native journey\u2014you will walk out with more knowledge of basic concepts and greater comfort in working with containers. Laptops are required.</p>\n",
+            "abstract": "Ready to dive a little deeper into the world of Kubernetes? Understand the first principles of a cloud native infrastructure, and then dig into our lab environment and deploy your first cluster. This training is designed for attendees who are early in their cloud native journey\u2014you will walk out with more knowledge of basic concepts and greater comfort in working with containers. Laptops are required.",
             "location": "Room 106",
             "photo": null,
             "speaker_id": [
@@ -156,7 +156,7 @@
             }
         },
         {
-            "abstract": "<p>Learn to create and run Declarative Pipelines with Jenkins. You\u2019ll learn the structure of Declarative Pipeline, how to control the flow of execution, how to save artifacts of the build, and get practice using some of the features that give fit and finish to your Pipeline. The course consists of lectures with follow-along labs plus lab exercises that allow you to practice what you have learned.</p>\n",
+            "abstract": "Learn to create and run Declarative Pipelines with Jenkins. You\u2019ll learn the structure of Declarative Pipeline, how to control the flow of execution, how to save artifacts of the build, and get practice using some of the features that give fit and finish to your Pipeline. The course consists of lectures with follow-along labs plus lab exercises that allow you to practice what you have learned.",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -180,7 +180,7 @@
             }
         },
         {
-            "abstract": "<p>At Illumina \u2013 the world leader in DNA sequencing systems \u2013 massive amounts of quality control data, with unlimited schemas, are produced by a vast range of measuring instruments, vendors, and subcontractors as we manufacture those complex systems...and the schemas are constantly changing. Storing that data using tightly-coupled relational tables and fragile ETL would have been unsustainable. This presentation details the design model and source code for a solution that uses the exceptional Postgres support for JSON data and is suitable for engineers, architects, and program managers.</p>\n",
+            "abstract": "At Illumina \u2013 the world leader in DNA sequencing systems \u2013 massive amounts of quality control data, with unlimited schemas, are produced by a vast range of measuring instruments, vendors, and subcontractors as we manufacture those complex systems...and the schemas are constantly changing. Storing that data using tightly-coupled relational tables and fragile ETL would have been unsustainable. This presentation details the design model and source code for a solution that uses the exceptional Postgres support for JSON data and is suitable for engineers, architects, and program managers.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -204,7 +204,7 @@
             }
         },
         {
-            "abstract": "<p>Postgres 12 was released in late 2019. In this talk well cover new features, enhancements, and upgrade strategies for this new version of Postgres.</p>\n",
+            "abstract": "Postgres 12 was released in late 2019. In this talk well cover new features, enhancements, and upgrade strategies for this new version of Postgres.",
             "location": "Room 105",
             "photo": null,
             "speaker_id": [
@@ -223,7 +223,7 @@
             }
         },
         {
-            "abstract": "<p>U-Boot is the universal bootloader used on a vast majority of embedded systems, development kits, products and so on. This session is an introduction into the U-Boot bootloader, including a hands-on part, and covers practical topics like identifying that the board is running U-Boot, accessing and exploring the U-Boot shell, including advanced scripting techniques to make life easier, obtaining information about the current hardware, accessing buses and storage and finally booting the kernel.</p>\n",
+            "abstract": "U-Boot is the universal bootloader used on a vast majority of embedded systems, development kits, products and so on. This session is an introduction into the U-Boot bootloader, including a hands-on part, and covers practical topics like identifying that the board is running U-Boot, accessing and exploring the U-Boot shell, including advanced scripting techniques to make life easier, obtaining information about the current hardware, accessing buses and storage and finally booting the kernel.",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -247,7 +247,7 @@
             }
         },
         {
-            "abstract": "<p>PostgreSQL 13 is slowly approaching feature freeze state, and at this point we have at least some ideas of what features will be included. This talk will take a quick look at what's in there already, and what's in the queue!</p>\n",
+            "abstract": "PostgreSQL 13 is slowly approaching feature freeze state, and at this point we have at least some ideas of what features will be included. This talk will take a quick look at what's in there already, and what's in the queue!",
             "location": "Room 105",
             "photo": null,
             "speaker_id": [
@@ -266,7 +266,7 @@
             }
         },
         {
-            "abstract": "<p>This seminar will provide attendees with an understanding of the steps involved to transform legacy applications by retargeting them to an Open Source Java Framework. The seminar shows how the framework, the CUBA-Platform, which was designed for development of modern web applications, is also well suited to enhance and extend legacy applications. This workshop is sponsored by <a href=\"http://www.xformix.com\">Transformix</a>.</p>\n",
+            "abstract": "This seminar will provide attendees with an understanding of the steps involved to transform legacy applications by retargeting them to an Open Source Java Framework. The seminar shows how the framework, the CUBA-Platform, which was designed for development of modern web applications, is also well suited to enhance and extend legacy applications. This workshop is sponsored by . Transformix",
             "location": "Room 212",
             "photo": {
                 "alt": null,
@@ -290,7 +290,7 @@
             }
         },
         {
-            "abstract": "<p>Bring a laptop to follow along with this interactive session as we learn Kubernetes basics using curl, kubectl, oc and other command-line tools. Attendees will learn to model portable, scaleable, and highly-available solutions using open source tools for cloud-native computing.</p>\n<p>By the end of this lab, attendees will have hands-on experience deploying, scaling, and automating simple container-based distributed solutions on Kubernetes.</p>\n",
+            "abstract": "Bring a laptop to follow along with this interactive session as we learn Kubernetes basics using curl, kubectl, oc and other command-line tools. Attendees will learn to model portable, scaleable, and highly-available solutions using open source tools for cloud-native computing. By the end of this lab, attendees will have hands-on experience deploying, scaling, and automating simple container-based distributed solutions on Kubernetes.",
             "location": "Room 106",
             "photo": {
                 "alt": null,
@@ -318,7 +318,7 @@
             }
         },
         {
-            "abstract": "<p><a title=\"jenkins-x.io\" href=\"http://jenkins-x.io\">Jenkins X</a>, an open source project introduced to the community by CloudBees, enables the rapid creation, delivery and orchestration of cloud-native applications based on continuous delivery best practices and the proven Kubernetes platform.\u00a0 It is the CI/CD solution for development of modern cloud applications on Kubernetes.\u00a0 This workshop helps you get acquainted with the platform.</p>\n",
+            "abstract": ", an open source project introduced to the community by CloudBees, enables the rapid creation, delivery and orchestration of cloud-native applications based on continuous delivery best practices and the proven Kubernetes platform.\u00a0 It is the CI/CD solution for development of modern cloud applications on Kubernetes.\u00a0 This workshop helps you get acquainted with the platform. Jenkins X",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -342,7 +342,7 @@
             }
         },
         {
-            "abstract": "<p>Something that many PostgreSQL users take for granted is the powerful logging features that it provides.  With the right configuration, DBAs and sysadmins can quickly diagnose performance, security, and configuration issues, saving precious seconds of application uptime.  This talk will cover the major logging parameters in `postgresql.conf`, as well as provide some tips and wisdom gleaned over years of parsing through gigabytes of logs.</p>\n",
+            "abstract": "Something that many PostgreSQL users take for granted is the powerful logging features that it provides.  With the right configuration, DBAs and sysadmins can quickly diagnose performance, security, and configuration issues, saving precious seconds of application uptime.  This talk will cover the major logging parameters in `postgresql.conf`, as well as provide some tips and wisdom gleaned over years of parsing through gigabytes of logs.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -366,7 +366,7 @@
             }
         },
         {
-            "abstract": "<p>An introduction to git. git is the main version control system used by most open source projects, most notably in the embedded linux market. All embedded engineers need a good grounding in the use of git in order to be able to access and update code over the lifetime of a product. This course will introduce practical uses of git which can be applied to your day-to-day job as a developer. This workshop is part of a 2 day hands on embedded workshop at SCALE and requires an additional fee at registration to cover hardware costs.</p>\n",
+            "abstract": "An introduction to git. git is the main version control system used by most open source projects, most notably in the embedded linux market. All embedded engineers need a good grounding in the use of git in order to be able to access and update code over the lifetime of a product. This course will introduce practical uses of git which can be applied to your day-to-day job as a developer. This workshop is part of a 2 day hands on embedded workshop at SCALE and requires an additional fee at registration to cover hardware costs.",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -390,7 +390,7 @@
             }
         },
         {
-            "abstract": "<p>Cloud providers provide for a fully managed postgres database, the removal of the need to handle 90% of the adminstration of a postgresql database, and have you focus on the development end of it.\u00a0 I'll provide metrics between the 3 major cloud providers of their managed postgresql database and compare it to self-managed postgresql environment on the cloud providers with a VM/EC2 instance.\u00a0\u00a0</p>\n",
+            "abstract": "Cloud providers provide for a fully managed postgres database, the removal of the need to handle 90% of the adminstration of a postgresql database, and have you focus on the development end of it.\u00a0 I'll provide metrics between the 3 major cloud providers of their managed postgresql database and compare it to self-managed postgresql environment on the cloud providers with a VM/EC2 instance.",
             "location": "Room 104",
             "photo": null,
             "speaker_id": [
@@ -409,7 +409,7 @@
             }
         },
         {
-            "abstract": "<p>Input-output performance problems are on every day agenda for DBAs since the databases exist. Volume of data grows rapidly and you need to get your data fast from the disk and moreover - fast to the disk. For most databases there is a more or less easy to find checklist of recommended Linux settings to maximize IO throughput.</p>\n",
+            "abstract": "Input-output performance problems are on every day agenda for DBAs since the databases exist. Volume of data grows rapidly and you need to get your data fast from the disk and moreover - fast to the disk. For most databases there is a more or less easy to find checklist of recommended Linux settings to maximize IO throughput.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -433,7 +433,7 @@
             }
         },
         {
-            "abstract": "<p>The database team at Zalando started running highly-available PostgreSQL clusters on Kubernetes more than two years ago. In this talk I am going to share how we automate all routine operations, providing developers with easy-to-use tools to create, manage and monitor their PostgreSQL databases,</p>\n<p>Operating a few hundred PostgreSQL clusters in a containerized environment has generated observations and learnings which I want to share: infrastructure problems (AWS), how engineers use our Postgres setup and what happens when the load becomes critical.</p>\n",
+            "abstract": "The database team at Zalando started running highly-available PostgreSQL clusters on Kubernetes more than two years ago. In this talk I am going to share how we automate all routine operations, providing developers with easy-to-use tools to create, manage and monitor their PostgreSQL databases, Operating a few hundred PostgreSQL clusters in a containerized environment has generated observations and learnings which I want to share: infrastructure problems (AWS), how engineers use our Postgres setup and what happens when the load becomes critical.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -457,7 +457,7 @@
             }
         },
         {
-            "abstract": "<p>This preparation session will be lead by Aleksey Tsalolikhin from Vertical Sysadmin. Aleksey will field any technical questions and help prepare you before you take the exam. Participate to learn more about the importance of understanding the objectives prior to writing your exam, the exam structure, and why obtaining your certification will be professionally beneficial. Come prepared with questions!</p>\n",
+            "abstract": "This preparation session will be lead by Aleksey Tsalolikhin from Vertical Sysadmin. Aleksey will field any technical questions and help prepare you before you take the exam. Participate to learn more about the importance of understanding the objectives prior to writing your exam, the exam structure, and why obtaining your certification will be professionally beneficial. Come prepared with questions!",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -481,7 +481,7 @@
             }
         },
         {
-            "abstract": "<p>Ever wondered what might be the best data type for a certain use case? Is it better to use INT or BIGINT, and should you use TIMESTAMP or is it better to use TIMESTAMPTZ? When is the last time you migrated a legacy database and wondered what to use as replacement for VARCHAR2 or CHAR(255)? How to store IP addresses or geographical data, does that fit into VARCHAR or is there something more suitable?</p>\n<p>\u00a0</p>\n<p>PostgreSQL 12 comes with ~40 different data types preinstalled. This talk looks beyond INT and VARCHAR and dives into some of the lesser known PG data types.</p>\n",
+            "abstract": "Ever wondered what might be the best data type for a certain use case? Is it better to use INT or BIGINT, and should you use TIMESTAMP or is it better to use TIMESTAMPTZ? When is the last time you migrated a legacy database and wondered what to use as replacement for VARCHAR2 or CHAR(255)? How to store IP addresses or geographical data, does that fit into VARCHAR or is there something more suitable? \u00a0 PostgreSQL 12 comes with ~40 different data types preinstalled. This talk looks beyond INT and VARCHAR and dives into some of the lesser known PG data types.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -505,7 +505,7 @@
             }
         },
         {
-            "abstract": "<p>This talk gives you a deep dive into B-tree indexes architecture. It covers the newest major features of PostgreSQL B-tree:<br />INCLUDING clause, deduplication, K-NN, and other improvements. It demonstrates use cases and shows the limitations to help you use indexes the most efficiently.</p>\n<p>\u00a0</p>\n",
+            "abstract": "This talk gives you a deep dive into B-tree indexes architecture. It covers the newest major features of PostgreSQL B-tree: \n INCLUDING clause, deduplication, K-NN, and other improvements. It demonstrates use cases and shows the limitations to help you use indexes the most efficiently.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -529,7 +529,7 @@
             }
         },
         {
-            "abstract": "<p>Purpose of this talk to covers MySQL InnoDB cluster, which combines MySQL technologies to enable you to create highly available clusters of MySQL server instances.</p>\n",
+            "abstract": "Purpose of this talk to covers MySQL InnoDB cluster, which combines MySQL technologies to enable you to create highly available clusters of MySQL server instances.",
             "location": "Room 101",
             "photo": null,
             "speaker_id": [
@@ -548,7 +548,7 @@
             }
         },
         {
-            "abstract": "<p>ALE, the Apprentice Linux Engineer track, is a tutorial series driven by volunteer professional speakers who present apprentice-level material in a way that beginners can understand and use the information. These tutorial provide hands-on training, with embedded hardware designed and built by ALE volunteers. There is an additional fee for participating in these classes to cover the cost of the required hardware. This is a 2 day course, participation in both days is key.</p>\n",
+            "abstract": "ALE, the Apprentice Linux Engineer track, is a tutorial series driven by volunteer professional speakers who present apprentice-level material in a way that beginners can understand and use the information. These tutorial provide hands-on training, with embedded hardware designed and built by ALE volunteers. There is an additional fee for participating in these classes to cover the cost of the required hardware. This is a 2 day course, participation in both days is key.",
             "location": "Room 103",
             "photo": null,
             "speaker_id": [],
@@ -563,7 +563,7 @@
             }
         },
         {
-            "abstract": "<p>In this workshop sponsored by Elastic, you will see how Elastic SIEM and the Elastic Stack accelerate security wins by returning results from ad hoc queries in seconds. You\u2019ll also learn how to operate at scale, since Elastic handles security data by the petabyte \u2014 meaning you can keep your data for as long as you want and tap into the full picture when you need it most.</p>\n",
+            "abstract": "In this workshop sponsored by Elastic, you will see how Elastic SIEM and the Elastic Stack accelerate security wins by returning results from ad hoc queries in seconds. You\u2019ll also learn how to operate at scale, since Elastic handles security data by the petabyte \u2014 meaning you can keep your data for as long as you want and tap into the full picture when you need it most.",
             "location": "Room 106",
             "photo": null,
             "speaker_id": [],
@@ -578,7 +578,7 @@
             }
         },
         {
-            "abstract": "<p>The SPI, or Serial Peripheral Interface is a protocol developed by Motorola which has become a defacto standard for short distance communication between CPU and peripherals. Although it can be called by several different names, it is a very common bus on embedded devices. This seminar will introduce SPI generally and SPIdev which is a Linux userspace API to write simple SPI drivers without having to write kernel code.</p>\n",
+            "abstract": "The SPI, or Serial Peripheral Interface is a protocol developed by Motorola which has become a defacto standard for short distance communication between CPU and peripherals. Although it can be called by several different names, it is a very common bus on embedded devices. This seminar will introduce SPI generally and SPIdev which is a Linux userspace API to write simple SPI drivers without having to write kernel code.",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -602,7 +602,7 @@
             }
         },
         {
-            "abstract": "<p>Have you ever wanted to move fast? but are too afraid too break too many things?. Learn from the experience of deploying the largest python site in the world, that also happen to do so every 7 minutes!.</p>\n",
+            "abstract": "Have you ever wanted to move fast? but are too afraid too break too many things?. Learn from the experience of deploying the largest python site in the world, that also happen to do so every 7 minutes!.",
             "location": "Ballroom DE",
             "photo": null,
             "speaker_id": [
@@ -621,7 +621,7 @@
             }
         },
         {
-            "abstract": "<p>Plugin Oriented Programing, also known as POP, is a new programming paradigm and open source project developed by SaltStack. This introduction will help you learn how POP works and how to get started with a new POP project</p>\n",
+            "abstract": "Plugin Oriented Programing, also known as POP, is a new programming paradigm and open source project developed by SaltStack. This introduction will help you learn how POP works and how to get started with a new POP project",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [],
@@ -636,7 +636,7 @@
             }
         },
         {
-            "abstract": "<p>Come join us to learn about and work directly on The Open Source Way guide 2.0 release. This is a collaboratively written guide of best practices for open source community management. Contributions of all types are welcome.</p>\n<p>In this workshop, we\u2019ll be leading new contributors through the participation and contribution process. There are activities for short (30 to 60 minutes) and longer (1 to 4 hours) periods of time.</p>\n",
+            "abstract": "Come join us to learn about and work directly on The Open Source Way guide 2.0 release. This is a collaboratively written guide of best practices for open source community management. Contributions of all types are welcome. In this workshop, we\u2019ll be leading new contributors through the participation and contribution process. There are activities for short (30 to 60 minutes) and longer (1 to 4 hours) periods of time.",
             "location": "Room 209",
             "photo": {
                 "alt": null,
@@ -660,7 +660,7 @@
             }
         },
         {
-            "abstract": "<p>Kubernetes is often touted as an infrastructure abstraction layer that makes applications portable between cloud providers or on-premises Kubernetes clusters. In reality, sometimes you can end up stubbing your toe on concrete differences in storage or networking (e.g., PersistentVolumes or Ingress traffic). We\u2019ll discuss areas that the abstraction layer can fail to cover, such as notable differences between managed Kubernetes offerings and the default behavior across major cloud providers, and how to plan and package your Kubernetes-native applications to be truly (mostly) portable.</p>\n",
+            "abstract": "Kubernetes is often touted as an infrastructure abstraction layer that makes applications portable between cloud providers or on-premises Kubernetes clusters. In reality, sometimes you can end up stubbing your toe on concrete differences in storage or networking (e.g., PersistentVolumes or Ingress traffic). We\u2019ll discuss areas that the abstraction layer can fail to cover, such as notable differences between managed Kubernetes offerings and the default behavior across major cloud providers, and how to plan and package your Kubernetes-native applications to be truly (mostly) portable.",
             "location": "Ballroom B",
             "photo": null,
             "speaker_id": [
@@ -679,7 +679,7 @@
             }
         },
         {
-            "abstract": "<p>Stateful, scalable storage on Kubernetes is an unsolved problem. Creating it as a service is even more difficult. The cloud-native ecosystem offers many tools such as the operator-sdk, Prometheus, Grafana, etcd, Vitess, and much more, but integrating them isn't necessarily intuitive.</p>\n<p>Two of PlanetScale's employees that have engineered and managed the project describe the journey of leveraging all of these open source technologies to build out a database as a service on Kubernetes.</p>\n",
+            "abstract": "Stateful, scalable storage on Kubernetes is an unsolved problem. Creating it as a service is even more difficult. The cloud-native ecosystem offers many tools such as the operator-sdk, Prometheus, Grafana, etcd, Vitess, and much more, but integrating them isn't necessarily intuitive. Two of PlanetScale's employees that have engineered and managed the project describe the journey of leveraging all of these open source technologies to build out a database as a service on Kubernetes.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -705,7 +705,7 @@
             }
         },
         {
-            "abstract": "<p>You\u2019ve got data. Like people\u2019s names, phones, and email addresses. Or customers\u2019 orders. Or animals making visits to your veterinary office. Or a history of timestamped events.</p>\n<p>You want to keep that data organized. Available for searching. And sorting.</p>\n<p>So now it is time for a database to store all that data.</p>\n",
+            "abstract": "You\u2019ve got data. Like people\u2019s names, phones, and email addresses. Or customers\u2019 orders. Or animals making visits to your veterinary office. Or a history of timestamped events. You want to keep that data organized. Available for searching. And sorting. So now it is time for a database to store all that data.",
             "location": "Room 105",
             "photo": null,
             "speaker_id": [
@@ -724,7 +724,7 @@
             }
         },
         {
-            "abstract": "<p>Containers\u00a0have taken the world by storm and, with them, has come the requirement to store and distribute the images behind these containers via a registry. This talk will discuss the history and architecture of Quay, the world's first and longest-running secure container registry, from the very earliest days to the latest and greatest current data models. The overall goal will be educating on how registries work, how they have evolved over the years, and how they will continue to evolve in the future.</p>\n",
+            "abstract": "Containers\u00a0have taken the world by storm and, with them, has come the requirement to store and distribute the images behind these containers via a registry. This talk will discuss the history and architecture of Quay, the world's first and longest-running secure container registry, from the very earliest days to the latest and greatest current data models. The overall goal will be educating on how registries work, how they have evolved over the years, and how they will continue to evolve in the future.",
             "location": "Ballroom B",
             "photo": null,
             "speaker_id": [
@@ -745,7 +745,7 @@
             }
         },
         {
-            "abstract": "<p>Ever been stuck with a system that just can\u2019t heal? A system that falls over? Let\u2019s dig into where you can gather data from a broken system, how you can figure out what\u2019s happening using that data, and common trouble spots that might be hidden in that data for you to find.</p>\n",
+            "abstract": "Ever been stuck with a system that just can\u2019t heal? A system that falls over? Let\u2019s dig into where you can gather data from a broken system, how you can figure out what\u2019s happening using that data, and common trouble spots that might be hidden in that data for you to find.",
             "location": "Ballroom DE",
             "photo": {
                 "alt": null,
@@ -769,7 +769,7 @@
             }
         },
         {
-            "abstract": "<p>This preparation session will be lead by Mike Weilgart from Vertical Sysadmin. Mike will field any technical questions and help prepare you before you take the exam. Participate to learn more about the importance of understanding the objectives prior to writing your exam, the exam structure, and why obtaining your certification will be professionally beneficial. Come prepared with questions!</p>\n",
+            "abstract": "This preparation session will be lead by Mike Weilgart from Vertical Sysadmin. Mike will field any technical questions and help prepare you before you take the exam. Participate to learn more about the importance of understanding the objectives prior to writing your exam, the exam structure, and why obtaining your certification will be professionally beneficial. Come prepared with questions!",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -793,7 +793,7 @@
             }
         },
         {
-            "abstract": "<p>Protecting PII data is one of the biggest challenges of security minded DBA. But when you add a requirement to allow customers to have a direct access to a database replica it will make a life of a DBA nightmare.In this talk I will share an experience of how to implement customer authentication, authorization and data isolation in MySQL.</p>\n",
+            "abstract": "Protecting PII data is one of the biggest challenges of security minded DBA. But when you add a requirement to allow customers to have a direct access to a database replica it will make a life of a DBA nightmare.In this talk I will share an experience of how to implement customer authentication, authorization and data isolation in MySQL.",
             "location": "Room 101",
             "photo": null,
             "speaker_id": [
@@ -812,7 +812,7 @@
             }
         },
         {
-            "abstract": "<p>There are many relatively simple configuration changes that an admin can quickly deploy to increase the security and deployability of a new PostgreSQL cluster.</p>\n<p>This presentation and live demo will rapidly explain and demonstrate several such configuration changes including: logging user authentication and activity, enabling SSL, requiring secure client connections, and more.\u00a0Aattendees will agree there are \"no excuses\" to skip deploying these easy modifications.</p>\n",
+            "abstract": "There are many relatively simple configuration changes that an admin can quickly deploy to increase the security and deployability of a new PostgreSQL cluster. This presentation and live demo will rapidly explain and demonstrate several such configuration changes including: logging user authentication and activity, enabling SSL, requiring secure client connections, and more.\u00a0Aattendees will agree there are \"no excuses\" to skip deploying these easy modifications.",
             "location": "Room 105",
             "photo": null,
             "speaker_id": [
@@ -831,7 +831,7 @@
             }
         },
         {
-            "abstract": "<p>The concept of serverless and faas has been gaining traction in the recent years. The ecosystem has been rapidly evolving. How challenging it is to build a serverless platform on k8s. What are the tooling required to make the users feel at home.</p>\n",
+            "abstract": "The concept of serverless and faas has been gaining traction in the recent years. The ecosystem has been rapidly evolving. How challenging it is to build a serverless platform on k8s. What are the tooling required to make the users feel at home.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -855,7 +855,7 @@
             }
         },
         {
-            "abstract": "<p>Being a DevOps champion means going beyond the win and delving deeper into the team/organizational culture. In this talk, attendees will learn why it's the people that matter most and how to leverage DevOps best practices along with processes to make the most out of the DevOps journey.</p>\n",
+            "abstract": "Being a DevOps champion means going beyond the win and delving deeper into the team/organizational culture. In this talk, attendees will learn why it's the people that matter most and how to leverage DevOps best practices along with processes to make the most out of the DevOps journey.",
             "location": "Ballroom DE",
             "photo": {
                 "alt": null,
@@ -879,7 +879,7 @@
             }
         },
         {
-            "abstract": "<p>A GPIO, or \u201cGeneral Purpose Input/Output\u201d is a programmable digital pin which allows you to implement either input or output. They have no default behaviour but can be configured in a number of ways. They are often shared with other embedded buses which further requires you to choose how you want to use the pin at any particular time. This class will cover using libgpio and using GPIOs from userspace.</p>\n",
+            "abstract": "A GPIO, or \u201cGeneral Purpose Input/Output\u201d is a programmable digital pin which allows you to implement either input or output. They have no default behaviour but can be configured in a number of ways. They are often shared with other embedded buses which further requires you to choose how you want to use the pin at any particular time. This class will cover using libgpio and using GPIOs from userspace.",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -903,7 +903,7 @@
             }
         },
         {
-            "abstract": "<p>The Linux Professional Institute LPIC-1 Preparation Session will be lead by Kenny Armstrong, a certified trainer from Linux Professional Institute. We will field any technical questions and help prepare you before you take the exam. Participate to learn more about the importance of understanding the objectives prior to writing your exam, the exam structure, and why obtaining your certification will be professionally beneficial. Come prepared with questions!</p>\n",
+            "abstract": "The Linux Professional Institute LPIC-1 Preparation Session will be lead by Kenny Armstrong, a certified trainer from Linux Professional Institute. We will field any technical questions and help prepare you before you take the exam. Participate to learn more about the importance of understanding the objectives prior to writing your exam, the exam structure, and why obtaining your certification will be professionally beneficial. Come prepared with questions!",
             "location": "Room 211",
             "photo": null,
             "speaker_id": [],
@@ -918,7 +918,7 @@
             }
         },
         {
-            "abstract": "<p>This session handle the setup of a MySQL-as-a-service setup built on virtual machines and consists solely out of open source tools.</p>\n",
+            "abstract": "This session handle the setup of a MySQL-as-a-service setup built on virtual machines and consists solely out of open source tools.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -942,7 +942,7 @@
             }
         },
         {
-            "abstract": "<p>In a world, where DevOps means almost nothing and everything, or sometimes just \"Ops, but nicer to devs and with cloud and GitHub\", one being among all of us is willing to stand up and laugh in the face of inertia.</p>\n<p>\u00a0</p>\n<p>Bring your DevOps rage, love and tears, and we'll distill them into 120 proof beligerance.</p>\n",
+            "abstract": "In a world, where DevOps means almost nothing and everything, or sometimes just \"Ops, but nicer to devs and with cloud and GitHub\", one being among all of us is willing to stand up and laugh in the face of inertia. \u00a0 Bring your DevOps rage, love and tears, and we'll distill them into 120 proof beligerance.",
             "location": "Ballroom DE",
             "photo": {
                 "alt": null,
@@ -966,7 +966,7 @@
             }
         },
         {
-            "abstract": "<p>Join us for an overview of the GitLab community and GitLab\u2019s DevOps stages and how you can contribute to GitLab. On GitLab community, there will be an overview of several programs under the Community Relations team and a hands-on workshop on contributing to GitLab led by community members. For GitLab DevOps stages, there will be a presentation/demo on GitLab DevOps stages with a deep dive into a few stages where we will have an open discussion on future directions.</p>\n",
+            "abstract": "Join us for an overview of the GitLab community and GitLab\u2019s DevOps stages and how you can contribute to GitLab. On GitLab community, there will be an overview of several programs under the Community Relations team and a hands-on workshop on contributing to GitLab led by community members. For GitLab DevOps stages, there will be a presentation/demo on GitLab DevOps stages with a deep dive into a few stages where we will have an open discussion on future directions.",
             "location": "Ballroom F",
             "photo": null,
             "speaker_id": [],
@@ -981,7 +981,7 @@
             }
         },
         {
-            "abstract": "<p>containerd is a widely used container runtime that provides core functionality for Docker. containerd was designed to be small and simple, but also very modular and extensible. This talk covers the architecture of containerd and dives deep into containerd\u2019s facility for extension. We\u2019ll cover the individual services that make up containerd and show how they can be extended with proxy plugins, Go plugins, process interfaces, thick client implementations, and build-your-own containerd for compiled-in extension. Demo includes real-world use in the firecracker-containerd project.</p>\n",
+            "abstract": "containerd is a widely used container runtime that provides core functionality for Docker. containerd was designed to be small and simple, but also very modular and extensible. This talk covers the architecture of containerd and dives deep into containerd\u2019s facility for extension. We\u2019ll cover the individual services that make up containerd and show how they can be extended with proxy plugins, Go plugins, process interfaces, thick client implementations, and build-your-own containerd for compiled-in extension. Demo includes real-world use in the firecracker-containerd project.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -1005,7 +1005,7 @@
             }
         },
         {
-            "abstract": "<p>Ten years into the DevOps revolution, organizations have adopted key principles such as culture shift, collaboration, containerization, infrastructure as code, and automation. But challenges lie ahead, as all companies become software companies, speed and security become more critical, and silos still exist. Successful organizations will be those who measure everything, see their applications as many-headed beasts, iterate, get serious about failure, and adopt right-to-left thinking by collecting data in production and routing it back to design and development in useful ways.</p>\n",
+            "abstract": "Ten years into the DevOps revolution, organizations have adopted key principles such as culture shift, collaboration, containerization, infrastructure as code, and automation. But challenges lie ahead, as all companies become software companies, speed and security become more critical, and silos still exist. Successful organizations will be those who measure everything, see their applications as many-headed beasts, iterate, get serious about failure, and adopt right-to-left thinking by collecting data in production and routing it back to design and development in useful ways.",
             "location": "Ballroom DE",
             "photo": {
                 "alt": null,
@@ -1029,7 +1029,7 @@
             }
         },
         {
-            "abstract": "<p>We will have many PostgreSQL community members handy -- come ask us anything!</p>\n",
+            "abstract": "We will have many PostgreSQL community members handy -- come ask us anything!",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -1053,7 +1053,7 @@
             }
         },
         {
-            "abstract": "<p>Are you struggling to tame the world of real-time data? Or curious where to begin? Join us for this hands-on workshop where each attendee will get to build and deploy a real-time data pipeline from soup to nuts. Using simulated NYC Taxi data, you'll get to build data ingest, leverage machine learning models to enrich data, and view the results in an interactive dashboard, all with cloud-native technology. This workshop is sponsored by <a href=\"http://www.memsql.com\">MemSQL</a>.</p>\n",
+            "abstract": "Are you struggling to tame the world of real-time data? Or curious where to begin? Join us for this hands-on workshop where each attendee will get to build and deploy a real-time data pipeline from soup to nuts. Using simulated NYC Taxi data, you'll get to build data ingest, leverage machine learning models to enrich data, and view the results in an interactive dashboard, all with cloud-native technology. This workshop is sponsored by . MemSQL",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [],
@@ -1068,7 +1068,7 @@
             }
         },
         {
-            "abstract": "<p>The key for sql databases is concurrency, how databases handle concurrent transactions:\u00a0Isolation levels are a great place to start your way to mastering concurrency and their impact is often ignored by DBAs. Is there anything better than becoming a master and embarrassing your DBA?</p>\n",
+            "abstract": "The key for sql databases is concurrency, how databases handle concurrent transactions:\u00a0Isolation levels are a great place to start your way to mastering concurrency and their impact is often ignored by DBAs. Is there anything better than becoming a master and embarrassing your DBA?",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -1092,7 +1092,7 @@
             }
         },
         {
-            "abstract": "<p>Learning new technology is hard.It's even harder for those who don't focus on technology on a daily basis.But even with this complexity,there is value in being familiar with the practices that are associated with a given technology.Just because you don't know what Jenkins does,doesn't mean there isn't value in understanding concepts related to CICD.What we'll discuss is how we've approached introducing DevOps practices such as CICD,IaC and other app-dev practices using visualization techniques and attaching this to a real world scenario that most everyone is familiar with:a pizza shop.</p>\n",
+            "abstract": "Learning new technology is hard.It's even harder for those who don't focus on technology on a daily basis.But even with this complexity,there is value in being familiar with the practices that are associated with a given technology.Just because you don't know what Jenkins does,doesn't mean there isn't value in understanding concepts related to CICD.What we'll discuss is how we've approached introducing DevOps practices such as CICD,IaC and other app-dev practices using visualization techniques and attaching this to a real world scenario that most everyone is familiar with:a pizza shop.",
             "location": "Ballroom DE",
             "photo": null,
             "speaker_id": [
@@ -1111,7 +1111,7 @@
             }
         },
         {
-            "abstract": "<p>Kubernetes is well suited for managing containerized workloads in large clouds but there are edge and IoT use cases that challenge some aspects of Kubernetes. - Run full clusters at edge locations (e.g. retail store and remote branch office) under tight resource constraints or - Run containerized workloads at edge with a remote cloud Kubernetes control plane or - Run devices using non containerized software at edge This session will address issues like security, messaging, resource constraints, data communications, application lifecycle management, in the context of Kubernetes at edge</p>\n",
+            "abstract": "Kubernetes is well suited for managing containerized workloads in large clouds but there are edge and IoT use cases that challenge some aspects of Kubernetes. - Run full clusters at edge locations (e.g. retail store and remote branch office) under tight resource constraints or - Run containerized workloads at edge with a remote cloud Kubernetes control plane or - Run devices using non containerized software at edge This session will address issues like security, messaging, resource constraints, data communications, application lifecycle management, in the context of Kubernetes at edge",
             "location": "Ballroom B",
             "photo": null,
             "speaker_id": [
@@ -1132,7 +1132,7 @@
             }
         },
         {
-            "abstract": "<p>Buildroot is a popular tool to build customized and lightweight embedded Linux systems. By automating the complete process of cross-compilation, it provides an easy and efficient way to build from the source code your toolchain, Linux kernel, bootloader and root filesystem images, using the 2500+ existing packages. Used by large companies such as GoPro or Tesla, it provides an interesting alternative to the popular Yocto/OpenEmbedded build systems.</p>\n",
+            "abstract": "Buildroot is a popular tool to build customized and lightweight embedded Linux systems. By automating the complete process of cross-compilation, it provides an easy and efficient way to build from the source code your toolchain, Linux kernel, bootloader and root filesystem images, using the 2500+ existing packages. Used by large companies such as GoPro or Tesla, it provides an interesting alternative to the popular Yocto/OpenEmbedded build systems.",
             "location": "Room 103",
             "photo": null,
             "speaker_id": [
@@ -1151,7 +1151,7 @@
             }
         },
         {
-            "abstract": "<p>The docs are simple and helpful about rollbacks, they tell you that it's like an undo so if you made a boo-boo, you can always rely on a tool to go back to the point at which you think you want to go back to. But things are not so simple in the real world aren't they? How can you prove that your rollback is exactly what it was before? Where is the git diff to show it?\u00a0</p>\n<p>In this talk, I will show and compare the rollback functions in both MySQL & PostgreSQL. And how to plan your rollback scripts for a successful return.</p>\n",
+            "abstract": "The docs are simple and helpful about rollbacks, they tell you that it's like an undo so if you made a boo-boo, you can always rely on a tool to go back to the point at which you think you want to go back to. But things are not so simple in the real world aren't they? How can you prove that your rollback is exactly what it was before? Where is the git diff to show it?\u00a0 In this talk, I will show and compare the rollback functions in both MySQL & PostgreSQL. And how to plan your rollback scripts for a successful return.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -1175,7 +1175,7 @@
             }
         },
         {
-            "abstract": "<p>Data scientists want access to data sets quickly, but organizations often need to protect private data, whether due to internal policy or government regulations. In this talk we discuss how to leverage PostgreSQL for managing organization-wide data access while protecting privacy. Topics include: - Row Level Security - Purpose-based data access - Federating data - Foreign data wrappers - Masking - Differential privacy - k-anonymity - Auditing with pgAudit</p>\n",
+            "abstract": "Data scientists want access to data sets quickly, but organizations often need to protect private data, whether due to internal policy or government regulations. In this talk we discuss how to leverage PostgreSQL for managing organization-wide data access while protecting privacy. Topics include: - Row Level Security - Purpose-based data access - Federating data - Foreign data wrappers - Masking - Differential privacy - k-anonymity - Auditing with pgAudit",
             "location": "Room 105",
             "photo": null,
             "speaker_id": [
@@ -1194,7 +1194,7 @@
             }
         },
         {
-            "abstract": "<p>MySQL has been the most rapidly implemented version of the most popular database on the web. Our new CI/CD release schedule means we are introducting improvements on a quarterly basis and you may have missed one or two new features. You may have missed hash joins, random password generation, multi-value indexes, check contstaints, the Clone plugin, how to validate JSON documents for required fields or range checks, and dual passwords.\u00a0 This presentation will cover the new feature and how to implement them so you too can take advantages of the latest and greatest from MySQL.</p>\n",
+            "abstract": "MySQL has been the most rapidly implemented version of the most popular database on the web. Our new CI/CD release schedule means we are introducting improvements on a quarterly basis and you may have missed one or two new features. You may have missed hash joins, random password generation, multi-value indexes, check contstaints, the Clone plugin, how to validate JSON documents for required fields or range checks, and dual passwords.\u00a0 This presentation will cover the new feature and how to implement them so you too can take advantages of the latest and greatest from MySQL.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -1218,7 +1218,7 @@
             }
         },
         {
-            "abstract": "<p>This talk will review strategies and tools for managing secrets in different environments, with a particular focus on cloud infrastructure, application secrets, and secrets within the DevOps CI/CD pipeline. We will look at different approaches to secrets management, exploring processes and methodologies, best practices and anti-patterns. From here we will dive into specific tools and technologies, from open source to commercial tools.\u00a0\u00a0</p>\n",
+            "abstract": "This talk will review strategies and tools for managing secrets in different environments, with a particular focus on cloud infrastructure, application secrets, and secrets within the DevOps CI/CD pipeline. We will look at different approaches to secrets management, exploring processes and methodologies, best practices and anti-patterns. From here we will dive into specific tools and technologies, from open source to commercial tools.",
             "location": "Ballroom DE",
             "photo": {
                 "alt": null,
@@ -1242,7 +1242,7 @@
             }
         },
         {
-            "abstract": "<p>The concept of caching is not complicated: store the results of a query for a short period of time in a fast storage engine so you touch the slow and/or expensive database less. However, not all queries should be cached for a variety of application specific reasons. This leads to caching implementations inside applications that requires writing custom code control which queries are cached. In this session we will go over a technique to declaratively rather than imperatively control which results are cached and for how long.</p>\n",
+            "abstract": "The concept of caching is not complicated: store the results of a query for a short period of time in a fast storage engine so you touch the slow and/or expensive database less. However, not all queries should be cached for a variety of application specific reasons. This leads to caching implementations inside applications that requires writing custom code control which queries are cached. In this session we will go over a technique to declaratively rather than imperatively control which results are cached and for how long.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -1266,7 +1266,7 @@
             }
         },
         {
-            "abstract": "<p>One of the most powerful commands in Postgres: EXPLAIN. It can teach you all the details about what your queries are actually up to when they get planned and executed.</p>\n<p>There is a lot more than just running the command though. What does cost actually mean? What is the basic structure of a plan? How is a JOIN represented? Are Nested Loops bad?</p>\n<p>We\u2019ll spend time looking at examples of how to read EXPLAIN plans, learn about specific plan nodes, and how to improve the performance of a slow query using the query plan.</p>\n",
+            "abstract": "One of the most powerful commands in Postgres: EXPLAIN. It can teach you all the details about what your queries are actually up to when they get planned and executed. There is a lot more than just running the command though. What does cost actually mean? What is the basic structure of a plan? How is a JOIN represented? Are Nested Loops bad? We\u2019ll spend time looking at examples of how to read EXPLAIN plans, learn about specific plan nodes, and how to improve the performance of a slow query using the query plan.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -1290,7 +1290,7 @@
             }
         },
         {
-            "abstract": "<p>After 18 month in production with Kubernetes the team at Meltwater providing the cluster as a service to other engineering teams wanted to know how much more the Kubernetes cluster could grow with the current architecture and setup. They embarked into a journey of discovering relevant metrics and a test setup that could simulate their production usage. This presentation will share those learnings and results.</p>\n",
+            "abstract": "After 18 month in production with Kubernetes the team at Meltwater providing the cluster as a service to other engineering teams wanted to know how much more the Kubernetes cluster could grow with the current architecture and setup. They embarked into a journey of discovering relevant metrics and a test setup that could simulate their production usage. This presentation will share those learnings and results.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -1316,7 +1316,7 @@
             }
         },
         {
-            "abstract": "<p>In this presentation, we will demonstrate how using recently released PMM version 2 (which is built on free and open-source software) enables you to solve troubleshooting and performance challenges, We will look at specific, common MySQL problems and review.</p>\n",
+            "abstract": "In this presentation, we will demonstrate how using recently released PMM version 2 (which is built on free and open-source software) enables you to solve troubleshooting and performance challenges, We will look at specific, common MySQL problems and review.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -1340,7 +1340,7 @@
             }
         },
         {
-            "abstract": "<p>While no one is against finding and fixing issues before deploying to production, relying on traditional testing methods in the age of data-intensive, internet scale software has proven to be incomplete. This talk touches on common methods including real-world examples of odd edge cases with both testing and monitoring and explains why these will never provide a complete solution.</p>\n",
+            "abstract": "While no one is against finding and fixing issues before deploying to production, relying on traditional testing methods in the age of data-intensive, internet scale software has proven to be incomplete. This talk touches on common methods including real-world examples of odd edge cases with both testing and monitoring and explains why these will never provide a complete solution.",
             "location": "Ballroom DE",
             "photo": null,
             "speaker_id": [
@@ -1359,7 +1359,7 @@
             }
         },
         {
-            "abstract": "<p>Service meshes have grown in popularity and maturity over the past few years, and we have an ever-increasing number of organizations adopting this technology. This growth has brought in a newer set of challenges where multiple meshes want to federate beyond their trusted organizational boundaries.</p>\n<p>In this talk, we'd like to present the use-cases that call for service mesh federation. We'd then like to talk about challenges such as service discovery and identity in multi-mesh environments. We'll finally present solutions to these problems using open source projects like Hamlet, SPIFFE, etc.</p>\n",
+            "abstract": "Service meshes have grown in popularity and maturity over the past few years, and we have an ever-increasing number of organizations adopting this technology. This growth has brought in a newer set of challenges where multiple meshes want to federate beyond their trusted organizational boundaries. In this talk, we'd like to present the use-cases that call for service mesh federation. We'd then like to talk about challenges such as service discovery and identity in multi-mesh environments. We'll finally present solutions to these problems using open source projects like Hamlet, SPIFFE, etc.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -1385,7 +1385,7 @@
             }
         },
         {
-            "abstract": "<p>ProxySQL is a high-performance SQL proxy that runs as a background daemon, accepting incoming traffic from MySQL clients and forwards it to backend MySQL servers.\u00a0 It is often used in environments where Read Traffic needs to be spread out in a slave pool and Write Traffic needs to be directed to a specific server.</p>\n<p>This presentation will explain and demonstrate a deployment of ProxySQL.</p>\n",
+            "abstract": "ProxySQL is a high-performance SQL proxy that runs as a background daemon, accepting incoming traffic from MySQL clients and forwards it to backend MySQL servers.\u00a0 It is often used in environments where Read Traffic needs to be spread out in a slave pool and Write Traffic needs to be directed to a specific server. This presentation will explain and demonstrate a deployment of ProxySQL.",
             "location": "Room 101",
             "photo": null,
             "speaker_id": [
@@ -1404,7 +1404,7 @@
             }
         },
         {
-            "abstract": "<p>Since commercialization and privatization of the Internet first began in the 1990's, there has been a steady push to move access side DNS (called \"recursive\") away from customer networks and towards first ISP's and later Cisco, Google, IBM, and Cloudflare. What are the real motives for this trend? What are the risks and costs, and who pays them? Dr. Vixie has worked in the DNS field since 1989 and has invented many of the monitoring and filtering capabilities now used by nearly all DNS services, and he will try to explain what's happening.</p>\n",
+            "abstract": "Since commercialization and privatization of the Internet first began in the 1990's, there has been a steady push to move access side DNS (called \"recursive\") away from customer networks and towards first ISP's and later Cisco, Google, IBM, and Cloudflare. What are the real motives for this trend? What are the risks and costs, and who pays them? Dr. Vixie has worked in the DNS field since 1989 and has invented many of the monitoring and filtering capabilities now used by nearly all DNS services, and he will try to explain what's happening.",
             "location": "Ballroom DE",
             "photo": {
                 "alt": null,
@@ -1428,7 +1428,7 @@
             }
         },
         {
-            "abstract": "<p>This session is intended to get folks a up to speed for the other sessions in the Sysadmin track, as well as get folks a basic understanding of the Linux system they'll be working with. Basic BASH, networking, and other topics will be covered. If you are intending to attend any of the other Sysadmin track talks it is recommended you attend this one to get things prepared and setup.</p>\n",
+            "abstract": "This session is intended to get folks a up to speed for the other sessions in the Sysadmin track, as well as get folks a basic understanding of the Linux system they'll be working with. Basic BASH, networking, and other topics will be covered. If you are intending to attend any of the other Sysadmin track talks it is recommended you attend this one to get things prepared and setup.",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -1452,7 +1452,7 @@
             }
         },
         {
-            "abstract": "<p>A beginner-friendly introduction into the world Open Source and Pull Requests. Learn how different communities use different styles of sharing code. Watch a quick demo of an actual pull request being submitted. Hear about some ways to get you started contributing!</p>\n",
+            "abstract": "A beginner-friendly introduction into the world Open Source and Pull Requests. Learn how different communities use different styles of sharing code. Watch a quick demo of an actual pull request being submitted. Hear about some ways to get you started contributing!",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -1476,7 +1476,7 @@
             }
         },
         {
-            "abstract": "<p>With the rise of chip-and-pin for in-person credit card transactions, online fraud has increased dramatically.\u00a0 This problem has become so significant for Ticketmaster that an entire team of data scientists and engineers were dedicated to solving the problem and keep tickets in the hands of fans.\u00a0 The models in o production require extensive open-source infrastructure to evaluate every transaction in real time.\u00a0 This talk will describe that infrastructure in detail, including the extensive use of Kafka, Spark, Terraform, Java, Python, and Kubernetes.</p>\n",
+            "abstract": "With the rise of chip-and-pin for in-person credit card transactions, online fraud has increased dramatically.\u00a0 This problem has become so significant for Ticketmaster that an entire team of data scientists and engineers were dedicated to solving the problem and keep tickets in the hands of fans.\u00a0 The models in o production require extensive open-source infrastructure to evaluate every transaction in real time.\u00a0 This talk will describe that infrastructure in detail, including the extensive use of Kafka, Spark, Terraform, Java, Python, and Kubernetes.",
             "location": "Ballroom G",
             "photo": {
                 "alt": null,
@@ -1500,7 +1500,7 @@
             }
         },
         {
-            "abstract": "<p>When Uptime is the core metric that you evaluate on, it might drive behaviors that optimize for that metric, such as slowing down innovation. This talk will describe how to balance availability with innovation, and how to do so transparently.</p>\n",
+            "abstract": "When Uptime is the core metric that you evaluate on, it might drive behaviors that optimize for that metric, such as slowing down innovation. This talk will describe how to balance availability with innovation, and how to do so transparently.",
             "location": "Ballroom F",
             "photo": {
                 "alt": null,
@@ -1524,7 +1524,7 @@
             }
         },
         {
-            "abstract": "<p>HySDS is a modular, open source, big data processing program being developed at Jet Propulsion Laboratory in Pasadena, CA. In the Fall of 2019, two interns were taken on to improve the documentation\u00a0surrounding the project. Both for the purpose of onboarding new hires at JPL, as well as generating interest from the general public.<br />Now the interns are here to present what they've learned, and how you can be sure that your documentation helps your open source project rather than hindering it.</p>\n",
+            "abstract": "HySDS is a modular, open source, big data processing program being developed at Jet Propulsion Laboratory in Pasadena, CA. In the Fall of 2019, two interns were taken on to improve the documentation\u00a0surrounding the project. Both for the purpose of onboarding new hires at JPL, as well as generating interest from the general public. \n Now the interns are here to present what they've learned, and how you can be sure that your documentation helps your open source project rather than hindering it.",
             "location": "Room 104",
             "photo": null,
             "speaker_id": [
@@ -1543,7 +1543,7 @@
             }
         },
         {
-            "abstract": "<p>Serverless apps are everywhere these days, but how do you get started? How do you decide which provider to go with? I have created the same Python app with 3 services, AWS, Google Cloud & Microsoft Azure. I will go over the highlights and lowlights, and how to judge what\u2019s right for your project.</p>\n",
+            "abstract": "Serverless apps are everywhere these days, but how do you get started? How do you decide which provider to go with? I have created the same Python app with 3 services, AWS, Google Cloud & Microsoft Azure. I will go over the highlights and lowlights, and how to judge what\u2019s right for your project.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -1567,7 +1567,7 @@
             }
         },
         {
-            "abstract": "<p>Security Onion is a free and open source Linux distro that contains best of breed open source components for enterprise visibility.\u00a0 It was created by defenders for defenders who may not otherwise have the resources for comprehensive visibility.\u00a0 If we can give defenders better visibility, then they can detect their adversaries more quickly and interrupt them before they achieve their objectives!</p>\n",
+            "abstract": "Security Onion is a free and open source Linux distro that contains best of breed open source components for enterprise visibility.\u00a0 It was created by defenders for defenders who may not otherwise have the resources for comprehensive visibility.\u00a0 If we can give defenders better visibility, then they can detect their adversaries more quickly and interrupt them before they achieve their objectives!",
             "location": "Room 106",
             "photo": {
                 "alt": null,
@@ -1591,7 +1591,7 @@
             }
         },
         {
-            "abstract": "<p>Mentoring still stands as one of the most requested programs in open source and across industries. The traditional 1:1 approach doesn\u2019t scale yet it\u2019s the status quo \u2013 why? We can build systems that have the weight of the world but we have problems building our own people up. In this talk, Paris and Josh will talk about examples of mentoring programs that Kubernetes has built \u2013 both successfully and lessons learned in a large 26000 person contributor community.</p>\n",
+            "abstract": "Mentoring still stands as one of the most requested programs in open source and across industries. The traditional 1:1 approach doesn\u2019t scale yet it\u2019s the status quo \u2013 why? We can build systems that have the weight of the world but we have problems building our own people up. In this talk, Paris and Josh will talk about examples of mentoring programs that Kubernetes has built \u2013 both successfully and lessons learned in a large 26000 person contributor community.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -1617,7 +1617,7 @@
             }
         },
         {
-            "abstract": "<p>Mobile phone applications have provided countless opportunities for people, but most of the success lies in the User Interface. Iconic Framework provides free and easy-to-use tools for anyone looking to develop an app. This toolkit builds hybrid apps which are apps that are accessed through low-level browser shells. </p>\n",
+            "abstract": "Mobile phone applications have provided countless opportunities for people, but most of the success lies in the User Interface. Iconic Framework provides free and easy-to-use tools for anyone looking to develop an app. This toolkit builds hybrid apps which are apps that are accessed through low-level browser shells.",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [
@@ -1638,7 +1638,7 @@
             }
         },
         {
-            "abstract": "<p>Facebook as an organization has been using Chef to manage our CentOS servers for years, but recently we've started offering Fedora as a fully-supported desktop option for our employees.<br /><br />This talk will cover the past, present, and future of Desktop Linux at Facebook - from the pre-Fedora days, to the first couple of years of supporting Fedora, and how we're applying the lessons learned from that experience to supporting a wider breadth of distributions.<br /><br />We manage our systems using Chef, and many of our management cookbooks are open sourced; examples will be shown.</p>\n",
+            "abstract": "Facebook as an organization has been using Chef to manage our CentOS servers for years, but recently we've started offering Fedora as a fully-supported desktop option for our employees. \n \n This talk will cover the past, present, and future of Desktop Linux at Facebook - from the pre-Fedora days, to the first couple of years of supporting Fedora, and how we're applying the lessons learned from that experience to supporting a wider breadth of distributions. \n \n We manage our systems using Chef, and many of our management cookbooks are open sourced; examples will be shown.",
             "location": "Room 105",
             "photo": null,
             "speaker_id": [
@@ -1659,7 +1659,7 @@
             }
         },
         {
-            "abstract": "<p class=\"p1\">Open source encourages openness and collaboration. As developers, we enjoy the benefits of using well-written libraries developed by other engineers, being able to study the source codes of the best softwares and discussing openly about any issues with the community. What does open source mean for a business? Why should a business adopt an open-source-first mindset? In this talk, I would like to demonstrate why we open sourced tools and resources of the WhatsApp Business API, how it has fostered collaboration among users and how it has helped scale product support.</p>\n",
+            "abstract": "Open source encourages openness and collaboration. As developers, we enjoy the benefits of using well-written libraries developed by other engineers, being able to study the source codes of the best softwares and discussing openly about any issues with the community. What does open source mean for a business? Why should a business adopt an open-source-first mindset? In this talk, I would like to demonstrate why we open sourced tools and resources of the WhatsApp Business API, how it has fostered collaboration among users and how it has helped scale product support.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -1683,7 +1683,7 @@
             }
         },
         {
-            "abstract": "<p>Moving your data to Kubernetes is often considered dangerous. Kubernetes was designed as a platform that assumes all resources are ephemeral, and can be destroyed at a moment\u2019s notice. However, we\u2019ve found that with a well-designed Operator, running your database in Kubernetes is far more resilient than running your database outside of a container orchestrator.</p>\n<p>We demonstrate how this can be achieved, and hope to inspire others to build operators that not only make stateful workloads in Kubernetes possible, but improve the resilience of that state, even over traditional database options.</p>\n",
+            "abstract": "Moving your data to Kubernetes is often considered dangerous. Kubernetes was designed as a platform that assumes all resources are ephemeral, and can be destroyed at a moment\u2019s notice. However, we\u2019ve found that with a well-designed Operator, running your database in Kubernetes is far more resilient than running your database outside of a container orchestrator. We demonstrate how this can be achieved, and hope to inspire others to build operators that not only make stateful workloads in Kubernetes possible, but improve the resilience of that state, even over traditional database options.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -1709,7 +1709,7 @@
             }
         },
         {
-            "abstract": "<p>This is an overview of git for sysadmins, mainly targetted at a basic understanding and how git can help manage configuration, or automation, flows as well as how it's used to track upstream code that a sysadmin may need to deal with.</p>\n",
+            "abstract": "This is an overview of git for sysadmins, mainly targetted at a basic understanding and how git can help manage configuration, or automation, flows as well as how it's used to track upstream code that a sysadmin may need to deal with.",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -1733,7 +1733,7 @@
             }
         },
         {
-            "abstract": "<p>Advances in technology always have us striving for performance, shiny new features, and cool gadgets to play with.\u00a0 What happens to the Isle of Misfit Toys when the customers want the sexy new social media integrations and the developers don\u2019t want to tinker with that LAMP stack when there are containers to orchestrate?</p>\n",
+            "abstract": "Advances in technology always have us striving for performance, shiny new features, and cool gadgets to play with.\u00a0 What happens to the Isle of Misfit Toys when the customers want the sexy new social media integrations and the developers don\u2019t want to tinker with that LAMP stack when there are containers to orchestrate?",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -1757,7 +1757,7 @@
             }
         },
         {
-            "abstract": "<p>Recently, the process of FOSS license creation has been politicized from all directions, primarily by for-profit companies.  We now see companies and their lawyers promulgating seemingly-FOSS but non-commercial-use only licenses.  Even worse, some companies seek to redefine copyleft into a toxic system that is inoculated only by a separate proprietary license.  Activists have meanwhile create well-meaning licenses that use denial of software freedom to advance important causes, but are ultimately non-FOSS.  This talk discusses what we should do next about this complex confluence of events.</p>\n",
+            "abstract": "Recently, the process of FOSS license creation has been politicized from all directions, primarily by for-profit companies.  We now see companies and their lawyers promulgating seemingly-FOSS but non-commercial-use only licenses.  Even worse, some companies seek to redefine copyleft into a toxic system that is inoculated only by a separate proprietary license.  Activists have meanwhile create well-meaning licenses that use denial of software freedom to advance important causes, but are ultimately non-FOSS.  This talk discusses what we should do next about this complex confluence of events.",
             "location": "Ballroom G",
             "photo": {
                 "alt": null,
@@ -1781,7 +1781,7 @@
             }
         },
         {
-            "abstract": "<p>Apache Spark\u2122 is the dominant processing framework for big data. Delta Lake adds reliability to Spark so your analytics and machine learning initiatives have ready access to quality, reliable data. This presentation covers the use of Delta Lake to enhance data reliability for Spark environments.</p>\n",
+            "abstract": "Apache Spark\u2122 is the dominant processing framework for big data. Delta Lake adds reliability to Spark so your analytics and machine learning initiatives have ready access to quality, reliable data. This presentation covers the use of Delta Lake to enhance data reliability for Spark environments.",
             "location": "Room 104",
             "photo": null,
             "speaker_id": [
@@ -1800,7 +1800,7 @@
             }
         },
         {
-            "abstract": "<p>Written in 2001, RFC 3170 states: \"IP Multicast will play a prominent role on the Internet in the coming years.  It is a requirement, not an option, if the Internet is going to scale.  Multicast allows application developers to add more functionality without significantly impacting the network.\"</p>\n<p>Nearly two decades later, multicast is still largely ignored and misunderstood.</p>\n<p>This talk explains why multicast is the missing piece in the decentralization puzzle, how multicast can help the Internet continue to scale, better protect our privacy, solve IOT problems and make polar bears happier.</p>\n",
+            "abstract": "Written in 2001, RFC 3170 states: \"IP Multicast will play a prominent role on the Internet in the coming years.  It is a requirement, not an option, if the Internet is going to scale.  Multicast allows application developers to add more functionality without significantly impacting the network.\" Nearly two decades later, multicast is still largely ignored and misunderstood. This talk explains why multicast is the missing piece in the decentralization puzzle, how multicast can help the Internet continue to scale, better protect our privacy, solve IOT problems and make polar bears happier.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -1824,7 +1824,7 @@
             }
         },
         {
-            "abstract": "<p dir=\"ltr\">In 2019 we started donating $10,000 to an open source dependency every month. We asked our open source contributors to vote on which dependencies receive the money. We have a lot to share about the process and outcomes.</p>\n",
+            "abstract": "In 2019 we started donating $10,000 to an open source dependency every month. We asked our open source contributors to vote on which dependencies receive the money. We have a lot to share about the process and outcomes.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -1848,7 +1848,7 @@
             }
         },
         {
-            "abstract": "<p>Containers revolutionized the way we develop, architect and deploy our application and become the executables of the cloud! However running cloud native java applications may be challenging, expecially for old java versions! This talks go throught tools, best practices to adopt and pitfalls to avoid while deploying java apps in containers!</p>\n",
+            "abstract": "Containers revolutionized the way we develop, architect and deploy our application and become the executables of the cloud! However running cloud native java applications may be challenging, expecially for old java versions! This talks go throught tools, best practices to adopt and pitfalls to avoid while deploying java apps in containers!",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -1872,7 +1872,7 @@
             }
         },
         {
-            "abstract": "<p>Every great career begins with a dream. However, that alone is often not enough. A dreamer must be given the opportunity to try, to fail and to succeed. In 1999, I was fortunate enough to go to Tokyo for a summer internship. That\u2019s where I met Joi Ito, got exposed to open source software for the first time and much more. It was a life-changing experience and even today I continue to cherish it. Fast forward to today, I started an internship program at a Fintech company and am having some success in building a stellar team of misfits while offering a similar life-changing experience.</p>\n",
+            "abstract": "Every great career begins with a dream. However, that alone is often not enough. A dreamer must be given the opportunity to try, to fail and to succeed. In 1999, I was fortunate enough to go to Tokyo for a summer internship. That\u2019s where I met Joi Ito, got exposed to open source software for the first time and much more. It was a life-changing experience and even today I continue to cherish it. Fast forward to today, I started an internship program at a Fintech company and am having some success in building a stellar team of misfits while offering a similar life-changing experience.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -1896,7 +1896,7 @@
             }
         },
         {
-            "abstract": "<p>Writing Python code is quite enjoyable. That is until you realize one project's dependencies are not compatible with another's. Or, the version of Python differs from your laptop to production. This is a frustrating experience, but it does not have to be like this. Today there are a few tools when combined, can prevent this pain.</p>\n<p>Pythonistas, developers, and systems engineers, of novice and intermediate expertise with Python, can benefit from this presentation.</p>\n",
+            "abstract": "Writing Python code is quite enjoyable. That is until you realize one project's dependencies are not compatible with another's. Or, the version of Python differs from your laptop to production. This is a frustrating experience, but it does not have to be like this. Today there are a few tools when combined, can prevent this pain. Pythonistas, developers, and systems engineers, of novice and intermediate expertise with Python, can benefit from this presentation.",
             "location": "Ballroom C",
             "photo": {
                 "alt": null,
@@ -1920,7 +1920,7 @@
             }
         },
         {
-            "abstract": "<p>With the rise of today's video-sharing platforms, several people have been drawn to the process of creating content. However, many of these amateur creators feel discouraged when they discover just how complicated the video editing process can be. Thankfully, there is Shortcut - an open-source application that can help make this process more fluid for any aspiring video editors with a variety of tools, features, and even tutorials. On top of that, Shortcut is cross-platform, letting it run on any operating system. Using Shortcut, anyone can get started in becoming a video editor.</p>\n",
+            "abstract": "With the rise of today's video-sharing platforms, several people have been drawn to the process of creating content. However, many of these amateur creators feel discouraged when they discover just how complicated the video editing process can be. Thankfully, there is Shortcut - an open-source application that can help make this process more fluid for any aspiring video editors with a variety of tools, features, and even tutorials. On top of that, Shortcut is cross-platform, letting it run on any operating system. Using Shortcut, anyone can get started in becoming a video editor.",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [
@@ -1941,7 +1941,7 @@
             }
         },
         {
-            "abstract": "<p>LogDevice was built from scratch at Facebook and at some point we started running in prod. During this process some things didn't go as expected and I call those things learnings. From the many many things I learned I'm taking the ones that were more far from what I would have guessed.</p>\n<p>This talk will not give any insight on LogDevice technolgy nor how to run it, is about general topics and practices.</p>\n",
+            "abstract": "LogDevice was built from scratch at Facebook and at some point we started running in prod. During this process some things didn't go as expected and I call those things learnings. From the many many things I learned I'm taking the ones that were more far from what I would have guessed. This talk will not give any insight on LogDevice technolgy nor how to run it, is about general topics and practices.",
             "location": "Ballroom F",
             "photo": {
                 "alt": null,
@@ -1965,7 +1965,7 @@
             }
         },
         {
-            "abstract": "<p>Learn how to use the world\u2019s most popular open-source service discovery tool, Consul. Say goodbye to that cumbersome spreadsheet or CMDB software. The Consul service catalog provides an always up-to-date view of all the services in your network. Connect any application to any service on any infrastructure.</p>\n",
+            "abstract": "Learn how to use the world\u2019s most popular open-source service discovery tool, Consul. Say goodbye to that cumbersome spreadsheet or CMDB software. The Consul service catalog provides an always up-to-date view of all the services in your network. Connect any application to any service on any infrastructure.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -1989,7 +1989,7 @@
             }
         },
         {
-            "abstract": "<p>There is plenty of attackers on the Internet. They seek any vulnerable device available online. Who are they? What are they trying to do? And how to defend yourself? We are trying to answer some of those questions by making opensource routers, that can serve as a security probes around whole world. We are gathering data about bad guys and we are sharing them. And you you can join us and make it harder for the bad guys even without the router. Want to know how to easilly mess with those guys? Want to be better protected? I'll tell you how you can use what we do to achieve that!</p>\n",
+            "abstract": "There is plenty of attackers on the Internet. They seek any vulnerable device available online. Who are they? What are they trying to do? And how to defend yourself? We are trying to answer some of those questions by making opensource routers, that can serve as a security probes around whole world. We are gathering data about bad guys and we are sharing them. And you you can join us and make it harder for the bad guys even without the router. Want to know how to easilly mess with those guys? Want to be better protected? I'll tell you how you can use what we do to achieve that!",
             "location": "Room 106",
             "photo": {
                 "alt": null,
@@ -2013,7 +2013,7 @@
             }
         },
         {
-            "abstract": "<p>More details to come.</p>\n",
+            "abstract": "More details to come.",
             "location": "Ballroom G",
             "photo": {
                 "alt": null,
@@ -2037,7 +2037,7 @@
             }
         },
         {
-            "abstract": "<p>In this presentation, we will look into eBPFTrace as a capable Dtrace replacement. We will also show how you can develop your own tools and utilities using eBPFTrace as well as how you can use the tools from eBPFTrace collection to get great insights into Linux Operations.</p>\n",
+            "abstract": "In this presentation, we will look into eBPFTrace as a capable Dtrace replacement. We will also show how you can develop your own tools and utilities using eBPFTrace as well as how you can use the tools from eBPFTrace collection to get great insights into Linux Operations.",
             "location": "Ballroom F",
             "photo": {
                 "alt": null,
@@ -2061,7 +2061,7 @@
             }
         },
         {
-            "abstract": "<p>Having a trustworthy boot process is the foundation of the rest of your system's security. If your BIOS, kernel, or initrd have been tampered with, an attacker can hide their backdoor from the rest of the system. This talk will discuss the security threats against the boot process and briefly cover some other approaches to protect against boot-time attacks but the talk will primarily focus on Heads, an open source project that provides tamper-evident boot. I will discuss how Heads works, how it differs from other secure boot approaches, and demonstrate how it protects against tampering.</p>\n",
+            "abstract": "Having a trustworthy boot process is the foundation of the rest of your system's security. If your BIOS, kernel, or initrd have been tampered with, an attacker can hide their backdoor from the rest of the system. This talk will discuss the security threats against the boot process and briefly cover some other approaches to protect against boot-time attacks but the talk will primarily focus on Heads, an open source project that provides tamper-evident boot. I will discuss how Heads works, how it differs from other secure boot approaches, and demonstrate how it protects against tampering.",
             "location": "Room 106",
             "photo": {
                 "alt": null,
@@ -2085,7 +2085,7 @@
             }
         },
         {
-            "abstract": "<p>Developing engaging websites can be achieved more efficiently by utilizing machine learning and artificial intelligence. A deep analysis of web design layouts, graphics, text, and colors would allow machines to produce customized websites that would gain much attention. Unsupervised deep learning provides an enhanced way of comprehending inherent patterns in websites. After personally analyzing websites and gathering research, my proposed project of a computer being able to generate multiple websites based on a few words could revolutionize web designing.</p>\n",
+            "abstract": "Developing engaging websites can be achieved more efficiently by utilizing machine learning and artificial intelligence. A deep analysis of web design layouts, graphics, text, and colors would allow machines to produce customized websites that would gain much attention. Unsupervised deep learning provides an enhanced way of comprehending inherent patterns in websites. After personally analyzing websites and gathering research, my proposed project of a computer being able to generate multiple websites based on a few words could revolutionize web designing.",
             "location": "Room 212",
             "photo": {
                 "alt": null,
@@ -2109,7 +2109,7 @@
             }
         },
         {
-            "abstract": "<p>When one needs to write an application with deterministic execution, such as for robotics, safety critical systems, sensor response applications, there is basic knowledge that is required to do so. This talk will go over what a real-time application developer must know and understand. Soon the PREEMPT_RT patch will be added to Linux mainline making Linux a hard real-time designed operating system. Vanilla Linux will now be able to be used in systems with strict deterministic requirements.</p>\n",
+            "abstract": "When one needs to write an application with deterministic execution, such as for robotics, safety critical systems, sensor response applications, there is basic knowledge that is required to do so. This talk will go over what a real-time application developer must know and understand. Soon the PREEMPT_RT patch will be added to Linux mainline making Linux a hard real-time designed operating system. Vanilla Linux will now be able to be used in systems with strict deterministic requirements.",
             "location": "Ballroom C",
             "photo": {
                 "alt": null,
@@ -2133,7 +2133,7 @@
             }
         },
         {
-            "abstract": "<p>As members of the tech community we have ALL experienced an awkward moment or two\u2026 or five. We\u2019re here to get real and hit a few points that we\u2019ve experienced in our careers, from mansplaining to being told that real admins only use arch we will confess the sins of the Linux world in hopes of inspiring the next generation. Using our experiance to give you a real world practical approach to not only getting started with Linux but the open source comminty as a whole; and along the way we will tell a few stories that we think you *just* might be able to relate to.</p>\n",
+            "abstract": "As members of the tech community we have ALL experienced an awkward moment or two\u2026 or five. We\u2019re here to get real and hit a few points that we\u2019ve experienced in our careers, from mansplaining to being told that real admins only use arch we will confess the sins of the Linux world in hopes of inspiring the next generation. Using our experiance to give you a real world practical approach to not only getting started with Linux but the open source comminty as a whole; and along the way we will tell a few stories that we think you *just* might be able to relate to.",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -2157,7 +2157,7 @@
             }
         },
         {
-            "abstract": "<p>Women have historically been underrepresented in technology fields leading to an increased need for mentorship tailored to female students. At San Marino High School, we have been running a club with the goal of inspiring female students to understand technology and pursue careers in technology. Through success and failure we have learned a number of strategies to teach female students. This talk will present these strategies and detail lessons-learned useful to all mentors teaching all students.</p>\n",
+            "abstract": "Women have historically been underrepresented in technology fields leading to an increased need for mentorship tailored to female students. At San Marino High School, we have been running a club with the goal of inspiring female students to understand technology and pursue careers in technology. Through success and failure we have learned a number of strategies to teach female students. This talk will present these strategies and detail lessons-learned useful to all mentors teaching all students.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -2181,7 +2181,7 @@
             }
         },
         {
-            "abstract": "<p>As Linux and opensource continue to expand into all areas of IT, sysadmins need a concise way to manage patches, deployments, security, and configurations to name just a few. The new Uyuni project intends to answer those questions and more.<br />This presentation will introduce Uyuni and give a demo of use-cases across several Linux platforms and architectures.</p>\n",
+            "abstract": "As Linux and opensource continue to expand into all areas of IT, sysadmins need a concise way to manage patches, deployments, security, and configurations to name just a few. The new Uyuni project intends to answer those questions and more. \n This presentation will introduce Uyuni and give a demo of use-cases across several Linux platforms and architectures.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -2205,7 +2205,7 @@
             }
         },
         {
-            "abstract": "<p>Pipelines are a traditional component of CI/CD processes in development environments and a key component of DevOps practices. As dependencies, microservices and cloud-provider requirements grow, pipelines are becoming monolithic.</p>\n<p>In this talk, we will discuss and demonstrate how to migrate monolithic pipelines to a declarative GitOps-enabled Workflows that treat your individual CD activities as shareable blocks using Jenkins, Argo Flux and Kubernetes.</p>\n",
+            "abstract": "Pipelines are a traditional component of CI/CD processes in development environments and a key component of DevOps practices. As dependencies, microservices and cloud-provider requirements grow, pipelines are becoming monolithic. In this talk, we will discuss and demonstrate how to migrate monolithic pipelines to a declarative GitOps-enabled Workflows that treat your individual CD activities as shareable blocks using Jenkins, Argo Flux and Kubernetes.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -2231,7 +2231,7 @@
             }
         },
         {
-            "abstract": "<p>Some countries in Europe understand the potential there's in existing data that sits behind closed fences, and passed laws to make this data available to everyone.</p>\n<p>On the other hand, the batch processing model gets more and more obsolete: users want the information as soon as possible. While there\u2019s a trade-off between correctness of data, and its speed of delivery, most business decisions do not rely on 100% correct data.</p>\n",
+            "abstract": "Some countries in Europe understand the potential there's in existing data that sits behind closed fences, and passed laws to make this data available to everyone. On the other hand, the batch processing model gets more and more obsolete: users want the information as soon as possible. While there\u2019s a trade-off between correctness of data, and its speed of delivery, most business decisions do not rely on 100% correct data.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -2255,7 +2255,7 @@
             }
         },
         {
-            "abstract": "<ul><li>Client and backend server connections management;</li>\n<li>HTTP message queues and backend server connections failovering in HTTP standards and proxy implementations;</li>\n<li>How HTTP/1.x, HTTP/2, and HTTP/3 (QUIC) decoders and parsers interact to each other;</li>\n<li>HPACK and QPACK compression from HTTP/2 and HTTP/3 (QUIC) and when it hurts performance;</li>\n<li>What and how HTTP allows to cache;</li>\n<li>Different caching architectures;</li>\n<li>Network I/O and TLS optimizations available in some web accelerators and modern Linux kernels;</li>\n</ul>",
+            "abstract": "Client and backend server connections management; HTTP message queues and backend server connections failovering in HTTP standards and proxy implementations; How HTTP/1.x, HTTP/2, and HTTP/3 (QUIC) decoders and parsers interact to each other; HPACK and QPACK compression from HTTP/2 and HTTP/3 (QUIC) and when it hurts performance; What and how HTTP allows to cache; Different caching architectures; Network I/O and TLS optimizations available in some web accelerators and modern Linux kernels;",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -2279,7 +2279,7 @@
             }
         },
         {
-            "abstract": "<p>The Kubernetes community is a vibrant beacon in open source. It takes a village to enable a city of contributors doing what they do best. There are a lot of fun stories and lessons to be shared from helping out the community. One lesson is taken straight from the Kubernetes project itself: declarative config management. Join us as we journey through the many bits of community automation and weigh the merits of automating every aspect of our community.</p>\n",
+            "abstract": "The Kubernetes community is a vibrant beacon in open source. It takes a village to enable a city of contributors doing what they do best. There are a lot of fun stories and lessons to be shared from helping out the community. One lesson is taken straight from the Kubernetes project itself: declarative config management. Join us as we journey through the many bits of community automation and weigh the merits of automating every aspect of our community.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -2305,7 +2305,7 @@
             }
         },
         {
-            "abstract": "<p>This is intended as an overview of containers, what they are good for, with a hands on session on building, deploying, and dealing with containers</p>\n",
+            "abstract": "This is intended as an overview of containers, what they are good for, with a hands on session on building, deploying, and dealing with containers",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -2329,7 +2329,7 @@
             }
         },
         {
-            "abstract": "<p>In our advancing technological world, AI will only become more prevalent in our lives. Tensorflow, an Open-Source application, allows developers to outline, create, and teach the Deep Learning technology. Students from Palisades Charter High School examine this application and its features first hand in an AI model to teach it to produce music. Come join us to listen to the music produced utilizing AI to gain practical knowledge on how you can use TensorFlow for your future projects.</p>\n",
+            "abstract": "In our advancing technological world, AI will only become more prevalent in our lives. Tensorflow, an Open-Source application, allows developers to outline, create, and teach the Deep Learning technology. Students from Palisades Charter High School examine this application and its features first hand in an AI model to teach it to produce music. Come join us to listen to the music produced utilizing AI to gain practical knowledge on how you can use TensorFlow for your future projects.",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [
@@ -2352,7 +2352,7 @@
             }
         },
         {
-            "abstract": "<p>Sudo is used by millions of Linux/Unix users to run commands as root or another privileged user, but most people are not familiar with all Sudo can do.  Come listen to Sudo Project Maintainer Todd Miller and Open Source Evangelist Peter Czanick  talk about changes in the next major release of Sudo, version 1.9.  We will highlight changes to the Sudo Plugin interface, showcase the new centralized session recording functionality, and provide a short tutorial on writing Sudo plugins in Python.  Finally, we will discuss some of the lesser-known features of Sudo.</p>\n",
+            "abstract": "Sudo is used by millions of Linux/Unix users to run commands as root or another privileged user, but most people are not familiar with all Sudo can do.  Come listen to Sudo Project Maintainer Todd Miller and Open Source Evangelist Peter Czanick  talk about changes in the next major release of Sudo, version 1.9.  We will highlight changes to the Sudo Plugin interface, showcase the new centralized session recording functionality, and provide a short tutorial on writing Sudo plugins in Python.  Finally, we will discuss some of the lesser-known features of Sudo.",
             "location": "Room 101",
             "photo": null,
             "speaker_id": [
@@ -2371,7 +2371,7 @@
             }
         },
         {
-            "abstract": "<p>As a community manager or any other contributor to an open source project, you'll find yourself learning and thinking of good methods and practices for having a happy, successful, and productive project. Community managers and other contributors share these practices with each other all the time -- in talks, in person, as blog posts, and sometimes as a stand-alone book. But has anyone ever really collaborated on a guide that is for practitioners and collaboratively written BY practitioners? Actually, yes: 10 years ago The Open Source Way 1.0 was written and released. Now 2.0 is here.</p>\n",
+            "abstract": "As a community manager or any other contributor to an open source project, you'll find yourself learning and thinking of good methods and practices for having a happy, successful, and productive project. Community managers and other contributors share these practices with each other all the time -- in talks, in person, as blog posts, and sometimes as a stand-alone book. But has anyone ever really collaborated on a guide that is for practitioners and collaboratively written BY practitioners? Actually, yes: 10 years ago The Open Source Way 1.0 was written and released. Now 2.0 is here.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -2395,7 +2395,7 @@
             }
         },
         {
-            "abstract": "<p>Using Linux in Amazon Web Services (AWS) is not terribly different from using Linux in your datacenter, but there are some things you should be aware of when planning on deploying and managing Linux workloads in the cloud. In this session, AWS Senior Solutions Architect Thomas Cameron will discuss deploying and managing various Linux distributions in AWS.</p>\n",
+            "abstract": "Using Linux in Amazon Web Services (AWS) is not terribly different from using Linux in your datacenter, but there are some things you should be aware of when planning on deploying and managing Linux workloads in the cloud. In this session, AWS Senior Solutions Architect Thomas Cameron will discuss deploying and managing various Linux distributions in AWS.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -2419,7 +2419,7 @@
             }
         },
         {
-            "abstract": "<p>Provisioning & managing user accounts for administrative access on data center nodes are not trivial and traditionally require dedicated systems and engineering resources to operate. Besides server nodes, we have devices such as switches, routers and console servers. Access to these are typically password based, supported by a multitude of auth systems. At NVIDIA, we built a unified cloud-scale certificate based SSH system that replaced traditional systems - RADIUS/TACACS, LDAP and VPNs for DC node access. In this talk we will discuss about the design/implementation of this system.</p>\n",
+            "abstract": "Provisioning & managing user accounts for administrative access on data center nodes are not trivial and traditionally require dedicated systems and engineering resources to operate. Besides server nodes, we have devices such as switches, routers and console servers. Access to these are typically password based, supported by a multitude of auth systems. At NVIDIA, we built a unified cloud-scale certificate based SSH system that replaced traditional systems - RADIUS/TACACS, LDAP and VPNs for DC node access. In this talk we will discuss about the design/implementation of this system.",
             "location": "Room 106",
             "photo": {
                 "alt": null,
@@ -2443,7 +2443,7 @@
             }
         },
         {
-            "abstract": "<p class=\"MsoPlainText\">This talk goes over an introduction to Amazon Elastic Container Service for Kubernetes (Amazon EKS) on AWS. Learn how to easily manage, deploy and scale containerized applications on Amazon EKS. We\u2019ll dive into a hands-on demonstration on how to initially provision new k8s clusters or manage long running cluster using eksctl, an open source CLI tool for Amazon EKS. We will explore how eksctl can be used to provision a fully managed k8s control plane and on demand right size computing for pods.</p>\n",
+            "abstract": "This talk goes over an introduction to Amazon Elastic Container Service for Kubernetes (Amazon EKS) on AWS. Learn how to easily manage, deploy and scale containerized applications on Amazon EKS. We\u2019ll dive into a hands-on demonstration on how to initially provision new k8s clusters or manage long running cluster using eksctl, an open source CLI tool for Amazon EKS. We will explore how eksctl can be used to provision a fully managed k8s control plane and on demand right size computing for pods.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -2467,7 +2467,7 @@
             }
         },
         {
-            "abstract": "<p>WebAssembly (Wasm) is a universal low level bytecode that runs on the web. WASI is a low-level, modular system interface for WebAssembly. This talk will cover the basics of building WebAssembly modules for both the browser and WASI using AssemblyScript. Then we will highlight some characteristics of WebAssembly that make it a great fit for containerization. Such as capability based permissions, sandboxing, and portability. After this, we will show off running QuickJS compiled to WASI from the WebAssembly Package Manager (WAPM) running on the server.</p>\n",
+            "abstract": "WebAssembly (Wasm) is a universal low level bytecode that runs on the web. WASI is a low-level, modular system interface for WebAssembly. This talk will cover the basics of building WebAssembly modules for both the browser and WASI using AssemblyScript. Then we will highlight some characteristics of WebAssembly that make it a great fit for containerization. Such as capability based permissions, sandboxing, and portability. After this, we will show off running QuickJS compiled to WASI from the WebAssembly Package Manager (WAPM) running on the server.",
             "location": "Ballroom C",
             "photo": {
                 "alt": null,
@@ -2491,7 +2491,7 @@
             }
         },
         {
-            "abstract": "<p>Federico discusses what is required to integrate clusters of ARM SBCs, with a focus on Raspberry PI units due to their popularity; the software integration necessary to make them practical, what is necessary to easily configure nodes, and issue commands for system operation; and concludes with how to execute numerical workloads using the MPI interface.</p>\n",
+            "abstract": "Federico discusses what is required to integrate clusters of ARM SBCs, with a focus on Raspberry PI units due to their popularity; the software integration necessary to make them practical, what is necessary to easily configure nodes, and issue commands for system operation; and concludes with how to execute numerical workloads using the MPI interface.",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -2515,7 +2515,7 @@
             }
         },
         {
-            "abstract": "<p>The OpenNMS network monitoring platform has long focused on scalabiiity. Once it became possible to collect on large amounts of performance data as well as flow traffic, the problem became how to present this information to the user. It is not possible to manually analyze data of this size.</p>\n<p>Thus ALEC was created. ALEC stands for Architecture for Learning Enabled Correlation and it is s a framework for logically grouping related faults (alarms) into higher level objects (situations) with OpenNMS. Operators can then focus on situations since the underlying correlation has already been done</p>\n",
+            "abstract": "The OpenNMS network monitoring platform has long focused on scalabiiity. Once it became possible to collect on large amounts of performance data as well as flow traffic, the problem became how to present this information to the user. It is not possible to manually analyze data of this size. Thus ALEC was created. ALEC stands for Architecture for Learning Enabled Correlation and it is s a framework for logically grouping related faults (alarms) into higher level objects (situations) with OpenNMS. Operators can then focus on situations since the underlying correlation has already been done",
             "location": "Ballroom F",
             "photo": {
                 "alt": null,
@@ -2539,7 +2539,7 @@
             }
         },
         {
-            "abstract": "<p>Numpy is a widely-used tool for numerical computation in Python. Despite its wide reach, some of its core functionality is opaque, and in need of improvement. I will describe two libraries that aim to make numpy much more pleasant:</p>\n<p>\"numpysane\" provides facilities for reasonable manipulation of dimensions, array concatenation and broadcasting (in both Python and in C).</p>\n<p>\"gnuplotlib\" is a plotting library with gnuplot as the backend. It is fast, has a nice API, and produces the same plots as non-Python-based tools.</p>\n",
+            "abstract": "Numpy is a widely-used tool for numerical computation in Python. Despite its wide reach, some of its core functionality is opaque, and in need of improvement. I will describe two libraries that aim to make numpy much more pleasant: \"numpysane\" provides facilities for reasonable manipulation of dimensions, array concatenation and broadcasting (in both Python and in C). \"gnuplotlib\" is a plotting library with gnuplot as the backend. It is fast, has a nice API, and produces the same plots as non-Python-based tools.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -2563,7 +2563,7 @@
             }
         },
         {
-            "abstract": "<p>Please see long abstract</p>\n",
+            "abstract": "Please see long abstract",
             "location": "Ballroom G",
             "photo": {
                 "alt": null,
@@ -2587,7 +2587,7 @@
             }
         },
         {
-            "abstract": "<p>This talk provides practical tips and suggestions along with what not to do when building a community around your company\u2019s open source project.</p>\n",
+            "abstract": "This talk provides practical tips and suggestions along with what not to do when building a community around your company\u2019s open source project.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -2611,7 +2611,7 @@
             }
         },
         {
-            "abstract": "<p>Open source is becoming the main ingredient for companies to success. To achieve it, companies need to manage efficiently their relationship with open source projects. And that\u2019s the main goal for companies\u2019 Open Source Program Office (OSPO). So, they are key for companies success. But, additionally, they could be very important for open source projects sustainability.</p>\n",
+            "abstract": "Open source is becoming the main ingredient for companies to success. To achieve it, companies need to manage efficiently their relationship with open source projects. And that\u2019s the main goal for companies\u2019 Open Source Program Office (OSPO). So, they are key for companies success. But, additionally, they could be very important for open source projects sustainability.",
             "location": "Room 105",
             "photo": {
                 "alt": null,
@@ -2635,7 +2635,7 @@
             }
         },
         {
-            "abstract": "<p dir=\"ltr\">When you think of Kubernetes, you probably don't think about mainframes, but modern mainframes can run Linux and the careful observer may have already discovered that the mainframe architecture (s390x) is one of the architectures that's built for every Kubernetes release.</p>\n",
+            "abstract": "When you think of Kubernetes, you probably don't think about mainframes, but modern mainframes can run Linux and the careful observer may have already discovered that the mainframe architecture (s390x) is one of the architectures that's built for every Kubernetes release.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -2659,7 +2659,7 @@
             }
         },
         {
-            "abstract": "<p>Open Core is a model that is becoming increasingly\u00a0popular in Open Source, but it is surrounded by conjecture, controversy, and confusion. How exactly do you get the balance right between an open source project and a commercial product or service? In this new presentation from Jono Bacon, he walks through the core elements of building a successful Open Core project, covering strategy, policy, governance, engineering workflow, and much\u00a0more.\u00a0</p>\n",
+            "abstract": "Open Core is a model that is becoming increasingly\u00a0popular in Open Source, but it is surrounded by conjecture, controversy, and confusion. How exactly do you get the balance right between an open source project and a commercial product or service? In this new presentation from Jono Bacon, he walks through the core elements of building a successful Open Core project, covering strategy, policy, governance, engineering workflow, and much\u00a0more.",
             "location": "Ballroom G",
             "photo": {
                 "alt": null,
@@ -2683,7 +2683,7 @@
             }
         },
         {
-            "abstract": "<p>This introductory workshop looks at some of the key changes integrating into the Fedora 31\u00a0Linux distribution.</p>\n",
+            "abstract": "This introductory workshop looks at some of the key changes integrating into the Fedora 31\u00a0Linux distribution.",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -2711,7 +2711,7 @@
             }
         },
         {
-            "abstract": "<p>The talk will unravel the methodology around how we humans come together and operate complex software systems by taking a closer look at intuition through the eyes of performing in a music ensemble. It will introduce the concept of Fundamental Common Ground Breakdown and how this interrupts our efforts to collaborate and respond to events and incidents. A Chaos Engineering Game Day walkthrough will show that intuition is not an act of instinct, but a developed ability based on careful analysis and practice. It shows being inspired by working together in tech is a thing, like playing in a band.</p>\n",
+            "abstract": "The talk will unravel the methodology around how we humans come together and operate complex software systems by taking a closer look at intuition through the eyes of performing in a music ensemble. It will introduce the concept of Fundamental Common Ground Breakdown and how this interrupts our efforts to collaborate and respond to events and incidents. A Chaos Engineering Game Day walkthrough will show that intuition is not an act of instinct, but a developed ability based on careful analysis and practice. It shows being inspired by working together in tech is a thing, like playing in a band.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -2735,7 +2735,7 @@
             }
         },
         {
-            "abstract": "<p>Primer on reworking Maven for modern, containerized CI/CD build systems using CIS automation platforms like Jenkins. Maven is a very flexible build tool that evolved over the past 15+ years using strict processes for semantic versioning. However, tagging in today's diverse release ecosystem benefits from lightweight process. While many software stacks leverage Maven's strict semantics, its legacy release process withered under large, modern codebases. We demonstrate a faster Maven build and tag approach thanks to recent software improvements that promote a modern no-release-plugin workflow.</p>\n",
+            "abstract": "Primer on reworking Maven for modern, containerized CI/CD build systems using CIS automation platforms like Jenkins. Maven is a very flexible build tool that evolved over the past 15+ years using strict processes for semantic versioning. However, tagging in today's diverse release ecosystem benefits from lightweight process. While many software stacks leverage Maven's strict semantics, its legacy release process withered under large, modern codebases. We demonstrate a faster Maven build and tag approach thanks to recent software improvements that promote a modern no-release-plugin workflow.",
             "location": "Ballroom C",
             "photo": null,
             "speaker_id": [
@@ -2754,7 +2754,7 @@
             }
         },
         {
-            "abstract": "<p>Open source works in the open, that means git log, email archives, etc. are open data, right? WRONG! </p>\n<p>This talk walks through the legal and technical challenges for analyzing open source projects. Solutions and best practices will be shared. The audience is expected to have experience with open source projects and to have an interest in learning more about analyzing those projects. This can include maintainers, community managers, organizational open source program officers, academics, or data scientists with an interest in data from open source.</p>\n",
+            "abstract": "Open source works in the open, that means git log, email archives, etc. are open data, right? WRONG! This talk walks through the legal and technical challenges for analyzing open source projects. Solutions and best practices will be shared. The audience is expected to have experience with open source projects and to have an interest in learning more about analyzing those projects. This can include maintainers, community managers, organizational open source program officers, academics, or data scientists with an interest in data from open source.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -2778,7 +2778,7 @@
             }
         },
         {
-            "abstract": "<p>Brave is a free and Open-Source web-browser built on the Chromium engine. Our research purpose is to experiment with how this \u201creward system\u201d function can benefit you. The primary focus is to see whether this \u201creward system\u201d is worth switching over to. Over a three month time period, we\u2019ll shed some light and provide you our perspective on this new approach to earn some extra bucks while surfing the web.\u00a0</p>\n",
+            "abstract": "Brave is a free and Open-Source web-browser built on the Chromium engine. Our research purpose is to experiment with how this \u201creward system\u201d function can benefit you. The primary focus is to see whether this \u201creward system\u201d is worth switching over to. Over a three month time period, we\u2019ll shed some light and provide you our perspective on this new approach to earn some extra bucks while surfing the web.",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [
@@ -2799,7 +2799,7 @@
             }
         },
         {
-            "abstract": "<p>For the newcomer cybersecurity is a very broad field, and there is a lot of information to explore.  This presentation will offer some free resources mainly organized in three areas:<br />\nManagement \u2013 most non-technical security issues<br />\nInfrastructure \u2013 most technical items that are not created by the organization but enable the work to get done<br />\nEngineering \u2013 anything the organization creates, builds, sells, or provides to customers.<br />\nAdditional resources will include helpful general information, local meetings to attend, certification considerations, and educating oneself.</p>\n",
+            "abstract": "For the newcomer cybersecurity is a very broad field, and there is a lot of information to explore.  This presentation will offer some free resources mainly organized in three areas: \n \nManagement \u2013 most non-technical security issues \n \nInfrastructure \u2013 most technical items that are not created by the organization but enable the work to get done \n \nEngineering \u2013 anything the organization creates, builds, sells, or provides to customers. \n \nAdditional resources will include helpful general information, local meetings to attend, certification considerations, and educating oneself.",
             "location": "Room 106",
             "photo": null,
             "speaker_id": [
@@ -2818,7 +2818,7 @@
             }
         },
         {
-            "abstract": "<p>RED (Rates, Errors, Duration) is designed for monitoring microservices. RED gives you the framework to build alerting, monitoring and analysis into a flexible structure to meet the emerging needs of services-based cloud-native architectures and give you the capability to grow as your environment scales. By seeing multiple dimensions, we can monitor and focus to get to root cause faster, with less false positives and quicker resolution. We\u2019ll look at how signals impact observability. The RED approach will help reduce your production issues and fail panics we all see.</p>\n",
+            "abstract": "RED (Rates, Errors, Duration) is designed for monitoring microservices. RED gives you the framework to build alerting, monitoring and analysis into a flexible structure to meet the emerging needs of services-based cloud-native architectures and give you the capability to grow as your environment scales. By seeing multiple dimensions, we can monitor and focus to get to root cause faster, with less false positives and quicker resolution. We\u2019ll look at how signals impact observability. The RED approach will help reduce your production issues and fail panics we all see.",
             "location": "Ballroom F",
             "photo": {
                 "alt": null,
@@ -2842,7 +2842,7 @@
             }
         },
         {
-            "abstract": "<p>Building consensus among technically minded individuals can be challenging, time consuming and at times -- incredibly frustrating.\u00a0 In this session we'll explore this topic together, looking at how some engineering cultures make it a necessity, some of the reasons for why it can be so difficult, as well as reasons why it's worth the effort and some strategies which might make consensus easier to achieve.\u00a0 To finish things off, we'll take a look at two actual case studies to see how it was done, and some lessons learnt.</p>\n",
+            "abstract": "Building consensus among technically minded individuals can be challenging, time consuming and at times -- incredibly frustrating.\u00a0 In this session we'll explore this topic together, looking at how some engineering cultures make it a necessity, some of the reasons for why it can be so difficult, as well as reasons why it's worth the effort and some strategies which might make consensus easier to achieve.\u00a0 To finish things off, we'll take a look at two actual case studies to see how it was done, and some lessons learnt.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -2866,7 +2866,7 @@
             }
         },
         {
-            "abstract": "<p>MongoDB is a popular document-oriented database.</p>\n<p>Like most databases, MongoDB benefits from particular GNU/Linux system tuning.</p>\n<p>While GNU/Linux distributions and container distributions create good default configurations, they need some changes to get optimal performance for your database needs.</p>\n<p>Attendees will learn about the following for MongoDB:</p>\n<p>* Linux kernel tuning<br />\n* memory tuning<br />\n* block device tuning<br />\n* filesystem tuning<br />\n* network tuning</p>\n",
+            "abstract": "MongoDB is a popular document-oriented database. Like most databases, MongoDB benefits from particular GNU/Linux system tuning. While GNU/Linux distributions and container distributions create good default configurations, they need some changes to get optimal performance for your database needs. Attendees will learn about the following for MongoDB: * Linux kernel tuning \n \n* memory tuning \n \n* block device tuning \n \n* filesystem tuning \n \n* network tuning",
             "location": "Room 101",
             "photo": null,
             "speaker_id": [
@@ -2885,7 +2885,7 @@
             }
         },
         {
-            "abstract": "<p>The Why, the What, and the WTAF of a homelab. Looking at practical ways you can use a loose machine for personal media serving, storage management, and much, much more.</p>\n",
+            "abstract": "The Why, the What, and the WTAF of a homelab. Looking at practical ways you can use a loose machine for personal media serving, storage management, and much, much more.",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -2911,7 +2911,7 @@
             }
         },
         {
-            "abstract": "<p>To be announced.</p>\n",
+            "abstract": "To be announced.",
             "location": "Ballroom DE",
             "photo": null,
             "speaker_id": [],
@@ -2926,7 +2926,7 @@
             }
         },
         {
-            "abstract": "<p>SCALE is joining forces this year with Linuxfests' own RaiseMe volunteer team to create the first ever Career Day for our community. This event is not just for job hunters, it is also for established professionals who want to make the most out of the roles they are in. And we have help for hiring managers, too. Check the schedule for talks and clinics about career development, writing resumes, creating effective internships, and mastering interviews and negotiations.</p>\n",
+            "abstract": "SCALE is joining forces this year with Linuxfests' own RaiseMe volunteer team to create the first ever Career Day for our community. This event is not just for job hunters, it is also for established professionals who want to make the most out of the roles they are in. And we have help for hiring managers, too. Check the schedule for talks and clinics about career development, writing resumes, creating effective internships, and mastering interviews and negotiations.",
             "location": "Room 105",
             "photo": null,
             "speaker_id": [],
@@ -2941,7 +2941,7 @@
             }
         },
         {
-            "abstract": "<p>Being able to make video games entirely while in Linux has never been easier. Using the special case of simulating a large rotating space station in VR, Tom will explore how to implement various elements of games with Godot including its new and very experimental VR system, as well as software pipelines to create and import assets. Come to learn about VR controllers, rigid body physics, materials, low poly baking, and more.</p>\n",
+            "abstract": "Being able to make video games entirely while in Linux has never been easier. Using the special case of simulating a large rotating space station in VR, Tom will explore how to implement various elements of games with Godot including its new and very experimental VR system, as well as software pipelines to create and import assets. Come to learn about VR controllers, rigid body physics, materials, low poly baking, and more.",
             "location": "Room 209",
             "photo": {
                 "alt": null,
@@ -2965,7 +2965,7 @@
             }
         },
         {
-            "abstract": "<p>An ultimate goal for any Site Reliability team is maximizing cost effectiveness of the production services ran by a company. The complexity of capacity planning increases along with the number of services provided and the number of customers using these services. Apache Spark and similar data processing tools can help to understand complex processes better and make well-grounded decisions on changes needed to achieve the maximum efficiency.</p>\n",
+            "abstract": "An ultimate goal for any Site Reliability team is maximizing cost effectiveness of the production services ran by a company. The complexity of capacity planning increases along with the number of services provided and the number of customers using these services. Apache Spark and similar data processing tools can help to understand complex processes better and make well-grounded decisions on changes needed to achieve the maximum efficiency.",
             "location": "Ballroom F",
             "photo": null,
             "speaker_id": [
@@ -2984,7 +2984,7 @@
             }
         },
         {
-            "abstract": "<p>As the container ecosystem grows in adoption its key that we learn how to scale the quality of the images being produced to meet the demands of regulated entities. Companies that are required to meet various compliance standards include things like PCIDSS, SOC2, and ISO are interested in joining the container revolution but these standards impose requirements that can be difficult to meet with current images. During this session we will provide a framework for how to evaluate and build better images that make it easier to meet these standards as well improve operational efficiencies.</p>\n",
+            "abstract": "As the container ecosystem grows in adoption its key that we learn how to scale the quality of the images being produced to meet the demands of regulated entities. Companies that are required to meet various compliance standards include things like PCIDSS, SOC2, and ISO are interested in joining the container revolution but these standards impose requirements that can be difficult to meet with current images. During this session we will provide a framework for how to evaluate and build better images that make it easier to meet these standards as well improve operational efficiencies.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -3008,7 +3008,7 @@
             }
         },
         {
-            "abstract": "<p class=\"p1\">Magma is a converged packet core solution that is 3GPP generation or wireless access agnostic, for example, it supports 4G / LTE, upcoming 5G, WiFi and CBRS networks. We have open sourced Magma with a goal to enable a wide community of developers build various core network use cases on Magma platform. We operate at the cross-section of automation and insights into cellular networks that is sure to disrupt the industry. By enabling the open-source development community to build on Magma platform, we believe we can make an industry wide impact at global scale.</p>\n",
+            "abstract": "Magma is a converged packet core solution that is 3GPP generation or wireless access agnostic, for example, it supports 4G / LTE, upcoming 5G, WiFi and CBRS networks. We have open sourced Magma with a goal to enable a wide community of developers build various core network use cases on Magma platform. We operate at the cross-section of automation and insights into cellular networks that is sure to disrupt the industry. By enabling the open-source development community to build on Magma platform, we believe we can make an industry wide impact at global scale.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -3034,7 +3034,7 @@
             }
         },
         {
-            "abstract": "<p>Antenna design is commonly regarded as one of the hardest specialties of RF engineering, and frequently called \"black magic.\" But if you're not scared of learning a little magic - and you don't have access to six-figure antenna design software - what are some cool projects you could do as an introduction to designing and building your own antennas?</p>\n",
+            "abstract": "Antenna design is commonly regarded as one of the hardest specialties of RF engineering, and frequently called \"black magic.\" But if you're not scared of learning a little magic - and you don't have access to six-figure antenna design software - what are some cool projects you could do as an introduction to designing and building your own antennas?",
             "location": "Room 212",
             "photo": null,
             "speaker_id": [
@@ -3053,7 +3053,7 @@
             }
         },
         {
-            "abstract": "<p dir=\"ltr\">FreeBSD is one of the oldest, largest, and most successful open source projects, with a long history of innovation. Deb will take you through its long history and highlight some of the features that set FreeBSD apart from other operating systems</p>\n",
+            "abstract": "FreeBSD is one of the oldest, largest, and most successful open source projects, with a long history of innovation. Deb will take you through its long history and highlight some of the features that set FreeBSD apart from other operating systems",
             "location": "Ballroom G",
             "photo": {
                 "alt": null,
@@ -3077,7 +3077,7 @@
             }
         },
         {
-            "abstract": "<p>Bareos (Backup Archiving Recovery Open Sourced) is a reliable network Open Source software to backup, archive and restore files from all major operating systems.<br />When backing up sensible data, regulation and policies for retention periods and security measurements have to be considered, especially when using cloud storage for digital assets.<br />The goal for cloud based backups is zero-knowledge-backup.<br />This talk gives an overview of Bareos and shows, how common requirements can be met with Bareos. This includes encryption methods, secure erasure and diverse retention policies.</p>\n",
+            "abstract": "Bareos (Backup Archiving Recovery Open Sourced) is a reliable network Open Source software to backup, archive and restore files from all major operating systems. \n When backing up sensible data, regulation and policies for retention periods and security measurements have to be considered, especially when using cloud storage for digital assets. \n The goal for cloud based backups is zero-knowledge-backup. \n This talk gives an overview of Bareos and shows, how common requirements can be met with Bareos. This includes encryption methods, secure erasure and diverse retention policies.",
             "location": "Room 106",
             "photo": {
                 "alt": null,
@@ -3101,7 +3101,7 @@
             }
         },
         {
-            "abstract": "<p>Working in technology and open source communities can put you into some high-stress situations. But you don\u2019t want to go over the edge and put yourself in a situation where you are going through burnout. In this session, you\u2019ll hear personal stories and experiences with burnout and learn ways to prevent and manage stress.</p>\n",
+            "abstract": "Working in technology and open source communities can put you into some high-stress situations. But you don\u2019t want to go over the edge and put yourself in a situation where you are going through burnout. In this session, you\u2019ll hear personal stories and experiences with burnout and learn ways to prevent and manage stress.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -3125,7 +3125,7 @@
             }
         },
         {
-            "abstract": "<p>Today, AI algorithms are everywhere. They are used in finance, biomedical, automotive, and other industries. They help make decisions about our health, whether you get a loan or not, and whether your resume gets through the HR to the hiring manager. AIs can predict your chances of surviving cancer. But what if that data was biased?\u00a0Data Scientists need a reliable way to go back in time and analyze their steps with a version-control solution that adheres to the principles of the modern infrastructure and that works with such tools as Kubernetes and Kubeflow.</p>\n",
+            "abstract": "Today, AI algorithms are everywhere. They are used in finance, biomedical, automotive, and other industries. They help make decisions about our health, whether you get a loan or not, and whether your resume gets through the HR to the hiring manager. AIs can predict your chances of surviving cancer. But what if that data was biased?\u00a0Data Scientists need a reliable way to go back in time and analyze their steps with a version-control solution that adheres to the principles of the modern infrastructure and that works with such tools as Kubernetes and Kubeflow.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -3149,7 +3149,7 @@
             }
         },
         {
-            "abstract": "<p>It's day 2. Kubernetes is running. You have your deployments and services set. Now how do you migrate the data store? Let's journey together on this code-focused tour through Persistent Volumes, Persistent Volume Claims, and StatefulSets. We'll craft and launch a strategy to care for your users' data in this new container world. You can power your business on Kubernetes: stateless or stateful.</p>\n",
+            "abstract": "It's day 2. Kubernetes is running. You have your deployments and services set. Now how do you migrate the data store? Let's journey together on this code-focused tour through Persistent Volumes, Persistent Volume Claims, and StatefulSets. We'll craft and launch a strategy to care for your users' data in this new container world. You can power your business on Kubernetes: stateless or stateful.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -3173,7 +3173,7 @@
             }
         },
         {
-            "abstract": "<p>With the latest Debian release, Secure Boot is officially supported and it follows a list of other Linux Distributions. But how does one get binaries signed off to deploy a Secure Boot compatible custom Kernel or bootloader? This presentation details how the opsi project implemented Secure Boot to provide operating system provisioning with\u00a0as little administrative\u00a0 interaction as possible</p>\n",
+            "abstract": "With the latest Debian release, Secure Boot is officially supported and it follows a list of other Linux Distributions. But how does one get binaries signed off to deploy a Secure Boot compatible custom Kernel or bootloader? This presentation details how the opsi project implemented Secure Boot to provide operating system provisioning with\u00a0as little administrative\u00a0 interaction as possible",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -3197,7 +3197,7 @@
             }
         },
         {
-            "abstract": "<p>We take for granted so many of the modern technologies we use and see around us every day, but are they really so modern? ATMs are one such technology, which we rely on to be secure and get us the cash we need from our accounts. ATMs are all around us, but they always are just out of reach... Or are they? This talk explores obtaining ATMs, the strange world of ATM processors, and the trials and struggles to discover how ATMs really work and eventually rock the cash box.\u00a0</p>\n",
+            "abstract": "We take for granted so many of the modern technologies we use and see around us every day, but are they really so modern? ATMs are one such technology, which we rely on to be secure and get us the cash we need from our accounts. ATMs are all around us, but they always are just out of reach... Or are they? This talk explores obtaining ATMs, the strange world of ATM processors, and the trials and struggles to discover how ATMs really work and eventually rock the cash box.",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -3221,7 +3221,7 @@
             }
         },
         {
-            "abstract": "<p>Home routers are ubiquitous hardware, but are not an excellent platform for hacking, and are generally very limited in what services or unusual use cases they can support. This talk will cover the choices a home sysadmin can make when considering building a custom router; available form-factors and their impact on the device's future upgradability, as well as the range of software options available, and different nework designs that might use a custom router. There is a lab component as well that covers setting up a router, with a service supplied by a machine behind the router.</p>\n",
+            "abstract": "Home routers are ubiquitous hardware, but are not an excellent platform for hacking, and are generally very limited in what services or unusual use cases they can support. This talk will cover the choices a home sysadmin can make when considering building a custom router; available form-factors and their impact on the device's future upgradability, as well as the range of software options available, and different nework designs that might use a custom router. There is a lab component as well that covers setting up a router, with a service supplied by a machine behind the router.",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -3245,7 +3245,7 @@
             }
         },
         {
-            "abstract": "<p>Recently, researchers have disclosed a new set of innovative exploit methods that target common hardware abstractions of many modern CPUs. While these methods are relevant to many technology contexts, confusion remains around what these methods are, what the threat model of potential real-world implementations could be, and why those hardware abstractions are included in modern processors in the first place. The existing mitigations for commercial components are implemented in software. This presentation examines what these software mitigations look like and what they do.</p>\n",
+            "abstract": "Recently, researchers have disclosed a new set of innovative exploit methods that target common hardware abstractions of many modern CPUs. While these methods are relevant to many technology contexts, confusion remains around what these methods are, what the threat model of potential real-world implementations could be, and why those hardware abstractions are included in modern processors in the first place. The existing mitigations for commercial components are implemented in software. This presentation examines what these software mitigations look like and what they do.",
             "location": "Room 106",
             "photo": null,
             "speaker_id": [
@@ -3264,7 +3264,7 @@
             }
         },
         {
-            "abstract": "<p>Coding for microcontrollers is fundamentally different from other coding. We'll cover the spectrum of differences between microcontrollers and microprocessors, and related chips and devices. We'll pragmatically cover the architectural concepts one needs to deal with hardware on a byte/bit level, including various sorts of memory, peripherals and the like.</p>\n",
+            "abstract": "Coding for microcontrollers is fundamentally different from other coding. We'll cover the spectrum of differences between microcontrollers and microprocessors, and related chips and devices. We'll pragmatically cover the architectural concepts one needs to deal with hardware on a byte/bit level, including various sorts of memory, peripherals and the like.",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -3288,7 +3288,7 @@
             }
         },
         {
-            "abstract": "<p>What is OpenSCAD, what is it good for, and why might you care? OpenSCAD is coding for creating 3D CAD objects perfect for 3D printing. With it coders can create art, artists can code things and hobbyists can pick up new hobbies.<br />\nThis presentation will cover getting started creating with OpenSCAD, ways for both coders and non-coders to succeed, and how to get to the point of creating your first 3D printed objects. Learn some tricks to get over initial roadblocks, methods for working more efficiently, possible paths for making money, and most of all how to have fun with coding actual objects.</p>\n",
+            "abstract": "What is OpenSCAD, what is it good for, and why might you care? OpenSCAD is coding for creating 3D CAD objects perfect for 3D printing. With it coders can create art, artists can code things and hobbyists can pick up new hobbies. \n \nThis presentation will cover getting started creating with OpenSCAD, ways for both coders and non-coders to succeed, and how to get to the point of creating your first 3D printed objects. Learn some tricks to get over initial roadblocks, methods for working more efficiently, possible paths for making money, and most of all how to have fun with coding actual objects.",
             "location": "Room 209",
             "photo": {
                 "alt": null,
@@ -3312,7 +3312,7 @@
             }
         },
         {
-            "abstract": "<p>The term Service Mesh encapsulates the concepts designed for insight into and control of a distributed application: Observability, Reliability, Security, & Traffic Management. Whether starting from scratch or migrating an application it is important to have insight into the health of the application components and control over the traffic between the components. This talk will use Linkerd as an example to explain each of these concepts and attendees will learn how the concepts work together to make applications more stable and reliable.</p>\n",
+            "abstract": "The term Service Mesh encapsulates the concepts designed for insight into and control of a distributed application: Observability, Reliability, Security, & Traffic Management. Whether starting from scratch or migrating an application it is important to have insight into the health of the application components and control over the traffic between the components. This talk will use Linkerd as an example to explain each of these concepts and attendees will learn how the concepts work together to make applications more stable and reliable.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -3336,7 +3336,7 @@
             }
         },
         {
-            "abstract": "<p>In this talk, I share success stories that we've had at Target in the realm of attracting new talent to the industry and upskilling / reskilling talent already within the organization. Throughout the talk, I share my background and motivation for sparking a new movement in Tech @ Target.</p>\n",
+            "abstract": "In this talk, I share success stories that we've had at Target in the realm of attracting new talent to the industry and upskilling / reskilling talent already within the organization. Throughout the talk, I share my background and motivation for sparking a new movement in Tech @ Target.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -3360,7 +3360,7 @@
             }
         },
         {
-            "abstract": "<p>Whether you\u2019re a software engineer or data scientist, dealing with dependency hell is often an unavoidable problem when building complex projects that require 3rd packages. This talk will explore a classic case of dependency hell, known as the diamond dependency problem, and if SAT-solvers are adequate enough to address these issues.</p>\n",
+            "abstract": "Whether you\u2019re a software engineer or data scientist, dealing with dependency hell is often an unavoidable problem when building complex projects that require 3rd packages. This talk will explore a classic case of dependency hell, known as the diamond dependency problem, and if SAT-solvers are adequate enough to address these issues.",
             "location": "Ballroom C",
             "photo": {
                 "alt": null,
@@ -3384,7 +3384,7 @@
             }
         },
         {
-            "abstract": "<p>There have always been Support horror stories about customers who drive Support staff insane. What if there was a way, though, to turn those problem children into promoters of your service? In this talk we will identify some of the common personalities that are encountered in Support and tips on how to turn them in your favor!</p>\n",
+            "abstract": "There have always been Support horror stories about customers who drive Support staff insane. What if there was a way, though, to turn those problem children into promoters of your service? In this talk we will identify some of the common personalities that are encountered in Support and tips on how to turn them in your favor!",
             "location": "Ballroom G",
             "photo": null,
             "speaker_id": [
@@ -3403,7 +3403,7 @@
             }
         },
         {
-            "abstract": "<p>Operators are Kubernetes agents that know how to deploy, scale, manage, backup, and even upgrade complex, stateful applications. But not every stateful case needs an Operator; from ConfigMaps to StatefulSets, core Kubernetes abstractions overlap with lower-level Operator functionality, and sometimes an application-specific Operator isn\u2019t the right choice. This talk will compare and contrast the Operator pattern with native abstractions to help you know why you shouldn\u2019t (or should) build a Kubernetes Operator.</p>\n",
+            "abstract": "Operators are Kubernetes agents that know how to deploy, scale, manage, backup, and even upgrade complex, stateful applications. But not every stateful case needs an Operator; from ConfigMaps to StatefulSets, core Kubernetes abstractions overlap with lower-level Operator functionality, and sometimes an application-specific Operator isn\u2019t the right choice. This talk will compare and contrast the Operator pattern with native abstractions to help you know why you shouldn\u2019t (or should) build a Kubernetes Operator.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -3427,7 +3427,7 @@
             }
         },
         {
-            "abstract": "<p>Agenda: - A quick review of trace. - A quick review of pstore. - Review a design to store tracing events in pstore in a performant and scalable way. - Show a running prototype of the design. - Talk about the Outreachy intern experience as Kernel Developers.</p>\n",
+            "abstract": "Agenda: - A quick review of trace. - A quick review of pstore. - Review a design to store tracing events in pstore in a performant and scalable way. - Show a running prototype of the design. - Talk about the Outreachy intern experience as Kernel Developers.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -3453,7 +3453,7 @@
             }
         },
         {
-            "abstract": "<p>The California Consumer Privacy Act (CCPA) helps shift the balance of power on the web away from the \"data brokers\" that share people's sensitive health and finance information on the Internet, and toward sites that people trust. We'll cover how to use the new law to help you automate your privacy preferences and protect your web site's users from companies that track and target them. Regulation alone can't fix the surveillance economy problem, but this new law opens up opportunities for technical measures to protect people's information and increase revenues for legit businesses.</p>\n",
+            "abstract": "The California Consumer Privacy Act (CCPA) helps shift the balance of power on the web away from the \"data brokers\" that share people's sensitive health and finance information on the Internet, and toward sites that people trust. We'll cover how to use the new law to help you automate your privacy preferences and protect your web site's users from companies that track and target them. Regulation alone can't fix the surveillance economy problem, but this new law opens up opportunities for technical measures to protect people's information and increase revenues for legit businesses.",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -3477,7 +3477,7 @@
             }
         },
         {
-            "abstract": "<p>Rapid application innovation is characterized in part using shared code from open source components. While open source development has many benefits, when regulators change the rules our strengths can prove problematic for ongoing regulatory compliance. For example, in 2019 French regulators highlighted that the Android initial experience violated GDPR consent provisions and imposed a hefty fine upon Google. Given privacy regulations like GDPR exist due to security issues within products, it\u2019s time to look at development not just through a security lens but also through a privacy one.</p>\n",
+            "abstract": "Rapid application innovation is characterized in part using shared code from open source components. While open source development has many benefits, when regulators change the rules our strengths can prove problematic for ongoing regulatory compliance. For example, in 2019 French regulators highlighted that the Android initial experience violated GDPR consent provisions and imposed a hefty fine upon Google. Given privacy regulations like GDPR exist due to security issues within products, it\u2019s time to look at development not just through a security lens but also through a privacy one.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -3501,7 +3501,7 @@
             }
         },
         {
-            "abstract": "<p>As a Production Engineer on the Operating Systems team at Facebook, I'm a member of one of the more active oncalls for one of the largest fleets of servers in the world. In this talk I'm going to cover the mindset of our oncall, how the values of Production Engineering manifest in the practices of our oncalls, and how I ensure that the workload stays managable. Ignoring internal tooling, this will focus more on best practices and mindset.</p>\n",
+            "abstract": "As a Production Engineer on the Operating Systems team at Facebook, I'm a member of one of the more active oncalls for one of the largest fleets of servers in the world. In this talk I'm going to cover the mindset of our oncall, how the values of Production Engineering manifest in the practices of our oncalls, and how I ensure that the workload stays managable. Ignoring internal tooling, this will focus more on best practices and mindset.",
             "location": "Ballroom F",
             "photo": null,
             "speaker_id": [
@@ -3520,7 +3520,7 @@
             }
         },
         {
-            "abstract": "<p>The two factor or multi factor market is changing. Changing rapdily. Vendors merged, products disappeared. New technologies rise. The user, organization or companies may wonder where to turn to and which horse to bet on.</p>\n<p>privacyIDEA is an open source solution providing a wide variaty of different authentication technologies. It runs on premise at a central location in your network and applications to protect can be easily authenticate against privacyIDEA. This way you stay flexible, have control over your network and keep pace with the latest developments.</p>\n",
+            "abstract": "The two factor or multi factor market is changing. Changing rapdily. Vendors merged, products disappeared. New technologies rise. The user, organization or companies may wonder where to turn to and which horse to bet on. privacyIDEA is an open source solution providing a wide variaty of different authentication technologies. It runs on premise at a central location in your network and applications to protect can be easily authenticate against privacyIDEA. This way you stay flexible, have control over your network and keep pace with the latest developments.",
             "location": "Room 106",
             "photo": {
                 "alt": null,
@@ -3544,7 +3544,7 @@
             }
         },
         {
-            "abstract": "<p>Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services, which can help you to equip your microservices with centralized authentication and authorization. Its rich features include Single Sign On(SSO), flexible authentication and authorization, standard protocols and easy integration.</p>\n",
+            "abstract": "Keycloak is an Open Source Identity and Access Management solution for modern Applications and Services, which can help you to equip your microservices with centralized authentication and authorization. Its rich features include Single Sign On(SSO), flexible authentication and authorization, standard protocols and easy integration.",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -3568,7 +3568,7 @@
             }
         },
         {
-            "abstract": "<p>In the era of the cloud, elastic-compute and storage, we tend to forget that websites and mobile-apps have a breaking point. Stress testing allows developers and devops teams to identify the metrics that overload a server system and plan ahead in addressing scaling issues before they occur.</p>\n<p>Load testing helps in identifying code and database query performance, optimizes server environments for size and cost and provides the best user experience.</p>\n<p>This presentation shows the process of utilizing open-source tools to implement performance-testing and reporting its results.</p>\n",
+            "abstract": "In the era of the cloud, elastic-compute and storage, we tend to forget that websites and mobile-apps have a breaking point. Stress testing allows developers and devops teams to identify the metrics that overload a server system and plan ahead in addressing scaling issues before they occur. Load testing helps in identifying code and database query performance, optimizes server environments for size and cost and provides the best user experience. This presentation shows the process of utilizing open-source tools to implement performance-testing and reporting its results.",
             "location": "Ballroom C",
             "photo": null,
             "speaker_id": [
@@ -3587,7 +3587,7 @@
             }
         },
         {
-            "abstract": "<p>This presentation will cover tools and techniques to produce video tutorials. We look at recording footage from smart phones, webcams, and screen capture with Open Broadcaster Software Studio.\u00a0 We also look the five-shot sequence, a journalistic technique for making footage more interesting and artful.\u00a0 We'll also look at creating animated presentations using LaTeX/Beamer and Sozi.</p>\n",
+            "abstract": "This presentation will cover tools and techniques to produce video tutorials. We look at recording footage from smart phones, webcams, and screen capture with Open Broadcaster Software Studio.\u00a0 We also look the five-shot sequence, a journalistic technique for making footage more interesting and artful.\u00a0 We'll also look at creating animated presentations using LaTeX/Beamer and Sozi.",
             "location": "Room 209",
             "photo": null,
             "speaker_id": [
@@ -3606,7 +3606,7 @@
             }
         },
         {
-            "abstract": "<p>How a 40,000 request per minute product in the cloud was migrated from one live data center into another where another live production setup was already running. List out the solutions, at each service level and how various kinds of data migration complexities including collisions were resolved.</p>\n",
+            "abstract": "How a 40,000 request per minute product in the cloud was migrated from one live data center into another where another live production setup was already running. List out the solutions, at each service level and how various kinds of data migration complexities including collisions were resolved.",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -3630,7 +3630,7 @@
             }
         },
         {
-            "abstract": "<p>Whether you\u2019re using Chef, Puppet or Ansible, you\u2019re going to need a set of tools which help enable you to develop and test your infrastructure. One set of tools that we use at the OSU Open Source Lab is test-kitchen coupled with InSpec. Test-kitchen provides a test harness to execute infrastructure code on one or more platforms in isolation. InSpec provides a way to ensure your infrastructure code passes tests and compliance in a way separate from your configuration management. Together, this provides a very powerful platform for developing infrastructure code and testing it as well.</p>\n",
+            "abstract": "Whether you\u2019re using Chef, Puppet or Ansible, you\u2019re going to need a set of tools which help enable you to develop and test your infrastructure. One set of tools that we use at the OSU Open Source Lab is test-kitchen coupled with InSpec. Test-kitchen provides a test harness to execute infrastructure code on one or more platforms in isolation. InSpec provides a way to ensure your infrastructure code passes tests and compliance in a way separate from your configuration management. Together, this provides a very powerful platform for developing infrastructure code and testing it as well.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -3654,7 +3654,7 @@
             }
         },
         {
-            "abstract": "<p>The '90s saw a number of classic, and often times unintentionally hilarious, computer hacker movies that portray an imaginative and largely inaccurate view of how computers actually work.</p>\n<p>What would these movies look like today? This session demonstrates the benefits of taking a cloud-native approach to designing applications in the context of the movie WarGames. Through a series of demos, attendees will learn how to deploy container-native applications and use Kubernetes Operators to dynamically scale the application infrastructure according to growing user demands.</p>\n",
+            "abstract": "The '90s saw a number of classic, and often times unintentionally hilarious, computer hacker movies that portray an imaginative and largely inaccurate view of how computers actually work. What would these movies look like today? This session demonstrates the benefits of taking a cloud-native approach to designing applications in the context of the movie WarGames. Through a series of demos, attendees will learn how to deploy container-native applications and use Kubernetes Operators to dynamically scale the application infrastructure according to growing user demands.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -3678,7 +3678,7 @@
             }
         },
         {
-            "abstract": "<p>At the\u00a0Go Hardware Hack Session featuring TinyGo you will get to program robots, drones, and sensors, all using the programming language Go!</p>\n",
+            "abstract": "At the\u00a0Go Hardware Hack Session featuring TinyGo you will get to program robots, drones, and sensors, all using the programming language Go!",
             "location": "Room 103",
             "photo": {
                 "alt": null,
@@ -3702,7 +3702,7 @@
             }
         },
         {
-            "abstract": "<p class=\"p1\">At first glance, it may seem impossible to build an open and authentic community for a company-based open source project when you need to balance the needs of the company with those of the community. In this talk, learn how to build a thriving community by understanding the intrinsic motivations of community members while providing opportunities for them to grow and have a voice in the community. There will also be a discussion on how diverse viewpoints and being responsive to contributions is beneficial to both\u00a0 the community and the company.</p>\n",
+            "abstract": "At first glance, it may seem impossible to build an open and authentic community for a company-based open source project when you need to balance the needs of the company with those of the community. In this talk, learn how to build a thriving community by understanding the intrinsic motivations of community members while providing opportunities for them to grow and have a voice in the community. There will also be a discussion on how diverse viewpoints and being responsive to contributions is beneficial to both\u00a0 the community and the company.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
@@ -3726,7 +3726,7 @@
             }
         },
         {
-            "abstract": "<p>Data processing is not a straightforward process, it involves tasks as data collection with pre-processing to aggregation and storage. This workflow works, but it has some costs associated where performance is not always ideal: data processing is expensive and also takes time.</p>\n<p>On the other side, Stream Processing is the ability to perform data processing while the data is still in motion. In this presentation, we will introduce how Logging and Stream Processing can take data analysis to the next level, reducing the time to get results, alerting and featuring machine learning.</p>\n",
+            "abstract": "Data processing is not a straightforward process, it involves tasks as data collection with pre-processing to aggregation and storage. This workflow works, but it has some costs associated where performance is not always ideal: data processing is expensive and also takes time. On the other side, Stream Processing is the ability to perform data processing while the data is still in motion. In this presentation, we will introduce how Logging and Stream Processing can take data analysis to the next level, reducing the time to get results, alerting and featuring machine learning.",
             "location": "Ballroom F",
             "photo": null,
             "speaker_id": [
@@ -3745,7 +3745,7 @@
             }
         },
         {
-            "abstract": "<p>Ensuring reliable data storage and delivery with Apache Kafka can be challenging. Those trying to implement Kafka deal with critical questions such as: How can data order be at risk? How could data potentially be lost? How could records be accidently duplicated? This session explores essential components of building a lasting strategy for data integrity with Kafka.</p>\n",
+            "abstract": "Ensuring reliable data storage and delivery with Apache Kafka can be challenging. Those trying to implement Kafka deal with critical questions such as: How can data order be at risk? How could data potentially be lost? How could records be accidently duplicated? This session explores essential components of building a lasting strategy for data integrity with Kafka.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -3769,7 +3769,7 @@
             }
         },
         {
-            "abstract": "<p>This session will cap out the Sysadmin tutorial track, by discussing doing things at SCaLE and using Ansible as a means to deal with automation, and configuration management, at a scale beyond a couple of machines. Hands on tutorial will involve two VMs in network communication with each other, and provide a good starting place for folks interested in exploring this further.</p>\n",
+            "abstract": "This session will cap out the Sysadmin tutorial track, by discussing doing things at SCaLE and using Ansible as a means to deal with automation, and configuration management, at a scale beyond a couple of machines. Hands on tutorial will involve two VMs in network communication with each other, and provide a good starting place for folks interested in exploring this further.",
             "location": "Room 211",
             "photo": {
                 "alt": null,
@@ -3793,7 +3793,7 @@
             }
         },
         {
-            "abstract": "<p>Serverless has become popular amognst developers because of its ergonomics and reduced operational complexity. However, the serverless model makes doing a few traditional <em>stateful</em> things harder.</p>\n<p>I will introduce 3 common stateful use-cases for applications viz. accessing, persisting & sharing data. Why are these hard with serverless and what are the different ways of solving these problems?</p>\n<p><br />I will also share my learnings working with the user-community of the open-source GraphQL engine, <a href=\"https://github.com/hasura/graphql-engine\">Hasura</a>.</p>\n",
+            "abstract": "Serverless has become popular amognst developers because of its ergonomics and reduced operational complexity. However, the serverless model makes doing a few traditional things harder. stateful I will introduce 3 common stateful use-cases for applications viz. accessing, persisting & sharing data. Why are these hard with serverless and what are the different ways of solving these problems? \n I will also share my learnings working with the user-community of the open-source GraphQL engine, . Hasura",
             "location": "Ballroom A",
             "photo": {
                 "alt": null,
@@ -3817,7 +3817,7 @@
             }
         },
         {
-            "abstract": "<p>Lotus Petal Architecture is an interactive 3D data visualization toolset accessible from any web browser or mobile platform. Visual cues and hinting provide context. Any type of filter may be applied but the Lotus Chart structure is well suited for machine learning output and identifying growth trends across a data ecosystem. Built using the three.js library and extensible with node.js, it can be used to dynamically represent several thousand visual links on-screen at any one time. Because the schema is fractal there is no theoretical limit to the amount of data that can be referenced.</p>\n",
+            "abstract": "Lotus Petal Architecture is an interactive 3D data visualization toolset accessible from any web browser or mobile platform. Visual cues and hinting provide context. Any type of filter may be applied but the Lotus Chart structure is well suited for machine learning output and identifying growth trends across a data ecosystem. Built using the three.js library and extensible with node.js, it can be used to dynamically represent several thousand visual links on-screen at any one time. Because the schema is fractal there is no theoretical limit to the amount of data that can be referenced.",
             "location": "Room 104",
             "photo": {
                 "alt": null,
@@ -3841,7 +3841,7 @@
             }
         },
         {
-            "abstract": "<p>Bastille automates deployment and management of containers using a container technology old enough to buy you a drink!</p>\n<p>We've taken automation concepts learned from leading config management contenders and combined them with the ORIGINAL container technology. FreeBSD introduced containers in April 1999, pre-dating every other container technology available. </p>\n<p>Imagine a reliable container technology that has had two decades to work out bugs.Talk about production ready!</p>\n<p>This talk will outline design features and demonstrate secure container automation in the cloud and on the Raspberry Pi.</p>\n",
+            "abstract": "Bastille automates deployment and management of containers using a container technology old enough to buy you a drink! We've taken automation concepts learned from leading config management contenders and combined them with the ORIGINAL container technology. FreeBSD introduced containers in April 1999, pre-dating every other container technology available. Imagine a reliable container technology that has had two decades to work out bugs.Talk about production ready! This talk will outline design features and demonstrate secure container automation in the cloud and on the Raspberry Pi.",
             "location": "Ballroom B",
             "photo": {
                 "alt": null,
@@ -3865,7 +3865,7 @@
             }
         },
         {
-            "abstract": "<p>Kubernetes is an open source project with a high velocity of PRs and releases. While the activity and interest in the project is awesome, communicating these changes to end users becomes difficult. For a long time, each release would generate a new release notes markdown document that required manual cleanup and curation. In recent months the format has been reconsidered and completely restructured. This talk will go over the history of Kubernetes release notes, the current state of relnotes.k8s.io, and future plans for automated publishing of release notes and notifications.</p>\n",
+            "abstract": "Kubernetes is an open source project with a high velocity of PRs and releases. While the activity and interest in the project is awesome, communicating these changes to end users becomes difficult. For a long time, each release would generate a new release notes markdown document that required manual cleanup and curation. In recent months the format has been reconsidered and completely restructured. This talk will go over the history of Kubernetes release notes, the current state of relnotes.k8s.io, and future plans for automated publishing of release notes and notifications.",
             "location": "Ballroom H",
             "photo": {
                 "alt": null,
@@ -3889,7 +3889,7 @@
             }
         },
         {
-            "abstract": "<p>Wondering what has transpired in your favorite graphics applications over the last year? Join us for a recap of project development!</p>\n",
+            "abstract": "Wondering what has transpired in your favorite graphics applications over the last year? Join us for a recap of project development!",
             "location": "Room 209",
             "photo": null,
             "speaker_id": [
@@ -3912,7 +3912,7 @@
             }
         },
         {
-            "abstract": "<p>Based on internal training given to Facebook engineers, this talk is a collection of tips and tricks for being more efficient and productive on the command line. Learn about convenient customizations, speedy shortcuts, useful utilities, and more advanced techniques to help you look like a command line pro.</p>\n",
+            "abstract": "Based on internal training given to Facebook engineers, this talk is a collection of tips and tricks for being more efficient and productive on the command line. Learn about convenient customizations, speedy shortcuts, useful utilities, and more advanced techniques to help you look like a command line pro.",
             "location": "Room 101",
             "photo": {
                 "alt": null,
@@ -3936,7 +3936,7 @@
             }
         },
         {
-            "abstract": "<p>Learn how to modernize your Java application monitoring and dashboarding with Prometheus and Grafana. There's a lot of information out there when it comes to monitoring a Kubernetes cluster with Prometheus, but, in the modern enterprise landscape, applications are still what matters. Learn how to leverage Prometheus and Grafana to build slick, modern monitoring dashboards and threshold logic for Java applications.</p>\n",
+            "abstract": "Learn how to modernize your Java application monitoring and dashboarding with Prometheus and Grafana. There's a lot of information out there when it comes to monitoring a Kubernetes cluster with Prometheus, but, in the modern enterprise landscape, applications are still what matters. Learn how to leverage Prometheus and Grafana to build slick, modern monitoring dashboards and threshold logic for Java applications.",
             "location": "Ballroom F",
             "photo": {
                 "alt": null,
@@ -3960,7 +3960,7 @@
             }
         },
         {
-            "abstract": "<p>There is an epic journey from reviewed source code to the code you<br />actually run on your computer, and things can go quietly wrong along<br />the way!<br /><br />Reproducible Builds gives a project confidence that the journey from<br />source code to binary code gets you there and back again.</p>\n",
+            "abstract": "There is an epic journey from reviewed source code to the code you \n actually run on your computer, and things can go quietly wrong along \n the way! \n \n Reproducible Builds gives a project confidence that the journey from \n source code to binary code gets you there and back again.",
             "location": "Room 106",
             "photo": null,
             "speaker_id": [
@@ -3979,7 +3979,7 @@
             }
         },
         {
-            "abstract": "<p>In the era dynamic platforms, management of entry points is a great challenge, with the large amounts of application deployments requiring entry points to update often. Learn how to overcome this complexity, and build reliable entry points, focusing your energy on what matters to you. Our session will define what a modern edge router, reverse proxy and load-balancer are. We'll present concepts and advanced features which overcome the platform entry point challenges. Finally, we'll dig deeper and show how these solutions can scale and be fault tolerant.</p>\n",
+            "abstract": "In the era dynamic platforms, management of entry points is a great challenge, with the large amounts of application deployments requiring entry points to update often. Learn how to overcome this complexity, and build reliable entry points, focusing your energy on what matters to you. Our session will define what a modern edge router, reverse proxy and load-balancer are. We'll present concepts and advanced features which overcome the platform entry point challenges. Finally, we'll dig deeper and show how these solutions can scale and be fault tolerant.",
             "location": "Ballroom G",
             "photo": {
                 "alt": null,
@@ -4003,7 +4003,7 @@
             }
         },
         {
-            "abstract": "<p>The constantly shifting world of technology is always providing developers with new things to learn: languages, tools, techniques. Keeping your skills current is a full-time job. There are lots of resources out there to use, but you need to evaluate which ones work for you, and how best to use them. This session will highlight the various learning formats, help you pick the one that best fits you or your group, allow you to evaluate whether it's working, and tell you what to do when it doesn't.</p>\n",
+            "abstract": "The constantly shifting world of technology is always providing developers with new things to learn: languages, tools, techniques. Keeping your skills current is a full-time job. There are lots of resources out there to use, but you need to evaluate which ones work for you, and how best to use them. This session will highlight the various learning formats, help you pick the one that best fits you or your group, allow you to evaluate whether it's working, and tell you what to do when it doesn't.",
             "location": "Room 107",
             "photo": {
                 "alt": null,
