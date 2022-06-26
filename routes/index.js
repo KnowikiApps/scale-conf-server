@@ -14,16 +14,16 @@ router.get('/', function (req, res, next) {
  */
 router.get('/metadata', function (req, res) {
   res.json({
-    'scale-18x': {
-      name: 'Southern California Linux Expo 2019',
-      dates: ['2020-03-05', '2020-03-06', '2020-03-07', '2020-03-08'],
+    'scale-19x': {
+      name: 'Southern California Linux Expo 2022',
+      dates: ['2022-07-28', '2022-07-29', '2022-07-30', '2022-07-31'],
       urls: {
         events: {
           all: '/events',
-          '2020-03-05': '/events/thursday',
-          '2020-03-06': '/events/friday',
-          '2020-03-07': '/events/saturday',
-          '2020-03-08': '/events/sunday'
+          '2022-07-28': '/events/thursday',
+          '2022-07-29': '/events/friday',
+          '2022-07-30': '/events/saturday',
+          '2022-07-31': '/events/sunday'
         },
         speakers: {
           all: '/speakers'
