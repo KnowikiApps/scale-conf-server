@@ -22,6 +22,7 @@ function createConstants (version) {
     EVENT_DAYS: ['thursday', 'friday', 'saturday', 'sunday'],
     SPEAKERS_PATH: `/_data/scale-${version}-speakers.json`,
     SPEAKERS_FILE_PATH: path.resolve(__dirname, `./public/_data/scale-${version}-speakers.json`),
+    STATS_FILE_PATH: path.resolve(__dirname, `./public/_data/stats.json`),
     PARALLEL_LIMIT: 10
   }
 }

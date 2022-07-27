@@ -3,16 +3,19 @@ const router = express.Router()
 const createError = require('http-errors')
 const scheduleService = require('../services/schedule_service')
 const constants = require('../constants')
+const fs = require('fs');
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'SCaLE Backend' })
+  const stats = JSON.parse(fs.readFileSync(constants.STATS_FILE_PATH).toString());
+  res.render('index', { ...stats, title: 'SCaLE Backend' })
 })
 
 /**
  * Get a list of conference specific endpoints
  */
 router.get('/metadata', function (req, res) {
+  scheduleService.updateStats('requestSuccessCount')
   res.json({
     'scale-19x': {
       name: 'Southern California Linux Expo 2022',
@@ -37,6 +40,7 @@ router.get('/metadata', function (req, res) {
  * Get a list of all speakers
  */
 router.get('/speakers', function (req, res) {
+  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.SPEAKERS_FILE_PATH)
 })
 
@@ -44,6 +48,7 @@ router.get('/speakers', function (req, res) {
  * Get a list of all events
  */
 router.get('/events', function (req, res) {
+  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.EVENTS_FILE_PATH.all)
 })
 
@@ -56,14 +61,12 @@ router.get('/events/:day', function (req, res, next) {
   const day = req.params.day
   if (!constants.EVENT_DAYS.includes(day)) {
     // FIXME: opt for a json error rather than this human readable error page.
+    scheduleService.updateStats('requestErrorCount')
     return next(createError(404, 'Requested schedule not found'))
   }
 
+  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.EVENTS_FILE_PATH[day])
-})
-
-router.get('/speakers', function (req, res) {
-  res.sendFile(constants.SPEAKERS_FILE_PATH)
 })
 
 // For development purposes. Not sure if this will be exposed on the api.
