@@ -17,16 +17,16 @@ router.get('/', function (req, res, next) {
 router.get('/metadata', function (req, res) {
   scheduleService.updateStats('requestSuccessCount')
   res.json({
-    'scale-19x': {
-      name: 'Southern California Linux Expo 2022',
-      dates: ['2022-07-28', '2022-07-29', '2022-07-30', '2022-07-31'],
+    'scale-20x': {
+      name: 'Southern California Linux Expo 2023',
+      dates: ['2023-03-09', '2023-03-10', '2023-03-11', '2023-03-12'],
       urls: {
         events: {
           all: '/events',
-          '2022-07-28': '/events/thursday',
-          '2022-07-29': '/events/friday',
-          '2022-07-30': '/events/saturday',
-          '2022-07-31': '/events/sunday'
+          '2023-03-09': '/events/thursday',
+          '2023-03-10': '/events/friday',
+          '2023-03-11': '/events/saturday',
+          '2023-03-12': '/events/sunday'
         },
         speakers: {
           all: '/speakers'

@@ -10,8 +10,8 @@ describe('Get schedule urls', () => {
       .get('/metadata')
       .then(response => {
         expect(response.statusCode).toBe(200)
-        expect(response.body['scale-19x'].dates).toEqual(['2022-07-28', '2022-07-29', '2022-07-30', '2022-07-31'])
-        expect(response.body['scale-19x'].name).toEqual('Southern California Linux Expo 2022')
+        expect(response.body['scale-20x'].dates).toEqual(['2023-03-09', '2023-03-10', '2023-03-11', '2023-03-12'])
+        expect(response.body['scale-20x'].name).toEqual('Southern California Linux Expo 2023')
         done()
       })
   })
@@ -21,14 +21,14 @@ describe('Get schedule urls', () => {
       .get('/metadata')
       .then(response => {
         expect(response.statusCode).toBe(200)
-        expect(response.body['scale-19x'].urls).toEqual(
+        expect(response.body['scale-20x'].urls).toEqual(
           {
             events: {
               all: '/events',
-              '2022-07-28': '/events/thursday',
-              '2022-07-29': '/events/friday',
-              '2022-07-30': '/events/saturday',
-              '2022-07-31': '/events/sunday'
+              '2023-03-09': '/events/thursday',
+              '2023-03-10': '/events/friday',
+              '2023-03-11': '/events/saturday',
+              '2023-03-12': '/events/sunday'
             },
             speakers: {
               all: '/speakers'
@@ -44,8 +44,8 @@ describe('Get schedule urls', () => {
     const proxy = request(app)
     proxy.get('/metadata')
       .then(response => {
-        const chainedCalls = response.body['scale-19x'].dates.map(date => {
-          const url = response.body['scale-19x'].urls.events[date]
+        const chainedCalls = response.body['scale-20x'].dates.map(date => {
+          const url = response.body['scale-20x'].urls.events[date]
           return function (cb) {
             // console.log(url)
             proxy.get(url).redirects(1).then(response => {
@@ -65,8 +65,8 @@ describe('Get schedule urls', () => {
     proxy.get('/metadata')
       .then(response => {
         const chainedCalls = [
-          response.body['scale-19x'].urls.events.all,
-          response.body['scale-19x'].urls.speakers.all
+          response.body['scale-20x'].urls.events.all,
+          response.body['scale-20x'].urls.speakers.all
         ].map(url => {
           return function (cb) {
             // console.log(url)

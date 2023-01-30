@@ -26,4 +26,4 @@ function createConstants (version) {
     PARALLEL_LIMIT: 10
   }
 }
-module.exports = createConstants('19x')
+module.exports = createConstants('20x')
