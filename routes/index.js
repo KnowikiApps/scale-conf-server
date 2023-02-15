@@ -4,6 +4,10 @@ const createError = require('http-errors')
 const scheduleService = require('../services/schedule_service')
 const constants = require('../constants')
 const fs = require('fs');
+const { expressjwt: jwt } = require("express-jwt");
+
+/* Load environment */
+require('dotenv').config();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
@@ -88,6 +92,13 @@ router.get('/refresh/speakers', function (req, res) {
     .catch(err => {
       res.send(err)
     })
+})
+
+router.post('/logs', 
+  jwt({ secret: process.env.SECRET, algorithms: ["HS256"] }),
+  function (req, res) {
+    console.log('secret: ', process.env.SECRET);
+    res.json(req.auth);
 })
 
 module.exports = router
