@@ -31,3 +31,18 @@ Verify json schemas.
     pip install jsonschema
     jsonschema -i __tests__/services/fixtures/schedule_sample.json docs/events-schema.json
     jsonschema -i __tests__/services/fixtures/speaker_sample.json docs/speakers-schema.json
+
+# Logging
+`POST <base-url>/logs`
+
+In the header
+Authorization: `Bearer {token}`
+
+In the request body
+```
+{
+    "message": "Message to be logged"
+}
+```
+
+Note: You will need the JWT to be able to post logs.  Check the app repository for more information. 
