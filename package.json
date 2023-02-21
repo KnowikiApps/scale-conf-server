@@ -8,20 +8,23 @@
     "lint": "standard"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.2",
     "cheerio": "^1.0.0-rc.3",
     "cookie-parser": "~1.4.4",
     "debug": "^4.1.1",
+    "dotenv": "^16.0.3",
     "esm": "^3.2.25",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
+    "express-jwt": "^8.4.1",
     "http-errors": "^1.7.3",
     "morgan": "~1.9.1",
     "p-limit": "^2.2.2",
-    "pug": "^2.0.4",
+    "pg": "^8.9.0",
+    "pug": "^3.0.1",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
-    "async": "^3.1.1",
+    "async": "^3.2.2",
     "jest": "^25.1.0",
     "standard": "^14.3.1",
     "supertest": "^4.0.2"

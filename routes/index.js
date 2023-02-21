@@ -3,27 +3,35 @@ const router = express.Router()
 const createError = require('http-errors')
 const scheduleService = require('../services/schedule_service')
 const constants = require('../constants')
+const fs = require('fs');
+const { expressjwt: jwt } = require("express-jwt");
+const queries = require('../db/queries');
+
+/* Load environment */
+require('dotenv').config();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  res.render('index', { title: 'SCaLE Backend' })
+  const stats = JSON.parse(fs.readFileSync(constants.STATS_FILE_PATH).toString());
+  res.render('index', { ...stats, title: 'SCaLE Backend' })
 })
 
 /**
  * Get a list of conference specific endpoints
  */
 router.get('/metadata', function (req, res) {
+  scheduleService.updateStats('requestSuccessCount')
   res.json({
-    'scale-18x': {
-      name: 'Southern California Linux Expo 2019',
-      dates: ['2020-03-05', '2020-03-06', '2020-03-07', '2020-03-08'],
+    'scale-20x': {
+      name: 'Southern California Linux Expo 2023',
+      dates: ['2023-03-09', '2023-03-10', '2023-03-11', '2023-03-12'],
       urls: {
         events: {
           all: '/events',
-          '2020-03-05': '/events/thursday',
-          '2020-03-06': '/events/friday',
-          '2020-03-07': '/events/saturday',
-          '2020-03-08': '/events/sunday'
+          '2023-03-09': '/events/thursday',
+          '2023-03-10': '/events/friday',
+          '2023-03-11': '/events/saturday',
+          '2023-03-12': '/events/sunday'
         },
         speakers: {
           all: '/speakers'
@@ -37,6 +45,7 @@ router.get('/metadata', function (req, res) {
  * Get a list of all speakers
  */
 router.get('/speakers', function (req, res) {
+  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.SPEAKERS_FILE_PATH)
 })
 
@@ -44,6 +53,7 @@ router.get('/speakers', function (req, res) {
  * Get a list of all events
  */
 router.get('/events', function (req, res) {
+  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.EVENTS_FILE_PATH.all)
 })
 
@@ -56,14 +66,12 @@ router.get('/events/:day', function (req, res, next) {
   const day = req.params.day
   if (!constants.EVENT_DAYS.includes(day)) {
     // FIXME: opt for a json error rather than this human readable error page.
+    scheduleService.updateStats('requestErrorCount')
     return next(createError(404, 'Requested schedule not found'))
   }
 
+  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.EVENTS_FILE_PATH[day])
-})
-
-router.get('/speakers', function (req, res) {
-  res.sendFile(constants.SPEAKERS_FILE_PATH)
 })
 
 // For development purposes. Not sure if this will be exposed on the api.
@@ -85,6 +93,20 @@ router.get('/refresh/speakers', function (req, res) {
     .catch(err => {
       res.send(err)
     })
+})
+
+router.post('/logs', 
+  jwt({ secret: process.env.SECRET, algorithms: ["HS256"] }),
+  function (req, res) {
+    if (!req.auth.admin) {
+      res.status(400).json({ 'error': 'User must be admin' });
+    } else {
+      try {
+        queries.createLog(req.body.message, res);
+      } catch (e) {
+        res.status(500).json({ 'error': e.message });
+      }
+    }
 })
 
 module.exports = router
