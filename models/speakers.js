@@ -9,7 +9,7 @@ function getAll () {
 function save (speakers) {
   const filename = constants.SPEAKERS_FILE_PATH
   const tmpFilename = filename + '.tmp'
-  fs.writeFileSync(tmpFilename, JSON.stringify(speakers))
+  fs.writeFileSync(tmpFilename, JSON.stringify(speakers, null, 2))
   fs.renameSync(tmpFilename, filename)
 }
 

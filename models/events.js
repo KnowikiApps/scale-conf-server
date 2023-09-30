@@ -4,7 +4,7 @@ const constants = require('../constants')
 function save (events) {
   const filename = constants.EVENTS_FILE_PATH.all
   const tmpFilename = filename + '.tmp'
-  fs.writeFileSync(tmpFilename, JSON.stringify({ events: events.events }))
+  fs.writeFileSync(tmpFilename, JSON.stringify({ events: events.events }, null, 2))
   fs.renameSync(tmpFilename, filename)
 
   const collatedByDay = {}
@@ -20,7 +20,7 @@ function save (events) {
   constants.EVENT_DAYS.forEach(day => {
     const dayFilename = constants.EVENTS_FILE_PATH[day]
     const tmpDayFilename = dayFilename + '.tmp'
-    fs.writeFileSync(tmpDayFilename, JSON.stringify({ events: collatedByDay[day] }))
+    fs.writeFileSync(tmpDayFilename, JSON.stringify({ events: collatedByDay[day] }, null, 2))
     fs.renameSync(tmpDayFilename, dayFilename)
   })
 }
