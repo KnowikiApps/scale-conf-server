@@ -18,7 +18,7 @@ function updateStats(field) {
     stats[field] += 1;
   }
 
-  fs.writeFileSync(constants.STATS_FILE_PATH, JSON.stringify(stats));
+  fs.writeFileSync(constants.STATS_FILE_PATH, JSON.stringify(stats, null, 2));
 }
 
 /**
