@@ -1,0 +1,1863 @@
+{
+  "events": [
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T10:00:00-07:00",
+        "endTime": "2024-03-16T11:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/keynote",
+      "photo": {
+        "alt": null,
+        "height": "892",
+        "width": "964",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/viral2.jpeg"
+      },
+      "location": "Ballroom DE",
+      "speaker_id": [
+        "11816"
+      ],
+      "speakers": [
+        "Viral Shah"
+      ],
+      "title": "Keynote",
+      "topic": "Keynote",
+      "abstract": "More information to come."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/how-talk-people-about-immutability",
+      "photo": {
+        "alt": null,
+        "height": "160",
+        "width": "120",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot_0.jpeg"
+      },
+      "location": "Room 212",
+      "speaker_id": [
+        "10065"
+      ],
+      "speakers": [
+        "Kyle Davis"
+      ],
+      "title": "How to talk to people about immutability",
+      "topic": "Reproducible and Immutable Software",
+      "abstract": "A single conversation with someone outside of tech changed how I both thought of immutability and how I talked to others about it. In this session, learn how immutability can often seem like a confusing, funny-sounding idea at first. Then how you can easily counter the confusion with sound, practical, and easy-to-understand concepts, exercises, and techniques to make the topic relatable. When you leave this session, you’ll have new tools that will help you share the powerful concepts of immutable software with others and maybe convince a few new folks along the way."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/how-linux-player-piano",
+      "photo": {
+        "alt": null,
+        "height": null,
+        "width": null,
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/535788_10150859226682025_1722401621_n.jpg"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "5100"
+      ],
+      "speakers": [
+        "maddog Hall"
+      ],
+      "title": "How Is Linux Like a Player Piano?",
+      "topic": "General",
+      "abstract": "At the end of Ken Thomson's keynote last year: \n \n \n \n a person asked how Ken's talk relavant to Free Software.   . \n \n The talk will be illustrated with photographs and music recorded from my own collection of instruments, many over 100 years old ( ) https://www.socallinuxexpo.org/scale/20x/presentations/keynote-ken-thompson This talk answers that question older than either Ken or myself!"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/empowering-women-data-shaping-inclusive-ai-future",
+      "photo": {
+        "alt": null,
+        "height": "924",
+        "width": "822",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Screenshot%202023-08-07%20at%204.03.12%20PM.png"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11681"
+      ],
+      "speakers": [
+        "Autumn Nash"
+      ],
+      "title": "Empowering Women in Data: Shaping an Inclusive AI Future",
+      "topic": "Open Source AI and Applied Science",
+      "abstract": "Explore the vital role of women in shaping the future of data and its impact on AI. Delve into the reciprocal benefits of enhancing women's data skills and navigating unique challenges they face in technology. Uncover the transformative potential of accessible cloud computing for women in tech. Recognize the urgency of fostering diversity in data to combat bias and ensure an equitable AI future."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/what-heck-godot-and-what-have-i-been-missing-out",
+      "photo": {
+        "alt": null,
+        "height": "256",
+        "width": "256",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Cruz_Jon_sm.jpg"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "6036"
+      ],
+      "speakers": [
+        "Jon Cruz"
+      ],
+      "title": "What the Heck Is Godot and What Have I Been Missing Out On?",
+      "topic": "FOSS @ HOME",
+      "abstract": "What the heck is Godot? Like games? Think of making them? Then this is the game engine and development platform for you. Although newer than Unity and Unreal, it is much more enjoyable to work with and improving rapidly. Most importantly it is *free* not just as in no money, but with all the freedoms of true Open Source. Avoid executives making painful decisions and costing you money (even for demos). Find out how easy it is to get started, how fun it can be to work with, and how powerful it can be. (Plus find out how Unity is like Dungeons and Dragons, in the bad way)"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/configurations-conclusions-lessons-fine-tuning-open-telemetry%E2%80%99s-collector",
+      "photo": {
+        "alt": null,
+        "height": "1268",
+        "width": "1107",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot_14.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "10900",
+        "11749"
+      ],
+      "speakers": [
+        "Vijay Samuel",
+        "Wei Tang"
+      ],
+      "title": "From Configurations To Conclusions: Lessons from Fine-tuning Open Telemetry’s Collector For Tracing",
+      "topic": "Observability",
+      "abstract": "OpenTelemetry is today's defacto standard for distributed tracing. It's collector is used by everyone in varied configurations to accept spans. However, tuning the collector takes time and a lot of energy to get right. In this talk we discuss what are the steps we took to tune the collector, what our final configuration was and how we pivoted the platform to a more optimal architecture based on what we learned.    This talk provides a reference implementation for tracing at scale. Something we don't hear enough about."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/contribution-not-only-code",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/small.png"
+      },
+      "location": "Ballroom C",
+      "speaker_id": [
+        "10761"
+      ],
+      "speakers": [
+        "Tatiana Krupenya"
+      ],
+      "title": "Contribution is not only a code.",
+      "topic": "General",
+      "abstract": "When we hear about open-source contribution we usually imagine code contribution. In DBeaver we have developed open-source applications for more than 10 years and we have contributors around the world. Are they all developers? Of course not. Can we say that code contribution is the most valuable among other types? Also not. Let's take a look how else you can help your favourite open source project."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/layering-composable-environments-flox",
+      "photo": {
+        "alt": null,
+        "height": "2498",
+        "width": "2521",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/me_1.jpeg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "11534"
+      ],
+      "speakers": [
+        "Zach Mitchell"
+      ],
+      "title": "Layering Up: Composable environments with flox",
+      "topic": "Developer",
+      "abstract": "Sebastian has just entered the cold, cut-throat world of early stage startups, and you know what you do when you're cold? You layer up. In this talk we'll follow Sebastian as he's thrown from project to project at FurFinder, an AI-powered social media app for cats. As Sebastian works on different projects we'll see how he's able to instantly use development environments provided by different teams and layer them on top of each other like cozy software sweaters."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/secure-consumption-open-source-software-evaluating-utilizing-and",
+      "photo": {
+        "alt": null,
+        "height": "856",
+        "width": "1019",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/KD.jpeg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "11564"
+      ],
+      "speakers": [
+        "Katherine Druckman"
+      ],
+      "title": "Secure Consumption of Open Source Software: Evaluating, Utilizing, and Contributing Safely",
+      "topic": "Security",
+      "abstract": "This talk will delve into the key considerations for securely consuming open source software. Attendees will learn to evaluate projects based on active maintenance, patch cycles, and vulnerability management. We will explore the role of project documentation, code contribution expectations, and community involvement in project maturity and code quality. The talk will also cover challenges in consuming open source software, the benefits of utilizing tooling and static analysis, and important developments in the open source security community."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/digital-art-makes-you-smart",
+      "photo": {
+        "alt": null,
+        "height": "3088",
+        "width": "2316",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/nicholasm.jpg"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "11567",
+        "11569"
+      ],
+      "speakers": [
+        "Nicholas Maramba",
+        "Helen Ortiz"
+      ],
+      "title": "Digital Art Makes You Smart",
+      "topic": "Next Generation",
+      "abstract": "Technology has improved many aspects of life, including art. Over time, artist have been able to create their pieces through entierly digital means using art programs and apps. Free, open-source applications such as Krita allow new artist to practice and learn to draw at no cost! However, these programs can be confusing for new comers, so learning about the ins and outs of the tools is a good starting point. With our experience of creating art with Krita, we will teach you how to create art of your own!"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/what-heck-kubernetes",
+      "photo": {
+        "alt": null,
+        "height": "2018",
+        "width": "2018",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/fharper-original-square.jpeg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "11535"
+      ],
+      "speakers": [
+        "Frédéric Harper"
+      ],
+      "title": "What the Heck Is Kubernetes",
+      "topic": "Cloud Native",
+      "abstract": "Ever wonder what that fuss is all about! Is this just a new technology that will die along the thousands of JavaScript libraries that were supposed to change the way we code? Is Kubernetes really a game changer? Even if it was, do you or your project really need a container orchestration system with its clusters, controllers, pods and all those new moving pieces? All your questions will be answered in this talk! We will demystify this together. In the end, you’ll have a better understanding of the platform & its quirks, including the pros and cons, and how to get started."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/all-aboard-kubernetes-routes-now-available-all-destinations-northsouth-and",
+      "photo": {
+        "alt": null,
+        "height": "2048",
+        "width": "1365",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/DSC06563.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "11581"
+      ],
+      "speakers": [
+        "Jef Spaleta"
+      ],
+      "title": "All Aboard! Kubernetes Routes now available for all destinations, North/South and East/West",
+      "topic": "Cloud Native",
+      "abstract": "The Kubernetes Gateway API was designed to solve multiple problems with Kubernetes Ingress and as it turns out the design also works well for solving related problems when internal Kubernetes services need to talk to each other!  Come to this talk and learn how the GAMMA project is able to adapt the family of Route objects introduced in the Gateway API and use them to connect Kubernetes services in new and interesting ways."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/intro-repeatable-environments-flox",
+      "photo": {
+        "alt": null,
+        "height": "977",
+        "width": "964",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/ross.jpg"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "11528"
+      ],
+      "speakers": [
+        "Ross Turk"
+      ],
+      "title": "An intro to repeatable environments with flox",
+      "topic": "Systems & Infrastructure",
+      "abstract": "Using flox, you can create multiple environments that each contain their own set of packages, hooks, and vars. Everything is declarative, so your environment will be the same across platforms, projects, and time. If you’ve ever said \"but it worked on my machine, you must have the wrong version of libwhatever\", flox was built for you. In this talk, Ross Turk will walk you through the key subcommands and interactions of flox, then give you a bit of a peek under the covers at the power that lies beneath."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T11:15:00-07:00",
+        "endTime": "2024-03-16T12:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/getting-around-it-deferred-work-mechanisms-linux-kernel",
+      "photo": {
+        "alt": null,
+        "height": "222",
+        "width": "219",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot_Jul2023.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "4063"
+      ],
+      "speakers": [
+        "Alison Chaiken"
+      ],
+      "title": "Getting Around to It: Deferred Work Mechanisms in the Linux Kernel",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": "Linux has multiple methods for scheduling delayed work, notably tasklets, workqueues, softirqs and waitqueues.  Why are there so many kinds of deferred work and how do they differ? One distinction is between callbacks which are triggered by an event such as a interrupt, as opposed to active tasks which wait on constrained resources. A second distinction is between jobs of predictable duration that don't block versus tasks of long duration.   Attendees will learn how to use bpf tools  and new kworker monitors to observe and adjust workqueues, softirqs and tasklets."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:00:00-07:00",
+        "endTime": "2024-03-16T12:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/don%E2%80%99t-judge-game-its-cover",
+      "photo": null,
+      "location": "Room 103",
+      "speaker_id": [
+        "11568",
+        "11570"
+      ],
+      "speakers": [
+        "Isabella Rodriguez",
+        "Tea Kostka"
+      ],
+      "title": "Don’t Judge a Game by its Cover",
+      "topic": "Next Generation",
+      "abstract": "Ever thought, “Hey, I can make this game way better?” to a game you perceive as terrible? Well, that’s just rude. Behind-the-scenes of creating video games takes time and effort to reach the outcome the developer is trying to achieve. With GDevelop, you can be in the developer’s shoes. Join us and create your very own game for your enjoyment!"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/devstageprod-anti-pattern-data-pipelines",
+      "photo": {
+        "alt": null,
+        "height": "1000",
+        "width": "1000",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/oz_katz.jpeg"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "11764"
+      ],
+      "speakers": [
+        "Oz Katz"
+      ],
+      "title": "Dev/Stage/Prod is an Anti-Pattern for Data Pipelines",
+      "topic": "Systems & Infrastructure",
+      "abstract": "Not all typical engineering or system engineering practices are the right patterns for data engineering - and this distinction is important. This talk will focus on the predominant dev/stage/prod environments example and present a better practice when it comes to data engineering, operations and management."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/payments-engineering",
+      "photo": {
+        "alt": null,
+        "height": "1121",
+        "width": "1065",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/profilephoto.jpg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "11245"
+      ],
+      "speakers": [
+        "Vincent Sloan"
+      ],
+      "title": "Payments Engineering",
+      "topic": "Developer",
+      "abstract": "In this talk, we delve into the intricacies of payments engineering, covering challenges like avoiding double charges, reconciliation, and ensuring auditability. Drawing from these real-world scenarios, we explore how these lessons can be applied broadly to enhance software development practices and build reliable software."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/get-ready-rumble-real-user-monitoring-javascript-world",
+      "photo": {
+        "alt": null,
+        "height": "3600",
+        "width": "2400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Portraits-031_Original.jpeg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "11641"
+      ],
+      "speakers": [
+        "Alexis Roberson"
+      ],
+      "title": "Get Ready to (RUM)ble: Real User Monitoring in a Javascript World",
+      "topic": "Observability",
+      "abstract": "Getting started guide for instrumenting Javascript applications using RUM + OpenTelemetry."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/amplifying-your-open-source-advocacy-empowering-voices-through-podcasting",
+      "photo": {
+        "alt": null,
+        "height": "856",
+        "width": "1019",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/KD.jpeg"
+      },
+      "location": "Ballroom C",
+      "speaker_id": [
+        "11564"
+      ],
+      "speakers": [
+        "Katherine Druckman"
+      ],
+      "title": "Amplifying Your Open Source Advocacy: Empowering Voices Through Podcasting",
+      "topic": "General",
+      "abstract": "Finding one's voice in the open source community can be a transformative journey, particularly for underrepresented groups. In this engaging talk, Katherine, an experienced open source evangelist, developer, and established podcaster, will share her 15+ year open source journey and how podcasting played a significant role in her advocacy and personal growth. Attendees will learn how to embrace their diverse backgrounds and experiences to empower and amplify their messages through podcasting for open source audiences."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/stitch-time-my-linux-powered-knitting-clock",
+      "photo": {
+        "alt": null,
+        "height": "500",
+        "width": "500",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot4.png"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "62"
+      ],
+      "speakers": [
+        "Kyle Rankin"
+      ],
+      "title": "A Stitch in Time: My Linux-powered Knitting Clock",
+      "topic": "FOSS @ HOME",
+      "abstract": "A stitch in time in my case, documents 2023. I was inspired by a Hackaday project that featured a clock that knitted a stitch every half hour, a row per day. A scarf extended from the bottom and dropped to the floor at the end of the year. \n \n I wanted one of my own but there were no instructions, so I spent the next few weeks designing and building one. Along the way I took a crash course in stepper motors and 3D design. The result is Tempus Nectit: a clock that documented 2023. \n \n Come along as I explain how I made a Linux-powered clock that knits a scarf throughout the year."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/linux-and-its-microcomputer-predecessors-pre-1996",
+      "photo": {
+        "alt": null,
+        "height": "2005",
+        "width": "1399",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/PXL_20220919_071323558.PORTRAIT_2%20%281%29.jpg"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "5305"
+      ],
+      "speakers": [
+        "Chris McKenzie"
+      ],
+      "title": "Linux and its microcomputer predecessors pre-1996",
+      "topic": "General",
+      "abstract": "There's a rich history of forgotten 1980s and early 1990s Unixes and ways of thinking about the home computer as workstation. Find out the history of both commercial and non-commercial efforts and how the Linux project successfully syncretized most of these strains to become the most popular Unix-variation. It might perhaps, give you new appreciations and ways of thinking about the systems and tools you use every day."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/scaling-environments-kubernetes-opentelemetry-and-service-mesh",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/1574383373845%20%282%29.jpeg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "11602"
+      ],
+      "speakers": [
+        "Anirudh Ramanathan"
+      ],
+      "title": "Scaling Environments in Kubernetes with OpenTelemetry and Service Mesh",
+      "topic": "Cloud Native",
+      "abstract": "Modern applications comprise multiple microservices as well as components such as managed databases, message queues, third party APIs, and so on. This has made it all the more important to provide developers with rich testing feedback from environments that resemble production. Using request-level isolation, you can create lightweight high-fidelity environments. This approach is being used at scale in companies like Uber, Lyft and Doordash across hundreds of developers. In this talk, you will learn how you can design and implement such a system on Kubernetes using OSS components."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/exploring-synergy-between-linux-nix-and-computer-engineering-education",
+      "photo": {
+        "alt": null,
+        "height": "2208",
+        "width": "2944",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/20220131_095534_03-min.jpg"
+      },
+      "location": "Room 212",
+      "speaker_id": [
+        "11549"
+      ],
+      "speakers": [
+        "Samuel Raumin"
+      ],
+      "title": "Exploring the Synergy between Linux, Nix, and Computer Engineering Education",
+      "topic": "Reproducible and Immutable Software",
+      "abstract": "Within the university setting, Linux is treated more as a burdening task than a helpful tool. In this presentation, we will explore the synergy that is Linux, Nix, and Computer Engineering. With these tools, we can enable engineers to use tools that work within the same environment as the developer before going out into the big world."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/cloud-native-data-and-model-lifecycle-management-ai",
+      "photo": {
+        "alt": null,
+        "height": "1577",
+        "width": "2362",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Lu-small.jpg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "11589",
+        "10702"
+      ],
+      "speakers": [
+        "Lu Qiu",
+        "Chunxu Tang"
+      ],
+      "title": "Cloud native data and model lifecycle management for AI",
+      "topic": "Cloud Native",
+      "abstract": "Cloud-native tech is transforming AI infrastructure with unique challenges in data and model management. This session delves into data ingestion, preprocessing, versioning, training, and cloud deployment. We highlight best practices for optimized data flows and quick model roll-outs. Drawing from leaders like Meta, Uber, and Shopee, attendees will gain actionable strategies for refining their cloud-based AI setups."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/how-open-open-transparency-and-accountability-open-source-llms",
+      "photo": {
+        "alt": null,
+        "height": "424",
+        "width": "450",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/frank2.jpg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11550"
+      ],
+      "speakers": [
+        "Frank Coyle"
+      ],
+      "title": "How Open is Open? Transparency and Accountability in Open-Source LLMs.",
+      "topic": "Open Source AI and Applied Science",
+      "abstract": "Despite its widespread use, ChatGPT has some major drawbacks. For example, it is known to generate factually incorrect responses, often referred to as hallucinations. In addition, the models often exhibit a variety of biases – all based on the data used to build the model. The presentation will emphasize the need for genuine openness in open-source AI software and examine the implications of models that may not fully disclose their data sources and algorithms."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/sql-approach-exploring-elf-objects",
+      "photo": {
+        "alt": null,
+        "height": "600",
+        "width": "600",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/image%20%282%29.png"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "11356"
+      ],
+      "speakers": [
+        "Farid Zakaria"
+      ],
+      "title": "A SQL Approach to Exploring ELF Objects",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": "In the intricate landscape of software development and system analysis, tools like readelf, nm, and objdump have been the go-to solutions for delving into Executable and Linkable Format (ELF) objects. These tools, while robust, follow the pattern of many Unix utilities and dump unstructured output to the console which can make it difficult to perform advanced analysis.  We present 'sqlelf' which allows declarative access to ELF files. It brings a refreshing shift, offering a friendlier and more versatile way to explore ELF objects using SQL."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T12:30:00-07:00",
+        "endTime": "2024-03-16T13:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/shakespeare-bacon-and-nsa",
+      "photo": {
+        "alt": null,
+        "height": "422",
+        "width": "422",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/KC%2BCNC_NA_transparent.png"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "10853"
+      ],
+      "speakers": [
+        "Brendan O'Leary"
+      ],
+      "title": "Shakespeare, Bacon, and the NSA",
+      "topic": "Security",
+      "abstract": "A code-breaking Quaker poet from Indiana who hunted Nazi spies? All right, that sounds like some sort of comic-book superhero. And what is this superhero's origin story? Oh, they just were plucked from a library in Chicago to the secretive lair of an eccentric billionaire to study a secret code in the writings of Shakespeare that talks of a hidden heir to the English crown? Now it *must* be the latest in a series of multiverse-based superhero movies, right?"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T13:45:00-07:00",
+        "endTime": "2024-03-16T14:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/robotic-gaming-robot",
+      "photo": null,
+      "location": "Room 103",
+      "speaker_id": [
+        "11672"
+      ],
+      "speakers": [
+        "Michael Wang"
+      ],
+      "title": "Robotic gaming robot ",
+      "topic": "Next Generation",
+      "abstract": "Join us in a deep dive into open-source robotics with our project: a Raspberry Pi-powered robot, adept at navigating a Dino Run-style game. Utilizing Python, OpenCV, and Linux on Raspberry Pi, alongside a DC motor for movement, we showcase how open-source technologies can be innovatively combined to create a responsive and interactive robotic system. This presentation is a testament to the capabilities and versatility of open-source tools in developing engaging and complex robotics applications."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/trustworthyai",
+      "photo": {
+        "alt": null,
+        "height": "3024",
+        "width": "4032",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/EthanSun.jpg"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "11676"
+      ],
+      "speakers": [
+        "Ethan Sun"
+      ],
+      "title": "TrustworthyAI",
+      "topic": "Next Generation",
+      "abstract": "This paper emphasizes the importance of Trustworthy AI in self-driving vehicles, particularly in computer vision for recognizing stop signs and cyber attacks. Multiple model versions were created, with Model Version 6 achieving a 95% confidence level in identifying stop signs. The study observes lower confidence levels as susceptible to cyber attacks. This demonstrates the ability to recognize anomalies, providing insights into performance variations across datasets. The success of Model Version 6 highlights the potential of advanced computer vision models for autonomous vehicle safety."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/observability-path-freedom",
+      "photo": {
+        "alt": null,
+        "height": "2881",
+        "width": "2645",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_8339.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "11392"
+      ],
+      "speakers": [
+        "Alan LaCombe"
+      ],
+      "title": "The Observability Path to Freedom",
+      "topic": "Observability",
+      "abstract": "You instrumented your metrics and now you are vendor locked? So were we! Come to this talk to hear our observability story of freedom. We will share with you cautionary tales of the lessons we learned along the way and the anti-patterns we discovered."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/elevate-security-and-observability-cilium",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/me-foto.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "11309",
+        "11747"
+      ],
+      "speakers": [
+        "Gerardo Lopez",
+        "Fabrizio Sgura"
+      ],
+      "title": "Elevate Security and Observability with Cilium",
+      "topic": "Cloud Native",
+      "abstract": "We are excited to share with you the story of how Cilium, the powerful eBPF-based networking and security project, has played a pivotal role in enhancing observability, security, and good practices in our projects. In the ever-evolving landscape of modern technology, ensuring trusted ecosystems for our applications and infrastructure is of paramount importance."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/where-does-linux-desktop-go-here",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/92gjCvxv_400x400.png"
+      },
+      "location": "Ballroom C",
+      "speaker_id": [
+        "11635",
+        "11640"
+      ],
+      "speakers": [
+        "Lleyton Gray",
+        "Jaiden Riordan"
+      ],
+      "title": "Where Does the Linux Desktop Go from Here?",
+      "topic": "General",
+      "abstract": "We'll explore the past, present, and future direction of the Linux desktop ecosystem, covering technologies such as OSTree, Flatpak, and platform libraries (such as libadwaita.) The primary focus of this talk will be the changing model of how Linux native applications are developed, distributed, and consumed. We'll also touch on other improvements to the desktop experience, and share our view for the future."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/exploring-immutable-linux-desktops-fedora",
+      "photo": {
+        "alt": null,
+        "height": "1938",
+        "width": "1389",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_20220324_181625_023.jpg"
+      },
+      "location": "Room 212",
+      "speaker_id": [
+        "3759",
+        "4919",
+        "4908"
+      ],
+      "speakers": [
+        "Scott Williams",
+        "Perry Rivera",
+        "Brian Monroe"
+      ],
+      "title": "Exploring Immutable Linux Desktops with Fedora",
+      "topic": "Reproducible and Immutable Software",
+      "abstract": "Experience the Fedora desktop in an immutable fashion! This all levels demo explores the basics of Silverblue, Kinoite, Sericea, and Onyx. A survey of the history, installation basics, getting started, and basic tools will be covered. We'll start with ways to install applications, proceed to upgrading between different versions of Fedora, and cover key container development tools. From basic users to container developers, there's something for everyone here!"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/encrypted-btrfs-subvolumes-new-features",
+      "photo": {
+        "alt": null,
+        "height": "947",
+        "width": "960",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/profile_9.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "11330"
+      ],
+      "speakers": [
+        "Sweet Tea Dorminy"
+      ],
+      "title": "Encrypted Btrfs Subvolumes: New Features ",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": "Recently btrfs, a next-generation Linux filesystem, has been working on the ability to seamlessly encrypt filenames and contents -- learn more about how to use it and its benefits and tradeoffs versus other encryption solutions like LUKS."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/bridging-open-source-developer-platforms-backstage-meets-coder",
+      "photo": {
+        "alt": null,
+        "height": "512",
+        "width": "512",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/1686933512123.jpeg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "11540"
+      ],
+      "speakers": [
+        "Ben Potter"
+      ],
+      "title": "Bridging Open Source Developer Platforms: Backstage Meets Coder",
+      "topic": "Cloud Native",
+      "abstract": "Self-serve developer portals have become quite the hit, but did you know there are open-source variants? By leveraging Backstage's self-serve catalog alongside Coder's remote IDEs, developers can navigate between project inception, ongoing development, and documentation management. Attendees will delve into the core functionalities of Backstage and Coder, grasp the integration of these open-source endeavors to enhance the developer workflow, and explore real-world scenarios reflecting the productivity and operational advancements through this integration."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/opentofu-internals-developing-terraform-open",
+      "photo": null,
+      "location": "Room 211",
+      "speaker_id": [
+        "3673"
+      ],
+      "speakers": [
+        "Jess Males"
+      ],
+      "title": "OpenTofu Internals: Developing Terraform in the Open",
+      "topic": "Systems & Infrastructure",
+      "abstract": "Opentofu is a community-led continuation of legacy Terraform. This presentation walks through the internals of the tool, digging into how it operates its plan/apply/destroy lifecycle. We will dig into state management, providers, and error handling. This in-depth examination will be useful for advanced users, wanting a deep understanding of the tool, or for developers looking to get involved."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/nurturing-next-generation-open-source-contributors",
+      "photo": {
+        "alt": null,
+        "height": "1000",
+        "width": "1000",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/press_1_sq.jpg"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "5644"
+      ],
+      "speakers": [
+        "Tyler Menezes"
+      ],
+      "title": "Nurturing the Next Generation of Open Source Contributors",
+      "topic": "General",
+      "abstract": "Many open source projects are grappling with a crucial issue: finding future contributors and maintainers. \n \n  \n \nThis talk explores the hurdles and solutions in bridging academia and open source. We discuss what mental barriers students face when it comes to coding and contributing to open source, how to craft mentorship resources, and what resources projects need to build lasting relationships with students."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/automating-development-environments-ansible-chezmoi",
+      "photo": {
+        "alt": null,
+        "height": "1348",
+        "width": "1348",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot_2021_close.jpg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "10891"
+      ],
+      "speakers": [
+        "Kevin Howell"
+      ],
+      "title": "Automating Development Environments with Ansible & Chezmoi",
+      "topic": "Developer",
+      "abstract": "Replicating a development environment is tedious, but using Ansible and chezmoi makes your environment easy to replicate. I've customized my environment to my preferences over the past decade. I often pick up new tools or configurations on-the-job or at-home. Duplicating configuration changes between multiple systems sucked, until I started managing it with Ansible and chezmoi. We'll discuss practical strategies for organizing environment automation, experiences managing multiple types of packages with Ansible playbooks, and how to keep home and work setups consistent but separate."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/security-iac-defined-world",
+      "photo": {
+        "alt": null,
+        "height": "900",
+        "width": "600",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/dwayne-headshot.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "10713"
+      ],
+      "speakers": [
+        "Dwayne McDaniel"
+      ],
+      "title": "Security In An IaC Defined World",
+      "topic": "Security",
+      "abstract": "While it would be amazing to focus 100% on our code in our work, the reality of modern DevOps is we also need to worry about where it runs. In a simpler time, the operations team would grant us precious disk and machine resources after a requisition request. Security was tight, as those servers were locked down behind private networks and gateways. Living in the modern world of platforms as a service and infrastructure as code, IaC, means just taking security for granted is no longer an option."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/private-cloud-cheap",
+      "photo": {
+        "alt": null,
+        "height": "2448",
+        "width": "1882",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/20230307%20Coloring%20FILE%20SIZE%20SHRINK.jpg"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "5459"
+      ],
+      "speakers": [
+        "Darren Cole"
+      ],
+      "title": "Private Cloud on the Cheap",
+      "topic": "FOSS @ HOME",
+      "abstract": "Build you own private cloud for less than $500. Yes it is possible and has been useful. The talk will provide an overview of installation, what to consider when building on the cheap, and some how it has been useful."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T14:30:00-07:00",
+        "endTime": "2024-03-16T15:30:00-07:00"
+      },
+      "url": "/scale/21x/presentations/data-tsunami-actionable-insights",
+      "photo": {
+        "alt": null,
+        "height": "2985",
+        "width": "3050",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/CD.jpg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "9719",
+        "386"
+      ],
+      "speakers": [
+        "Cali Dolfi",
+        "Dawn Foster"
+      ],
+      "title": "From Data Tsunami to Actionable Insights",
+      "topic": "Open Source AI and Applied Science",
+      "abstract": "The data available about open source projects can feel like a tsunami with wave after wave of data that can feel overwhelming. But there are ways to make this more manageable by finding and focusing on the metrics that matter the most for you. This talk focuses on tips and techniques for making sense of those waves of data using collections of metrics to result in actionable insights about your open source software."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:30:00-07:00",
+        "endTime": "2024-03-16T16:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/mechatronics-sensors-3d-design-and-printing",
+      "photo": {
+        "alt": null,
+        "height": "493",
+        "width": "339",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot_Cynthia.png"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "11717",
+        "11719",
+        "11714",
+        "11718"
+      ],
+      "speakers": [
+        "Cynthia Prieto-Espinoza",
+        "Adanelly Chavez",
+        "Kimberly Vallejo",
+        "Alexa Hernandez"
+      ],
+      "title": "Mechatronics, Sensors & 3D Design and Printing",
+      "topic": "Next Generation",
+      "abstract": "The Intelliplant stands as a testament to collaborative innovation, bringing together the expertise of the mechatronics, sensors, and design teams. This multidisciplinary effort, with each subgroup focusing on specific aspects, allowed an all-girls team to harness peer-conducted research and construct Intelliplants—self-watering plant pots powered by Arduino with real-time monitoring capabilities. This intricate project utilizes an array of components, including Arduino UNO, relay, neopixels, photoresistor, soil moisture sensor, LED matrix, water pump, and power adapter."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/thunderbird-android-late-party-ready-fight",
+      "photo": null,
+      "location": "Ballroom C",
+      "speaker_id": [
+        "11623"
+      ],
+      "speakers": [
+        "Ryan Sipes"
+      ],
+      "title": "Thunderbird on Android: Late To The Party, But Ready To Fight",
+      "topic": "General",
+      "abstract": "By 2025, the number of mobile email users will increase to 4.6 billion. That's a number representing 92% of ALL email users around the globe. Email is becoming more centralized and less interoperable, because a small handful of corporate giants have a stranglehold on the market. In this talk, you'll learn about Thunderbird's plans to help prevent centralization and keep open standards alive, as project leader Ryan Sipes gives you an inside look into the journey of bringing Thunderbird to Android, and explains how Thunderbird is gearing up to put the power back into your hands."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/sched-ext-pluggable-linux-scheduler",
+      "photo": null,
+      "location": "Room 106",
+      "speaker_id": [
+        "11715"
+      ],
+      "speakers": [
+        "Dan Schatzberg"
+      ],
+      "title": "Sched Ext: The pluggable Linux scheduler",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": "In this talk, we'll be discussing sched_ext: A new framework that allows developers to implement host-wide scheduling policies as BPF programs. With sched_ext, we've been able to significantly improve performance for some of the largest services at Meta. It's not just for hyperscalars though -- anyone can experiment with sched_ext, and it could have applications in gaming, VR, mobile devices, and more. Come learn about CPU scheduling, and see how sched_ext will fundamentally change the landscape of CPU scheduling and performance in Linux."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/organic-isnt-always-good-you",
+      "photo": {
+        "alt": null,
+        "height": "3600",
+        "width": "2400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/JS9_3215.jpg"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "6031"
+      ],
+      "speakers": [
+        "Heather Osborn"
+      ],
+      "title": "Organic isn't always good for you",
+      "topic": "Systems & Infrastructure",
+      "abstract": "Rapid organic growth of a startup can result in an unsupportable infrastructure that is nearly impossible to comprehend.  At some point, you have to weigh the costs (human sanity and financial) associated with maintaining an indecipherable, tightly coupled environment over yeeting the whole thing and starting with a clean slate."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/decade-open-source-multi-factor-authentication",
+      "photo": {
+        "alt": null,
+        "height": "1060",
+        "width": "1590",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/web_cornelius.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "5783"
+      ],
+      "speakers": [
+        "Cornelius Kölbel"
+      ],
+      "title": "A decade of open source multi factor authentication",
+      "topic": "Security",
+      "abstract": "privacyIDEA is a multi factor authentication system that helps administrators, organizsations and companies to manage thousands of 2nd factors of users. privacyIDEA supports all different token types and runs on premies. The project is around for 10 years. While it is completely open source, a company run by the developers provides support to companies who require this. This proves that open source can be the base for a successful business model. We will talk about how privacyIDEA developed, what are the future plans and how it can also help you solve your authentication challenges."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/journey-home-based-personal-cloud-storage-project",
+      "photo": {
+        "alt": null,
+        "height": "1024",
+        "width": "1024",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/profilepic_small.jpg"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "11247"
+      ],
+      "speakers": [
+        "Julien Riou"
+      ],
+      "title": "Journey of a Home-based Personal Cloud Storage Project",
+      "topic": "FOSS @ HOME",
+      "abstract": "Dive into the insights and lessons learned from my personal venture in building a distributed infrastructure with commodity hardware. Discover the alternatives to conventional cloud providers, the magic of ZFS, the importance of backups, automation and alerting for an enriched personal cloud storage experience. Explore this feedback on my project, utilizing exclusively FOSS (Free and Open Source Software) tools."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/nix-planet",
+      "photo": {
+        "alt": null,
+        "height": "1264",
+        "width": "1264",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/nixlabs-kino-cropped.jpg"
+      },
+      "location": "Room 212",
+      "speaker_id": [
+        "10942"
+      ],
+      "speakers": [
+        "Matthew Croughan"
+      ],
+      "title": "Nix The Planet",
+      "topic": "Reproducible and Immutable Software",
+      "abstract": "Wish your old phone was a normal Linux computer, able to run the same software as your laptop, rather than a boring Android? Want to build and deploy Windows and macOS VMs with a single function call? Ever wanted to experiment with cutting-edge AI models without messing up your system? And by the way, defining an embedded system is just a few lines of Nix. \n This talk will showcase the limitless possibilities that await those brave enough to embrace the world of reproducible computing with NixOS."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/how-use-open-source-tools-serve-aiml-model-private-infrastructure",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11579",
+        "11584"
+      ],
+      "speakers": [
+        "Saian Ford",
+        "Aaron Vega"
+      ],
+      "title": "How to use open-source tools to serve an AI/ML model on private infrastructure",
+      "topic": "Open Source AI and Applied Science",
+      "abstract": "How to setup and configure your own AI power service in a private cloud"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/inspektor-gadget-%E2%80%93-ebpf-systems-inspection-tool-and-framework",
+      "photo": {
+        "alt": null,
+        "height": "3264",
+        "width": "2448",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/MicrosoftTeams-image%20%281%29.png"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "11521"
+      ],
+      "speakers": [
+        "Maya Singh"
+      ],
+      "title": "Inspektor Gadget – an eBPF systems inspection tool and framework",
+      "topic": "Observability",
+      "abstract": "Inspektor Gadget is a CNCF Sandbox project that empowers developers to easily build custom system inspection pipelines to debug low level issues. This presentation will introduce the process of creating, packaging, and distributing 'Gadgets' (OCI Images combining eBPF programs, wasm modules, and metadata). We will show how Gadgets and Inspektor Gadget framework can be used to collect, enrich, and export data to tools like Prometheus or expose data via an API all based on a simple config file."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/bringing-fedora-linux-apple-silicon-macs-asahi-linux",
+      "photo": {
+        "alt": null,
+        "height": "512",
+        "width": "512",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/neal-gompa-jun2020-512px.png"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "10932",
+        "6059"
+      ],
+      "speakers": [
+        "Neal Gompa",
+        "Davide Cavalca"
+      ],
+      "title": "Bringing Fedora Linux to Apple Silicon Macs with Asahi Linux",
+      "topic": "General",
+      "abstract": "In 2020, Apple introduced the M1 ARM SoC, and the world changed! Well, not exactly... But it did change the world for Macs, as this began the era of ARM-based Mac computers using Apple's own CPU designs. These so-called \"Apple Silicon Macs\" can't run Linux... or can't they? \n \n With tight collaboration with the Asahi Linux project, the Fedora Asahi SIG have produced the Fedora Asahi Remix to allow people to run Fedora Linux on these new Macs. This presentation introduces the Fedora Asahi SIG and discusses the journey to supporting Fedora Linux for these new Macs."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/series-fortunate-invents-open-source-tour-solutions-scaling-prometheus",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/me-li.jpeg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "11505"
+      ],
+      "speakers": [
+        "Éamon Ryan"
+      ],
+      "title": "A Series of Fortunate Invents - An Open-Source Tour Of Solutions For Scaling Prometheus",
+      "topic": "Cloud Native",
+      "abstract": "What do you do once you’ve bumped up against one or more of Prometheus' limitations? \n \n - Outgrown what a single instance can handle \n - Many separate instances and need a global view \n - Need longer retention of your metric series \n - Require multi-tenancy \n - Need better HA/resiliency \n \n The classic “It Depends.” applies here. \n \n Old, incorrect or false information online can make this even harder. \n \n Come step through the popular OSS options for scaling Prometheus, and gain guidance on the next stage of your observability journey!"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/serverless-java-action-cloud-agnostic-design-patterns-and-tips",
+      "photo": {
+        "alt": null,
+        "height": "1963",
+        "width": "1616",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/kevin.jpg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "10752"
+      ],
+      "speakers": [
+        "Kevin Dubois"
+      ],
+      "title": "Serverless Java in Action: Cloud Agnostic Design Patterns and Tips",
+      "topic": "Cloud Native",
+      "abstract": "You've probably seen how to create a Function-as-a-Service with one of the cloud providers, but if this is all you know about Serverless, prepare to have your mind blown! In this session we'll show you how to create a production-grade, cloud-agnostic, event-driven serverless solution with Quarkus, a Java stack optimized for fast startup and small footprint; and Knative, an open source community project for deploying, running and managing serverless applications on Kubernetes. Say goodbye to vendor lock-in and hello to Supersonic Subatomic Java-based Serverless bliss!"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T15:45:00-07:00",
+        "endTime": "2024-03-16T16:45:00-07:00"
+      },
+      "url": "/scale/21x/presentations/will-your-open-source-project-run-mainframe-and-beyond",
+      "photo": {
+        "alt": null,
+        "height": null,
+        "width": null,
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/ekrumbach_056_533x533.png"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "948"
+      ],
+      "speakers": [
+        "Elizabeth K. Joseph"
+      ],
+      "title": "Will your open source project run on a mainframe? And beyond!",
+      "topic": "Developer",
+      "abstract": "You probably developed your open source project for a single, \"default\" architecture like x86, but today there is a growing interest in other architectures, from ARM to Power, and yes, even mainframes. The talk will present some of the reasons these architectures are growing in popularity. From there I'll discuss some of the tools that are available to open source software developers to port their projects to other architectures and give some practical guidance on precisely how to get started."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T16:15:00-07:00",
+        "endTime": "2024-03-16T17:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/smart-3d-printing-surveillance-detecting-failures-computer-vision-and",
+      "photo": null,
+      "location": "Room 103",
+      "speaker_id": [
+        "11682"
+      ],
+      "speakers": [
+        "Christine Li"
+      ],
+      "title": "Smart 3D Printing Surveillance: Detecting Failures with Computer Vision and Machine Learning",
+      "topic": "Next Generation",
+      "abstract": "Although 3D printing has a promising future, it inevitably malfunctions from time to time, whether it is a design or hardware problem. Furthermore, with the rising number of hackers, there needs to be additional monitoring to alert users. This project's solution is to create an app using open source that can track 3D printing progress, as well as notify users when something has gone wrong."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/graphql-makes-your-apis-better-revolution-efficiency-and-real-time",
+      "photo": {
+        "alt": null,
+        "height": "858",
+        "width": "585",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Screenshot%202023-10-17%20at%201.27.46%20PM.png"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "11432"
+      ],
+      "speakers": [
+        "Michael Watson"
+      ],
+      "title": "GraphQL Makes Your APIs Better: The Revolution in Efficiency and Real-time Performance",
+      "topic": "Developer",
+      "abstract": "Building a responsive application isn’t just about speed and reliability; it's about creating a seamless developer experience that translates to an enhanced user experience. By layering GraphQL on top of your existing APIs, you make your APIs more capable and performant. \n \n With GraphQL, your APIs become more efficient: offering real-time data, the power of @defer-ing slow data, and optimized query execution that significantly outshines traditional handwritten BFFs. All of this while reducing network latency thanks to fewer bytes on the network."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/scale-network-switch-configs-and-stickers-same-source",
+      "photo": {
+        "alt": null,
+        "height": null,
+        "width": null,
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Breakwater-small.jpg"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "54"
+      ],
+      "speakers": [
+        "Owen DeLong"
+      ],
+      "title": "scale-network -- Switch Configs and Stickers from the Same Source",
+      "topic": "General",
+      "abstract": "A peek behind the curtains at what it takes to make the SCaLE network possible. We'll cover the techniques and show off the tools we use to manage our switch configurations and even produce portmaps that can be stuck to the tops of the switches directly from a centralized set of easy to edit plain-text configuration files."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/immutability-atomicity-linux",
+      "photo": {
+        "alt": null,
+        "height": "512",
+        "width": "512",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/pietro_0.jpg"
+      },
+      "location": "Room 212",
+      "speaker_id": [
+        "11619"
+      ],
+      "speakers": [
+        "Pietro DiCaprio"
+      ],
+      "title": "Immutability & Atomicity in Linux",
+      "topic": "Reproducible and Immutable Software",
+      "abstract": "This talk explores the pivotal concepts of immutability and atomicity and their potential to shape a more resilient future for operating systems. We delve into how these principles, exemplified in distributions like Micro OS, Vanilla OS, and Silverblue, are driving a paradigm shift in the world of Linux. The adoption of immutability and atomicity is shown to enhance the robustness, security, and maintainability of Linux systems, with a focus on the crucial aspects of consistency and reproducibility for heightened security and reliability."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/failing-comply-urgent-need-security-policies-address-issues-facing-security",
+      "photo": null,
+      "location": "Room 101",
+      "speaker_id": [
+        "11328"
+      ],
+      "speakers": [
+        "Lisa Umberger"
+      ],
+      "title": "Failing to Comply: The Urgent Need for Security Policies to Address Issues Facing Security Departments",
+      "topic": "Security",
+      "abstract": "Security policies are critical to mitigating the challenges and issues facing security departments and ensuring compliance with regulatory requirements. This talk highlights the importance of security policies in addressing security issues and compliance failures, and offers strategies for creating, implementing, and enforcing effective security policies that align with industry best practices and regulatory requirements."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/enterprise-automation-awx-upstream-ansible-automation-platform",
+      "photo": {
+        "alt": null,
+        "height": "305",
+        "width": "284",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/PXL_20231031_185844775-HEAD.jpg"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "11566"
+      ],
+      "speakers": [
+        "Thomas Cameron"
+      ],
+      "title": "Enterprise Automation with AWX (upstream for Ansible Automation Platform)",
+      "topic": "Systems & Infrastructure",
+      "abstract": "In this session, Thomas Cameron will introduce you to AWX, the upstream project for Ansible Automation Platform from Red Hat. AWX is a management platform which enables sysadmins to automate jobs across an entire enterprise. You can patch, install new software, uninstall unneeded software, change workloads, set kernel tunables, manage configurations, and more via Ansible playbooks and roles. Now you can extend the power of Ansible in your enterprise using AWX, including organizations, inventories, credentials, projects,"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/linux-iocost-cgroup-controller-and-resctl-bench",
+      "photo": {
+        "alt": null,
+        "height": null,
+        "width": null,
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/12417712_1018703618168561_7605952801434749317_n.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "5307"
+      ],
+      "speakers": [
+        "Tejun Heo"
+      ],
+      "title": "Linux IOCost Cgroup Controller and resctl-bench",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": "The IOCost cgroup controller implements hierarchical weighted block IO distribution based on model-calculated cost of each IO. This can be used to isolate IOs among applications and containers running on the same system. This presentation takes a look at how the IOCost controller works, how comprehensive memory and IO isolation can be achieved with it, and how the model parameters can be benchmarked using resctl-bench and distributed for out-of-the-box configuration."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/optimal-approaches-real-time-machine-learning-apache-spark-kubernetes-best",
+      "photo": {
+        "alt": null,
+        "height": "1713",
+        "width": "1285",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/20231115_122658.jpg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11398"
+      ],
+      "speakers": [
+        "Hichem Kenniche"
+      ],
+      "title": "Optimal Approaches for Real-Time Machine Learning with Apache Spark on Kubernetes: Best Practices and Strategies",
+      "topic": "Open Source AI and Applied Science",
+      "abstract": "This presentation explores the best practices and strategies for implementing real-time machine learning using Apache Spark on Kubernetes. It discusses the challenges and considerations involved in deploying and managing machine learning models in a real-time environment."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/self-healing-clusters-game-nodes-and-scaling-throne",
+      "photo": {
+        "alt": null,
+        "height": "596",
+        "width": "833",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Screen%20Shot%202022-09-15%20at%2012.01.17%20PM.png"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "10662"
+      ],
+      "speakers": [
+        "Nicolas Vermande"
+      ],
+      "title": "Self-healing Clusters: Game of Nodes and the Scaling Throne",
+      "topic": "Cloud Native",
+      "abstract": "In this session, we delve into how Descheduler, Node Problem Detector (NPD), and Autoscaler combine their strengths to deal with problematic nodes efficiently. We'll simulate a real-world scenario where a Kubernetes cluster faces turbulence caused by unhealthy nodes. Here, the Descheduler plays the role of an efficient manager, the NPD acts as the problem finder, and the Autoscaler balances the cluster's size. Together, they detect, remove, and maintain the right scale of the cluster."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/observability-its-data-analytics-problem-you-fool",
+      "photo": {
+        "alt": null,
+        "height": "1200",
+        "width": "1200",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Dotan%20Horovits-Color-1200x1200-gray-bg.png"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "10917"
+      ],
+      "speakers": [
+        "Dotan Horovits"
+      ],
+      "title": "Observability? It's a Data Analytics Problem, You Fool!",
+      "topic": "Observability",
+      "abstract": "We all know logs, metrics and traces, the “three pillars of observability”. We’ve been told that by collecting them we’d gain observability into our systems, right? WRONG! You can diligently collect these signals and still find yourself without the required observability to detect and root-cause during a major outage or incident. We need a paradigm shift. This thought-provoking talk unveils the data analytics paradigm. Learn practical measures and explore new data types to truly unlock the power of your telemetry data and get the insights you need, when you need them."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/running-open-source-hackerspace",
+      "photo": {
+        "alt": null,
+        "height": "1097",
+        "width": "1146",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/profile-pic.jpg"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "11541"
+      ],
+      "speakers": [
+        "Tracy Homer"
+      ],
+      "title": "Running an Open Source Hackerspace",
+      "topic": "FOSS @ HOME",
+      "abstract": "Knox Makers in Knoxville, TN is the area's premier hackerspace. In existence for almost 12 years, it boasts over 325 members and its base operations are fully supported by membership dues. It also has a commitment to open hardware and software, running all of its tools, behind the scenes operations, and teaching classes exclusively with FOSS. In this talk, Tracy will talk about why Knox Makers has chosen open source, some of the technologies they use, and what the challenges are to this commitment."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/solving-%E2%80%98secret-zero%E2%80%99-why-you-should-care-about-spiffe",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/1592472429416%20%281%29.jpeg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "11350"
+      ],
+      "speakers": [
+        "Mattias Gees"
+      ],
+      "title": "Solving ‘secret zero’, why you should care about SPIFFE!",
+      "topic": "Cloud Native",
+      "abstract": "As organisations embrace the power of Kubernetes for their container orchestration needs, ensuring robust machine identity security measures becomes paramount. That's where the Secure Production Identity Framework for Everyone (SPIFFE) steps in as a game-changer. SPIFFE offers teams a standardised approach to establish and manage solid identities for workloads in Kubernetes, hybrid cloud infrastructures and data centres. This talk will describe real-world examples of how SPIFFE can be leveraged for modern machine identity. Using SPIFFE, teams can solve the secret zero problem."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T17:00:00-07:00",
+        "endTime": "2024-03-16T18:00:00-07:00"
+      },
+      "url": "/scale/21x/presentations/distributed-systems-philosophy-fallacies-and-patterns-everyone",
+      "photo": {
+        "alt": null,
+        "height": "2384",
+        "width": "2107",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_20181231_191303.jpg"
+      },
+      "location": "Ballroom C",
+      "speaker_id": [
+        "303"
+      ],
+      "speakers": [
+        "KC Braunschweig"
+      ],
+      "title": "Distributed Systems philosophy, fallacies and patterns for everyone",
+      "topic": "General",
+      "abstract": "Let's discuss philosophy relevant to building distributed systems and fallacies that lead to common pitfalls. Then we’ll talk about common patterns and algorithms you should know. \n \nFor the less experienced, this will give you concepts and patterns you can apply later from a non-technical perspective that is accessible for everyone. For the more experienced, you’ll be able to relate these concepts to your own real world examples. I was a Theatre major not a CS major so we’ll approach this from a language perspective not a math perspective."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/demystifying-kubernetes-resource-management-everything-you-always-wanted",
+      "photo": {
+        "alt": null,
+        "height": "2264",
+        "width": "2264",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/reid-2022-square.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "11604"
+      ],
+      "speakers": [
+        "Reid Vandewiele"
+      ],
+      "title": "Demystifying Kubernetes Resource Management: Everything You Always Wanted to Know … But Were Afraid to Ask",
+      "topic": "Cloud Native",
+      "abstract": "The presentation will allow the audience to improve their Kubernetes Resource Management skills and ultimately enhance their overall productivity, with a clear call to action to avoid performance degradation, avoid outages, provide better multi-tenancy, and ultimately reduce cloud costs."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/fbinstance-metainstance-our-journey-long-running-mutable-immutable-instances",
+      "photo": {
+        "alt": null,
+        "height": "563",
+        "width": "563",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/46520149_153211502306264_5864158074612219904_n.jpg"
+      },
+      "location": "Room 212",
+      "speaker_id": [
+        "10880",
+        "10882"
+      ],
+      "speakers": [
+        "NISHchint Raina",
+        "Shaun Hopper"
+      ],
+      "title": "FBInstance to MetaInstance: Our Journey from Long-Running Mutable to Immutable Instances",
+      "topic": "Reproducible and Immutable Software",
+      "abstract": "We'll discuss the challenges we faced when running Chef in the cloud: juggling build time v/s runtime dependencies, attempting to test continuously moving updates, sharing cookbooks across different deployment environments, and being constrained to CentOS. Later, we’ll reveal how we turned these challenges around by adopting an immutable instance philosophy: managing instance lifecycle via CI/CD pipelines, relying on build time testing, reducing chef runtime footprint, and making critical host level infrastructure portable by moving it to docker containers."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/discovering-business-insights-open-source-machine-learning-tools-techniques",
+      "photo": {
+        "alt": null,
+        "height": "934",
+        "width": "836",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_1698%20%281%29.jpg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11530",
+        "11531"
+      ],
+      "speakers": [
+        "Hema Veeradhi",
+        "Surya Pathak"
+      ],
+      "title": "Discovering Business Insights with Open Source Machine Learning: Tools, Techniques and Tips",
+      "topic": "Open Source AI and Applied Science",
+      "abstract": "In an era of Generative AI and Large Language Models, using old-school machine learning might sound archaic. The reality is, however, that hidden with your corporate data is a trove of information and hidden business patterns. Leveraging key techniques from open source machine learning can help businesses uncover hidden patterns that will have immediate impact on your customers and on your business strategies."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/bpfilter-bpf-based-packet-filtering-framework",
+      "photo": null,
+      "location": "Room 106",
+      "speaker_id": [
+        "11594"
+      ],
+      "speakers": [
+        "Quentin Deslandes"
+      ],
+      "title": "bpfilter: a BPF-based packet filtering framework",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": ", once dormant, has been revived as a userspace daemon available on . It allows dynamic generation of packet-filtering BPF programs with a user-friendly interface. This presentation provides an overview of bpfilter, covering front-end clients, communication with the daemon, BPF program support, bytecode manipulation, and recent features, including benchmark results. bpfilter GitHub"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/i-just-want-push-my-code-git",
+      "photo": {
+        "alt": null,
+        "height": "2500",
+        "width": "1668",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/john-1.jpg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "11440"
+      ],
+      "speakers": [
+        "John Matthew"
+      ],
+      "title": "I just want to push my code to GIT",
+      "topic": "Developer",
+      "abstract": "A demonstration of using PIKU to push your code to a server, no docker, no kubernetes, just GIT PUSH and your code is running.   PIKU is a free open-source \"Micro PAAS\" that claims \"The tinyest PAAS you've ever seen\"."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/death-star-and-ultimate-vulnerability",
+      "photo": {
+        "alt": null,
+        "height": "1001",
+        "width": "1001",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/1001x1001.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "11536"
+      ],
+      "speakers": [
+        "Jamie Coleman"
+      ],
+      "title": "The Death Star and the ultimate vulnerability",
+      "topic": "Security",
+      "abstract": "Managing components and ensuring their security is crucial to prevent successful attacks. This session will take you to a galaxy far far away, to look at what went wrong in the Empire's supply chain to cause such a vulnerability to be introduced. By understanding the risks and using the right tools, we can avoid a catastrophe like the Death Star’s destruction and put a stop to any rebel scum."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/creating-terrain-models-python-blender-and-second-life",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/erik-mondrian.png"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "11643"
+      ],
+      "speakers": [
+        "Erik Mondrian"
+      ],
+      "title": "Creating Terrain Models with Python, Blender, and Second Life",
+      "topic": "FOSS @ HOME",
+      "abstract": "As both a longtime Resident of Second Life and someone who is deeply fascinated by the concept of \"place\" more generally, I wanted to see this world (or parts of it) in a more comprehensive way than the platform's software is able to show. To that end, I've been creating large-scale terrain models of various areas, using a combination of LSL, Python, and Blender. In this presentation I will go into more detail about the process involved, touching on some of the challenges I've encountered while hopefully also giving attendees a better look at Blender's incredibly powerful Python API."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/diagnosing-performance-bottlenecks-production-systems",
+      "photo": {
+        "alt": null,
+        "height": "932",
+        "width": "932",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/JuliaIacoviello_scaled_square.png"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "11562"
+      ],
+      "speakers": [
+        "Julia Iacoviello"
+      ],
+      "title": "Diagnosing Performance Bottlenecks in Production Systems",
+      "topic": "Systems & Infrastructure",
+      "abstract": "In this talk, we will review several approaches to performance analysis using real-world constraints, such as the need to keep systems up during diagnosis. A framework of high availability systems and storage will be used to explore cascading performance impacts across layers that may disguise the true bottleneck point. Attendees will gain a knowledge of effective strategies for diagnosing bottlenecks and optimizing performance to use within a broad base of infrastructure applications."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/hacking-nextcloud-track-your-period",
+      "photo": {
+        "alt": null,
+        "height": "2243",
+        "width": "2243",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/camila.jpg"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "11645"
+      ],
+      "speakers": [
+        "Camila Ayres"
+      ],
+      "title": "Hacking Nextcloud to track your Period",
+      "topic": "General",
+      "abstract": "\"Dysmenorrhea, or menstrual pain, occurs in 45 to 95 % of individuals who menstruate.\" \n \nHow can you deal with it by tracking your cycle while making sure big tech and health insurances do not have access to your data?"
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/anti-patterns-tech-cost-management",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/MichaelGat-Oct07-052_800sq.jpg"
+      },
+      "location": "Ballroom C",
+      "speaker_id": [
+        "5419"
+      ],
+      "speakers": [
+        "Michael Gat"
+      ],
+      "title": "Anti-Patterns in Tech Cost Management",
+      "topic": "General",
+      "abstract": "In 18 months, we've moved from \"growth at all costs\" to \"profitability first,\" and \"developer productivity\" as new buzzwords, as a reaction to the perception that we're spending too much money for too few business results. Yet for most of us, even in management, formal training in \"efficiency\" stopped at Big O notation. This presentation will offer lessons learned and anti-patterns to avoid. It will conclude with three things you can do right now to better position yourself and your team in this new world."
+    },
+    {
+      "when": {
+        "day": "Saturday",
+        "startTime": "2024-03-16T18:15:00-07:00",
+        "endTime": "2024-03-16T19:15:00-07:00"
+      },
+      "url": "/scale/21x/presentations/lessons-learned-migrating-existing-product-multi-tenant-cloud-native",
+      "photo": {
+        "alt": null,
+        "height": "2000",
+        "width": "2000",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/75ebccdeae70ab23c2f9a117fd6646e3.jpeg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "279"
+      ],
+      "speakers": [
+        "Carlos Sanchez"
+      ],
+      "title": "Lessons Learned Migrating an Existing Product to a Multi Tenant Cloud Native Environment",
+      "topic": "Cloud Native",
+      "abstract": "What does it take to move an existing product to a Cloud Native environment? how to do lift and shift to Kubernetes? Join us to learn about our experience and also how to deal with multi tenancy, isolation and resource management."
+    }
+  ]
+}

@@ -9,18 +9,6 @@ const limit = pLimit(constants.PARALLEL_LIMIT)
 const xmlBuilder = new xml2js.Builder()
 const fs = require('fs')
 
-function updateStats(field) {
-  const stats = JSON.parse(fs.readFileSync(constants.STATS_FILE_PATH).toString());
-  
-  if (field === 'lastRefresh' || field === 'lastRefreshSpeakers') {
-    stats[field] = new Date().toLocaleString('en-US');
-  } else {
-    stats[field] += 1;
-  }
-
-  fs.writeFileSync(constants.STATS_FILE_PATH, JSON.stringify(stats, null, 2));
-}
-
 /**
  * Fetch schedule from upstream SCALE website and parse into defined JSON schema
  */
@@ -29,7 +17,6 @@ function refreshSchedule () {
     return _parseScaleFeed(res.data)
   }).then(events => {
     eventModel.save(events)
-    updateStats('lastRefresh')
 
     return {
       events: events.events || []
@@ -44,7 +31,6 @@ function refreshSpeakers () {
   const idList = eventModel.getUniqueSpeakerIds()
   return _refreshSpeakers(idList).then(speakers => {
     speakerModel.save(speakers)
-    updateStats('lastRefreshSpeakers')
     return speakers
   })
   // return Promise.resolve(idList)
@@ -243,6 +229,5 @@ function _normalizeSchedule (jsonData) {
 
 module.exports = {
   refreshSchedule,
-  refreshSpeakers,
-  updateStats
+  refreshSpeakers
 }

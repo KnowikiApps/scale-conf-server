@@ -12,26 +12,24 @@ require('dotenv').config();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-  const stats = JSON.parse(fs.readFileSync(constants.STATS_FILE_PATH).toString());
-  res.render('index', { ...stats, title: 'SCaLE Backend' })
+  res.render('index', { title: 'SCaLE Backend' })
 })
 
 /**
  * Get a list of conference specific endpoints
  */
 router.get('/metadata', function (req, res) {
-  scheduleService.updateStats('requestSuccessCount')
   res.json({
-    'scale-20x': {
-      name: 'Southern California Linux Expo 2023',
-      dates: ['2023-03-09', '2023-03-10', '2023-03-11', '2023-03-12'],
+    'scale-21x': {
+      name: 'Southern California Linux Expo 2024',
+      dates: ['2024-03-14', '2024-03-15', '2024-03-16', '2024-03-17'],
       urls: {
         events: {
           all: '/events',
-          '2023-03-09': '/events/thursday',
-          '2023-03-10': '/events/friday',
-          '2023-03-11': '/events/saturday',
-          '2023-03-12': '/events/sunday'
+          '2024-03-14': '/events/thursday',
+          '2024-03-15': '/events/friday',
+          '2024-03-16': '/events/saturday',
+          '2024-03-17': '/events/sunday'
         },
         speakers: {
           all: '/speakers'
@@ -45,7 +43,6 @@ router.get('/metadata', function (req, res) {
  * Get a list of all speakers
  */
 router.get('/speakers', function (req, res) {
-  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.SPEAKERS_FILE_PATH)
 })
 
@@ -53,7 +50,6 @@ router.get('/speakers', function (req, res) {
  * Get a list of all events
  */
 router.get('/events', function (req, res) {
-  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.EVENTS_FILE_PATH.all)
 })
 
@@ -66,11 +62,9 @@ router.get('/events/:day', function (req, res, next) {
   const day = req.params.day
   if (!constants.EVENT_DAYS.includes(day)) {
     // FIXME: opt for a json error rather than this human readable error page.
-    scheduleService.updateStats('requestErrorCount')
     return next(createError(404, 'Requested schedule not found'))
   }
 
-  scheduleService.updateStats('requestSuccessCount')
   res.sendFile(constants.EVENTS_FILE_PATH[day])
 })
 
