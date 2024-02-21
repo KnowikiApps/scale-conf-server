@@ -4,6 +4,8 @@ const createError = require('http-errors')
 const scheduleService = require('../services/schedule_service')
 const constants = require('../constants')
 const fs = require('fs');
+const { expressjwt: jwt } = require("express-jwt");
+const queries = require('../db/queries');
 
 /* Load environment */
 require('dotenv').config();
@@ -91,6 +93,16 @@ router.get('/refresh/speakers', function (req, res) {
     .catch(err => {
       res.send(err)
     })
+})
+
+router.post('/logs', 
+  jwt({ secret: process.env.SECRET, algorithms: ["HS256"] }),
+  function (req, res) {
+    if (!req.auth.admin) {
+      res.status(400).json({ 'error': 'User must be admin' });
+    } else {
+      queries.createLog(req.body.message, res);
+    }
 })
 
 module.exports = router
