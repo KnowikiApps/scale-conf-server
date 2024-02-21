@@ -2,7 +2,7 @@
 require('dotenv').config();
 
 const createLog = (message, res) => {
-  console.log(message);
+  console.log(`[LOG]: ${message}`);
   res.status(201).json({ 'message': 'Log added successfully' });
 }
 
