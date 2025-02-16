@@ -1,0 +1,15 @@
+{
+  "100": {
+    "name": "Jonathan Katz",
+    "title": null,
+    "organization": "Crunchy Data",
+    "photo": {
+      "alt": null,
+      "height": "128",
+      "width": "114",
+      "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot17.jpg"
+    },
+    "biography": null,
+    "website": null
+  }
+}

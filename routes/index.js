@@ -7,9 +7,6 @@ const fs = require('fs');
 const { expressjwt: jwt } = require("express-jwt");
 const queries = require('../db/queries');
 
-/* Load environment */
-require('dotenv').config();
-
 /* GET home page. */
 router.get('/', function (req, res, next) {
   res.render('index', { title: 'SCaLE Backend' })
@@ -20,16 +17,16 @@ router.get('/', function (req, res, next) {
  */
 router.get('/metadata', function (req, res) {
   res.json({
-    'scale-21x': {
-      name: 'Southern California Linux Expo 2024',
-      dates: ['2024-03-14', '2024-03-15', '2024-03-16', '2024-03-17'],
+    'scale-22x': {
+      name: 'Southern California Linux Expo 2025',
+      dates: ['2025-03-06', '2025-03-07', '2025-03-08', '2025-03-09'],
       urls: {
         events: {
           all: '/events',
-          '2024-03-14': '/events/thursday',
-          '2024-03-15': '/events/friday',
-          '2024-03-16': '/events/saturday',
-          '2024-03-17': '/events/sunday'
+          '2025-03-06': '/events/thursday',
+          '2025-03-07': '/events/friday',
+          '2025-03-08': '/events/saturday',
+          '2025-03-09': '/events/sunday'
         },
         speakers: {
           all: '/speakers'
@@ -87,16 +84,6 @@ router.get('/refresh/speakers', function (req, res) {
     .catch(err => {
       res.send(err)
     })
-})
-
-router.post('/logs', 
-  jwt({ secret: process.env.SECRET, algorithms: ["HS256"] }),
-  function (req, res) {
-    if (!req.auth.admin) {
-      res.status(400).json({ 'error': 'User must be admin' });
-    } else {
-      queries.createLog(req.body.message, res);
-    }
 })
 
 module.exports = router

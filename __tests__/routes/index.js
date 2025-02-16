@@ -10,8 +10,8 @@ describe('Get schedule urls', () => {
       .get('/metadata')
       .then(response => {
         expect(response.statusCode).toBe(200)
-        expect(response.body['scale-21x'].dates).toEqual(['2024-03-14', '2024-03-15', '2024-03-16', '2024-03-17'])
-        expect(response.body['scale-21x'].name).toEqual('Southern California Linux Expo 2024')
+        expect(response.body['scale-22x'].dates).toEqual(['2025-03-06', '2025-03-07', '2025-03-08', '2025-03-09'])
+        expect(response.body['scale-22x'].name).toEqual('Southern California Linux Expo 2025')
         done()
       })
   })
@@ -21,14 +21,14 @@ describe('Get schedule urls', () => {
       .get('/metadata')
       .then(response => {
         expect(response.statusCode).toBe(200)
-        expect(response.body['scale-21x'].urls).toEqual(
+        expect(response.body['scale-22x'].urls).toEqual(
           {
             events: {
               all: '/events',
-              '2024-03-14': '/events/thursday',
-              '2024-03-15': '/events/friday',
-              '2024-03-16': '/events/saturday',
-              '2024-03-17': '/events/sunday'
+              '2025-03-06': '/events/thursday',
+              '2025-03-07': '/events/friday',
+              '2025-03-08': '/events/saturday',
+              '2025-03-09': '/events/sunday'
             },
             speakers: {
               all: '/speakers'
@@ -44,12 +44,12 @@ describe('Get schedule urls', () => {
     const proxy = request(app)
     proxy.get('/metadata')
       .then(response => {
-        const chainedCalls = response.body['scale-21x'].dates.map(date => {
-          const url = response.body['scale-21x'].urls.events[date]
+        const chainedCalls = response.body['scale-22x'].dates.map(date => {
+          const url = response.body['scale-22x'].urls.events[date]
           return function (cb) {
-            // console.log(url)
+            console.log(url)
             proxy.get(url).redirects(1).then(response => {
-              // console.log(response)
+              console.log(response)
               expect(response.statusCode).toBe(200)
               cb()
             })
@@ -65,8 +65,8 @@ describe('Get schedule urls', () => {
     proxy.get('/metadata')
       .then(response => {
         const chainedCalls = [
-          response.body['scale-21x'].urls.events.all,
-          response.body['scale-21x'].urls.speakers.all
+          response.body['scale-22x'].urls.events.all,
+          response.body['scale-22x'].urls.speakers.all
         ].map(url => {
           return function (cb) {
             // console.log(url)

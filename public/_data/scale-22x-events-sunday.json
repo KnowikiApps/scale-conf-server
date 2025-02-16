@@ -1,0 +1,799 @@
+{
+  "events": [
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T09:30:00-07:00",
+        "endTime": "2025-03-09T11:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/hands-introduction-blender-python",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/erik-mondrian.png"
+      },
+      "location": "Room 209",
+      "speaker_id": [
+        "11643"
+      ],
+      "speakers": [
+        "Erik Mondrian"
+      ],
+      "title": "A Hands-On Introduction to Blender + Python",
+      "topic": "LibreGraphics",
+      "abstract": "As a follow-up to my SCaLE 21x FOSS @Home presentation, for 22x I will lead a hands-on workshop where people can learn the basics of Blender and how to use Blender's Python API (and embedded interpreter) to create and manipulate 3D graphics at the level of code. Creating Terrain Models with Python, Blender, and Second Life, Attendees should ideally come with the latest version of Blender already installed on their computers (just to save time). Some basic familiarity with Python or programming in general is recommended, but not required."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T10:00:00-07:00",
+        "endTime": "2025-03-09T11:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/candidate-experience-done-right-practical-strategies-open-source-hiring",
+      "photo": {
+        "alt": null,
+        "height": "683",
+        "width": "683",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/1715633021846.jpeg"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "12606"
+      ],
+      "speakers": [
+        "Mary Kypreos"
+      ],
+      "title": "Candidate Experience Done Right: Practical Strategies for Open Source Hiring Teams",
+      "topic": "Career Day",
+      "abstract": "Delve into the often-overlooked aspect of open source hiring: the candidate experience. Discover how open source companies can elevate candidate experience to drive reputation, community advocacy, and future hires. This talk covers key strategies in automation, transparency, and policy, giving hiring teams actionable steps to create a standout candidate experience."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T10:00:00-07:00",
+        "endTime": "2025-03-09T12:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/workshop-improve-your-resume-and-interview-skills-experiencing-interviewers",
+      "photo": {
+        "alt": null,
+        "height": "1491",
+        "width": "1494",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/JJC%20Profile%206%20square.jpg"
+      },
+      "location": "Room 104",
+      "speaker_id": [
+        "11444"
+      ],
+      "speakers": [
+        "Jenson Crawford"
+      ],
+      "title": "Workshop: Improve your resume and interview skills by experiencing the interviewers perspective",
+      "topic": "Career Day",
+      "abstract": "Every wonder what you and your resume look like to interviewers? Want to see tech interviews from the other side of the desk? Senior engineering leaders are coordinating this workshop that will get you feedback from your peers about your resume and an interview, as well as give you a chance to be the interviewer for several of your peers. Learn what an interview sees and how well your resume represents you and your skills."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:00:00-07:00",
+        "endTime": "2025-03-09T12:30:00-07:00"
+      },
+      "url": "/scale/22x/presentations/how-make-video-game-vegetation-sway",
+      "photo": {
+        "alt": null,
+        "height": "1000",
+        "width": "1000",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/tom-by-patrick-david-1000x1000.jpg"
+      },
+      "location": "Room 209",
+      "speaker_id": [
+        "5583"
+      ],
+      "speakers": [
+        "Tom Lechner"
+      ],
+      "title": "How to make video game vegetation sway",
+      "topic": "LibreGraphics",
+      "abstract": "When plants move around in video games, it adds atmosphere, wether a gentle breeze or gale force winds. We will walk through some methods to create and animate grass and trees, using all open source software such as the Godot game engine, Blender, Gimp, and Krita. In this workshop, there will be a bit of texturing, a bit of simple mesh modeling, and a bit of mostly simple shader coding!"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:00:00-07:00",
+        "endTime": "2025-03-09T12:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/why-you-should-join-community",
+      "photo": {
+        "alt": null,
+        "height": "3024",
+        "width": "4032",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/amyheadshot.png"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "12528"
+      ],
+      "speakers": [
+        "Amy Marrich"
+      ],
+      "title": "Why You Should Join a Community",
+      "topic": "Career Day",
+      "abstract": "Contributing to an Open Source community is both challenging and rewarding but worth it!"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/online-payments-attack-and-defense",
+      "photo": {
+        "alt": null,
+        "height": "1121",
+        "width": "1065",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/profilephoto.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "11245"
+      ],
+      "speakers": [
+        "Vincent Sloan"
+      ],
+      "title": "Online Payments: Attack and Defense",
+      "topic": "Security",
+      "abstract": "Uncover the risks of online payment processing and how to safeguard against them. Understand what motivates cyber criminals across three major attack types and learn effective strategies for detection and mitigation."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/reimagined-engineering-docs-runmedev",
+      "photo": {
+        "alt": null,
+        "height": "922",
+        "width": "922",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/adam_avatar.jpg"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "12376"
+      ],
+      "speakers": [
+        "Adam Christian"
+      ],
+      "title": "Reimagined Engineering Docs with Runme.dev",
+      "topic": "Developer",
+      "abstract": "In today’s world, we have advanced tools for testing and deploying apps, but internal engineering documentation is stuck in outdated practices like copy-pasting from wikis. Runme (runme.dev) rethinks documentation by turning Markdown into interactive Notebooks, using DevContainers for reliable dependencies, typed .ENV files for managing config/secrets, and cloud-native integrations. In just minutes, engineers can create interactive, testable docs that streamline processes and improve efficiency across teams."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/kanisterio-application-consistent-backups-kubernetes",
+      "photo": {
+        "alt": null,
+        "height": "997",
+        "width": "775",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Photo.jpg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "12521"
+      ],
+      "speakers": [
+        "Daniil Fedotov"
+      ],
+      "title": "Kanister.io: Application Consistent Backups on Kubernetes",
+      "topic": "Cloud Native",
+      "abstract": "Modern cloud applications and platforms make it easy to use multiple data services and tools resulting in wide range of deployments, services and data stores within an organization. \n This poses a challenge for data protection and disaster recovery because all those tools have their own mechanisms, datastores and recommendations for backup and restore. \n In this talk we're going to learn how to use K8s tools to organize data protection processes and make day2 operations easier using CNCF project Kanister."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/open-source-real-time-voice-understanding-edge-ai-solution",
+      "photo": {
+        "alt": null,
+        "height": "2549",
+        "width": "2549",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Zubair%20Square%20Smaller.jpeg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12506"
+      ],
+      "speakers": [
+        "Zubair Talib"
+      ],
+      "title": "Open Source for Real-Time Voice Understanding: An Edge AI Solution",
+      "topic": "Open Source AI",
+      "abstract": "This talk presents the architecture and implementation of a real-time voice understanding system for retail environments, powered by open source AI technologies and deployed on NVIDIA Jetson devices. The system integrates automatic speech recognition (ASR) and large language models (LLMs) to process customer interactions in real-time, enabling conversation understanding, summarization, and sentiment analysis. We will explore system architecture design, selection and evaluation of ASR and LLM models, design trade-offs between latency and accuracy, and share performance test results."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/controlling-robots-nasa",
+      "photo": {
+        "alt": null,
+        "height": "1365",
+        "width": "2048",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Adrian%20Todorov%20%281%20of%202%29%20%282%29.jpg"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "11597",
+        "10628"
+      ],
+      "speakers": [
+        "Adrian Todorov",
+        "Kerim Satirli"
+      ],
+      "title": "Controlling Robots like NASA",
+      "topic": "FOSS @ HOME",
+      "abstract": "It started with a product listing for a four-wheeled device that looked like a fun weekend project. Before long, upgrades made our robot aware of its environment and much more fun to control. In this talk, attendees can expect to learn the abbreviated version of everything we learned  to do when it comes to building and controlling remotely operated vehicles. We'll dive into the hardware side of things, talk about protocol-driven development, why memory and garbage collection are crucial and how we made all parts work together, reliably. not"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/deploying-aiml-pipelines-crexi",
+      "photo": {
+        "alt": null,
+        "height": "526",
+        "width": "460",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Screenshot%202024-09-06%20at%2010.59.34%E2%80%AFAM.png"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12443",
+        "12724"
+      ],
+      "speakers": [
+        "Xpaul Vigil",
+        "Isaac Smothers"
+      ],
+      "title": "Deploying AI/ML Pipelines at Crexi",
+      "topic": "Systems & Infrastructure",
+      "abstract": "Right now, there is a tremendous demand for AI ML solutions. The tasks of training and deploying open source AI models and then scaling inference have become crucial to business needs. Even though the underlying libraries are maturing rapidly, MLOps solutions have a long way to go. In this presentation, (Commercial Real Estate Exchange, Inc.) reveals how it achieved its business objectives with a powerful and flexible pipeline and model deployment solution, using open source tools to deploy open source models in AWS. Crexi"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/prepare-perform-backstage-software-templates",
+      "photo": {
+        "alt": null,
+        "height": "1201",
+        "width": "1200",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Ryan-Jarvinen-headshot-square-small.jpg"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "496"
+      ],
+      "speakers": [
+        "Ryan Jarvinen"
+      ],
+      "title": "Prepare to Perform with Backstage Software Templates",
+      "topic": "Cloud Native",
+      "abstract": "Backstage Software Templates provide a consistent way for platform engineers to enable self-service delivery of cloud-native software components. Templates ease onboarding and daily development work by establishing the tools, services, documentation, and best practices as “golden paths” for users to navigate. Attendees will learn how to use Backstage Software Templates to simplify access to Helm Charts, Tekton Pipelines, Kubernetes, ArgoCD, and more.  Review common workflows for delivering and updating your software via the Backstage Software Catalog in this interactive session."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/copyleft-and-gpl-finding-path-forward-defend-our-software-right-repair",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/bkuhn-photo-2017.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "357"
+      ],
+      "speakers": [
+        "Bradley Kuhn"
+      ],
+      "title": "Copyleft and the GPL: Finding the Path Forward to Defend our Software Right to Repair",
+      "topic": "General",
+      "abstract": "Have ever wondered how FOSS was was supposed FOSS for the long term?  Have you ever been unsure or confused why — in a world where Linux is on nearly every device —  most people cannot actually run an alternative OS build on their device?  This talk will leave you informed on these questions and prepared to participate in the next policy steps our community must take to bring back software freedom and rights to the next generation of FOSS users, activists and developers. actually stay"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/towards-improving-code-integrity-linux",
+      "photo": {
+        "alt": null,
+        "height": "1024",
+        "width": "768",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/snambakam-profile-photo-3.png"
+      },
+      "location": "Ballroom C",
+      "speaker_id": [
+        "12644"
+      ],
+      "speakers": [
+        "Sriram Nambakam"
+      ],
+      "title": "Towards improving code integrity on Linux",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": "We present a recipe for improving the code integrity of a container host based on Azure Linux, at scale on Microsoft Azure. From the perspective of a cloud provider, there is a serious need to protect the integrity of a container host runtime from its tenant container workloads that require privileged access while not sacrificing performance or serviceability requirements. One of the important ingredients is the Integrity Policy Enforcement (IPE) Linux Security Module developed at Microsoft and accepted into the upstream Linux Kernel Version 6.10."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/introduction-post-quantum-cryptography-linux-system-administrators",
+      "photo": {
+        "alt": null,
+        "height": "2001",
+        "width": "1250",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_1470.jpeg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "10056",
+        "12715"
+      ],
+      "speakers": [
+        "Atom Ramirez",
+        "Marie Ramirez"
+      ],
+      "title": "An Introduction to Post-Quantum Cryptography for Linux System Administrators",
+      "topic": "General",
+      "abstract": "This talk is for Linux system administrators looking to understand and prepare for the impacts of post-quantum computing."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T11:45:00-07:00",
+        "endTime": "2025-03-09T12:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/chaos-clarity-scaling-observability-dropbox-centralized-logging-and-metrics",
+      "photo": {
+        "alt": null,
+        "height": "1315",
+        "width": "1315",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_7468.png"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12507",
+        "12937"
+      ],
+      "speakers": [
+        "Alok Ranjan",
+        "Paul Shen"
+      ],
+      "title": "From Chaos to Clarity: Scaling Observability at Dropbox with Centralized Logging and Metrics Solutions",
+      "topic": "Observability",
+      "abstract": "Dropbox’s observability journey showcases the transformation from individual server log-ins to a centralized, open-source solution. In this talk, we’ll explore the deployment of Loki and integration with Grafana to manage terabytes of log data daily. I’ll discuss scaling techniques, optimizing query performance, and unifying logs and metrics to streamline troubleshooting and enhance security."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T12:00:00-07:00",
+        "endTime": "2025-03-09T13:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/make-your-open-source-story-work-you",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/krista_publicity_-profile-800x.jpg"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "12681"
+      ],
+      "speakers": [
+        "Krista Burdine"
+      ],
+      "title": "Make Your Open Source Story Work for You",
+      "topic": "Career Day",
+      "abstract": "Open source is known as the remarkable collaboration of passionate minds coming together to share tech ideas and solutions for the good of the world. Yet ideally the benefit of open source collaboration is a two-way street. Join us as we look at ways to translate what we do in open source into resume-worthy skills."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:00:00-07:00",
+        "endTime": "2025-03-09T15:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/career-workshop-interviews-and-negotiations-open-source",
+      "photo": {
+        "alt": null,
+        "height": "1491",
+        "width": "1494",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/JJC%20Profile%206%20square.jpg"
+      },
+      "location": "Room 104",
+      "speaker_id": [
+        "11444"
+      ],
+      "speakers": [
+        "Jenson Crawford"
+      ],
+      "title": "Career Workshop: Interviews and Negotiations in Open Source",
+      "topic": "Career Day",
+      "abstract": "This workshop will address the toughest issues. Do you freeze up during interviews? How do you know when a job offer is the right one? What do you do if you have been out of work for a long time? Need help understanding how to negotiate? This training is in a group environment to offer maximum support and feedback."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:00:00-07:00",
+        "endTime": "2025-03-09T14:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/using-certification-prove-home-lab-skills",
+      "photo": {
+        "alt": null,
+        "height": "948",
+        "width": "711",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/day3-close-jpg-lores-01461-EDIT.jpg"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "11918"
+      ],
+      "speakers": [
+        "Adrianna Frick"
+      ],
+      "title": "Using Certification to Prove Home Lab Skills",
+      "topic": "Career Day",
+      "abstract": "Adrianna Frick, head of Credentialing and Curriculum for Canonical, will discuss the importance of technical certification to the open source community, while providing information on how technical certification programs are developed. Learn how to spot the difference between certificates, certifications, and skill builders, understand the characteristics of a reputable program, and learn how to create your personal path to success."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:30:00-07:00",
+        "endTime": "2025-03-09T15:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/darktable-fundamentals-advanced-techniques-and-discussion",
+      "photo": null,
+      "location": "Room 209",
+      "speaker_id": [
+        "5508"
+      ],
+      "speakers": [
+        "Mica Semrick"
+      ],
+      "title": "darktable: the fundamentals, advanced techniques, and discussion",
+      "topic": "LibreGraphics",
+      "abstract": "We'll cover the basics in darktable for new users: importing files, filtering, tagging and management, and achieving a basic, neutral edit. We'll then transition to more advanced techniques, such as color grading, masking, luminance control, highlight reconstruction, and denoising. For maximum impact, please have darktable installed on your laptop ( ) and any raw files you've captured and want to edit. https://www.darktable.org/install/"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/meet-cosmic-de",
+      "photo": {
+        "alt": null,
+        "height": "512",
+        "width": "512",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Carl_Richell_Headshot_512.jpg"
+      },
+      "location": "Ballroom H",
+      "speaker_id": [
+        "12456"
+      ],
+      "speakers": [
+        "Carl Richell"
+      ],
+      "title": "Meet COSMIC DE",
+      "topic": "General",
+      "abstract": "By the time of this talk COSMIC has been released! Probably! Learn why System76 made COSMIC, experience its unique features, and see what you can build with COSMIC."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/ramalama-making-ai-boring",
+      "photo": {
+        "alt": null,
+        "height": "512",
+        "width": "512",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/dwalsh-ireland.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "4286"
+      ],
+      "speakers": [
+        "Daniel Walsh"
+      ],
+      "title": "RamaLama making AI Boring",
+      "topic": "General",
+      "abstract": "This talk will present the RamaLama AI tool.  It will demonstrate it and explain all of its many features."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/pull-request-live-environment-automating-ephemeral-environments",
+      "photo": {
+        "alt": null,
+        "height": "1276",
+        "width": "1280",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_0035%202.JPG"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "12461"
+      ],
+      "speakers": [
+        "Vahan Melikyan"
+      ],
+      "title": "From Pull Request to Live Environment: Automating Ephemeral Environments",
+      "topic": "Cloud Native",
+      "abstract": "Static environments like staging, qa and dev are major bottlenecks in microservices architecture which slow down the development process. In this talk, we present a tool we've developed and use at GoodRx that automatically creates ephemeral environments from GitHub pull requests managed directly by a comment block in the pull request. This enables developers to quickly test, share and get feedback on their changes in isolated, disposable environments. We will share our journey in building this tool, discuss its integration with existing workflows and its future."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/cloud-development-environments-are-strategic-assets",
+      "photo": {
+        "alt": null,
+        "height": "1080",
+        "width": "1080",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Tim%20Headshot.png"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "11543"
+      ],
+      "speakers": [
+        "Tim Quinlan"
+      ],
+      "title": "Cloud Development Environments Are Strategic Assets",
+      "topic": "Developer",
+      "abstract": "Many organizations have adopted the cloud for software deployment but still rely on local machines for development. A Cloud Development Environment (CDE) is now essential. This talk explores deploying a secure, scalable CDE that enhances performance and developer experience. Key focus areas include automation, self-service, efficiency, and fostering collaboration. Attendees will learn how to leverage cloud-native technologies, justify costs, and ensure long-term innovation, reducing time-to-market and boosting competitiveness."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/beyond-sequential-recipe-async-pipeline-observability-and-alerting",
+      "photo": {
+        "alt": null,
+        "height": "564",
+        "width": "476",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/20240916_111543_Original.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12555"
+      ],
+      "speakers": [
+        "Jash Mistry"
+      ],
+      "title": "Beyond Sequential: A Recipe for Async Pipeline Observability and Alerting",
+      "topic": "Observability",
+      "abstract": "While implementing observability for thousands of microservices, we faced challenges with asynchronous pipelines that weren't covered by traditional API-based SLO approaches. This talk presents our company's journey in implementing SLOs for async systems: identifying key customer experience KPIs, leveraging Prometheus, defining good/valid events, and establishing burn rate alert thresholds. We'll share real case studies demonstrating the impact, including how we detected and resolved pipeline latency issues that affected thousands of events, along with best practices and lessons learned"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/everything-i-need-know-about-llm-i-learned-pasadena-search-company-24-years",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/gene.jpg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12601"
+      ],
+      "speakers": [
+        "Gene Chuang"
+      ],
+      "title": "Everything I Need to Know About LLM, I Learned From A Pasadena Search Company 24 Years Ago",
+      "topic": "Open Source AI",
+      "abstract": "I worked at GoTo.com/Overture/Yahoo in Pasadena 24 years ago, we were doing Big Data when it was called just data.  Information Retrieval used all the sexy ML/LLM/AI concepts you hear about now.  I'll discuss the parallels and extrapolate on what's next for LLM, based on what happened with Search."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/beyond-replication-holistic-approach-application-scaling",
+      "photo": {
+        "alt": null,
+        "height": "1280",
+        "width": "1280",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/H0Km69Lk.jpeg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12520"
+      ],
+      "speakers": [
+        "Josh Thornton"
+      ],
+      "title": "Beyond Replication: A Holistic Approach to Application Scaling",
+      "topic": "Systems & Infrastructure",
+      "abstract": "Over the past 3 years I have evaluated the scaling capabilities of various applications. I will share my learnings about application performance, enabling you to understand and scale your applications effectively. Attendees will learn how to:   - Proactively prepare for gradual and abrupt system stress   - Assess and confirm their application’s scaling potential   - Identify performance bottlenecks   - Implement modifications efficiently   - Eliminate blind spots in stress testing and scalability validation"
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/nextcloud-self-hosted-cross-platform-cloud",
+      "photo": {
+        "alt": null,
+        "height": "500",
+        "width": "500",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot4.png"
+      },
+      "location": "Room 105",
+      "speaker_id": [
+        "62"
+      ],
+      "speakers": [
+        "Kyle Rankin"
+      ],
+      "title": "Nextcloud as A Self-Hosted Cross-Platform Cloud",
+      "topic": "FOSS @ HOME",
+      "abstract": "Using someone else's cloud to sync photos, calendars and contacts? Proprietary services like iCloud are convenient, but only if you are in the Apple ecosystem. You can get many of the same basic cloud features in a self-hosted Nextcloud instance and sync files, calendars, and contacts on Linux, Mac and mobile devices. This talk discusses how to set up Nextcloud and configure Linux and Mac desktops and iOS mobile devices to use it, especially convenient if your household isn't 100% Linux (or 100% Mac)."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/bringing-cpu-variables-rust-linux",
+      "photo": {
+        "alt": null,
+        "height": "438",
+        "width": "433",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Media.jpeg"
+      },
+      "location": "Ballroom C",
+      "speaker_id": [
+        "12624"
+      ],
+      "speakers": [
+        "Mitchell Levy"
+      ],
+      "title": "Bringing Per-CPU Variables to Rust-for-Linux",
+      "topic": "Kernel & Low Level Systems",
+      "abstract": "Per-CPU variables are widely used in the Linux kernel to reduce contention of atomics and locks in large scale systems. This makes them an attractive API to use from Rust, but exposing this API requires interacting with all levels of the kernel stack: from the build system and linker all the way to arch-specific optimizations and runtime allocation of new per-CPU variables. This talk is intended for an audience that is broadly familiar with kernel primatives and synchronization issues but entirely new to Rust."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/defense-depth-learned-watching-football",
+      "photo": {
+        "alt": null,
+        "height": "4000",
+        "width": "3200",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot_small.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "12595"
+      ],
+      "speakers": [
+        "Kennedy Toomey"
+      ],
+      "title": "Defense in Depth, as learned from watching football",
+      "topic": "Security",
+      "abstract": "Just as a well-coordinated football defense protects a team from scoring, a robust application security strategy safeguards digital assets from cyberattacks. Football teams have the ultimate defense in depth strategy that can be studied to build a stronger application security program. By understanding the parallels between maintaining secure code and football defense, developers can continue to create and maintain secure open source software. No prior knowledge about football or application security is required."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T13:45:00-07:00",
+        "endTime": "2025-03-09T14:45:00-07:00"
+      },
+      "url": "/scale/22x/presentations/cloudops-your-databases-new-paradigm-managing-your-data-stores",
+      "photo": {
+        "alt": null,
+        "height": "755",
+        "width": "500",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/colin_0.jpg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "446"
+      ],
+      "speakers": [
+        "Colin Charles"
+      ],
+      "title": "CloudOps for your databases: a new paradigm for managing your data stores",
+      "topic": "Cloud Native",
+      "abstract": "We went from running databases in a typical LAMP stack, to building databases to run in cloud like environments, to actually just running database in the hosted cloud (or a self-run hosted platform like Kubernetes). The principles of running your data stores, however, have not changed, and still require: monitoring, instrumentation, management, compliance, high availability, optimised performance, security, capacity planning, and keeping up with the SLAs."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T14:00:00-07:00",
+        "endTime": "2025-03-09T15:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/how-crack-software-engineering-interviews-faang-and-beyond",
+      "photo": {
+        "alt": null,
+        "height": "1226",
+        "width": "1079",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Vinit_23-09-12_1203.jpeg"
+      },
+      "location": "Room 103",
+      "speaker_id": [
+        "12435"
+      ],
+      "speakers": [
+        "Vinit Dhatrak"
+      ],
+      "title": "How to crack software engineering interviews at FAANG and beyond",
+      "topic": "Career Day",
+      "abstract": "Cracking the FAANG interviews.    This session would cover coding, system design, and behavioral, such as leveraging previous work experiences and life experiences to demonstrate qualities that most of these companies seek.   I'd provide samples from my own interviewing experience at companies like Google, Amazong, Netflix, Microsoft, etc."
+    },
+    {
+      "when": {
+        "day": "Sunday",
+        "startTime": "2025-03-09T15:00:00-07:00",
+        "endTime": "2025-03-09T16:00:00-07:00"
+      },
+      "url": "/scale/22x/presentations/closing-keynote-leslie-lamport",
+      "photo": {
+        "alt": null,
+        "height": "500",
+        "width": "393",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Leslie_Lamport.jpg"
+      },
+      "location": "Ballroom DE",
+      "speaker_id": [
+        "12842"
+      ],
+      "speakers": [
+        "Leslie Lamport"
+      ],
+      "title": "Closing Keynote with Leslie Lamport",
+      "topic": "Keynote",
+      "abstract": "Join us for a captivating closing keynote with the legendary Leslie Lamport, Turing Award winner and pioneer in the field of distributed computing. We'll discuss computing history, open source and distributed systems."
+    }
+  ]
+}

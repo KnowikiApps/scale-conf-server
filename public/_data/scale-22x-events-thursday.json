@@ -1,0 +1,1617 @@
+{
+  "events": [
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T09:00:00-08:00",
+        "endTime": "2025-03-06T10:15:00-08:00"
+      },
+      "url": "/scale/22x/presentations/openinfra-days-north-america-keynotes",
+      "photo": {
+        "alt": null,
+        "height": "1735",
+        "width": "2600",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/AllisonPrice_2023.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12795",
+        "12780",
+        "12947",
+        "12949",
+        "10659",
+        "12560",
+        "11373"
+      ],
+      "speakers": [
+        "Allison Price",
+        "Gerald Bothello",
+        "Luke Repko",
+        "Chris Breu",
+        "Julia Kreger",
+        "James Blair",
+        "Ildiko Vancsa"
+      ],
+      "title": "OpenInfra Days North America Keynotes",
+      "topic": "OpenInfra Days",
+      "abstract": "Infrastructure lays the foundation for every daily function and open source drives innovation, cost savings, and adaptability. Together, open infrastructure has adapted to global and regional trends to disrupt proprietary market holds and drive human progress. In the face of recent trends, like licensing changes and redefining infrastructure for AI, open source communities are continuing to collaborate to evolve the projects behind an $8.8 trillion USD market."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T09:30:00-08:00",
+        "endTime": "2025-03-06T10:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/fireside-chat-outsider%E2%80%99s-look-nix",
+      "photo": {
+        "alt": null,
+        "height": "768",
+        "width": "768",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Ron-web-5V5A2734-768x768.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "11856",
+        "12891"
+      ],
+      "speakers": [
+        "Ron Efroni",
+        "Kelsey Hightower"
+      ],
+      "title": "Fireside Chat: An Outsider’s Look at Nix",
+      "topic": "PlanetNix",
+      "abstract": "We’ve all heard the usual insider talks about Nix. This session flips the script. Ron Efroni will lead a candid fireside chat with Kelsey Hightower, known for his pioneering work on Kubernetes, as we dive into his journey discovering Nix. Expect blunt takes on where Nix gets it right, where it needs a reality check, and what lessons from container orchestration might apply. If you’re curious about the raw, unfiltered truth of Nix’s present and future, don’t miss it."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/embedded-programming-workshop-day-1",
+      "photo": null,
+      "location": "Room 209",
+      "speaker_id": [
+        "3714"
+      ],
+      "speakers": [
+        "Steve Oualline"
+      ],
+      "title": "Embedded Programming Workshop Day 1",
+      "topic": "Workshops",
+      "abstract": "Day 1 of a a two day class on embedded programming. We will be programming a STM Arm chip with no operating system. This will be bare metal programming. Topics include what the compiler does behind the scenes, I/O direct to the hardware, memory layout, reading assembly, and interrupt programming. Pre-registration (in addition to your conference registration) is required."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T11:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/look-elephants-trunk-postgresql-18",
+      "photo": {
+        "alt": null,
+        "height": "767",
+        "width": "588",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG-20250119-WA0000~2.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "5167"
+      ],
+      "speakers": [
+        "Magnus Hagander"
+      ],
+      "title": "A look at the Elephant's trunk - PostgreSQL 18",
+      "topic": "PostgreSQL",
+      "abstract": "PostgreSQL 18 is almost at feature freeze, and at this point we have at least some ideas of what features will be included. This talk will take a quick look at what's in there already, and what's in the queue for the next major release!"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T13:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/kubernetes-sysadmins-workshop",
+      "photo": {
+        "alt": null,
+        "height": "512",
+        "width": "512",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/kensey-cropped.jpg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "12489"
+      ],
+      "speakers": [
+        "Joe Thompson"
+      ],
+      "title": "Kubernetes For Sysadmins Workshop",
+      "topic": "Cloud Native",
+      "abstract": "If you're an experienced sysadmin but a Kubernetes novice, trying to understand how Kubernetes does things, this workshop will show you how to use traditional Linux tools you probably already know to understand Kubernetes today -- from the basic Kubernetes components themselves to higher-level workload concepts like service discovery."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T13:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/power-editing-vi",
+      "photo": {
+        "alt": null,
+        "height": null,
+        "width": null,
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/aleksey_tsalolikhin_headshot.jpg"
+      },
+      "location": "Room 208",
+      "speaker_id": [
+        "452"
+      ],
+      "speakers": [
+        "Aleksey Tsalolikhin"
+      ],
+      "title": "Power Editing with vi",
+      "topic": "Workshops",
+      "abstract": "This hands-on tutorial will take you from a vi beginner or intermediate user to a Power User, able to leap tall text buildings with a single bound. Unleash the full power of that blinking cursor, become more efficient at your job, and fame and fortune will surely follow. Most people use only 10% of what vi is fully capable of. Awaken to your vi’s full potential. Target audience:  Anybody who has to edit files on UNIX-like systems. A sysadmin who’s been using vi for 18 years come up to me afterward and said he learned something useful. Requirements: A laptop with vi."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T13:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/open-source-good",
+      "photo": {
+        "alt": null,
+        "height": "1101",
+        "width": "1101",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/sean.jpg"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "12701",
+        "12812"
+      ],
+      "speakers": [
+        "Sean Marcia",
+        "Cynthia Lo"
+      ],
+      "title": "Open Source for Good",
+      "topic": "Workshops",
+      "abstract": "Join us for a hands-on \"Open Source for Good\" workshop where participants of all skill levels will contribute to real-world social impact projects. Working alongside nonprofit leaders, you'll learn contribution workflows while making meaningful improvements to vetted projects. From beginner-friendly documentation updates to advanced feature implementation, you'll gain practical experience with GitHub tooling and collaborative development practices."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T13:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/progressive-delivery-argo-rollouts",
+      "photo": {
+        "alt": null,
+        "height": "1201",
+        "width": "1200",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Ryan-Jarvinen-headshot-square-small.jpg"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "496",
+        "10892",
+        "11315"
+      ],
+      "speakers": [
+        "Ryan Jarvinen",
+        "Evan Shortiss",
+        "Christian Hernandez"
+      ],
+      "title": "Progressive Delivery with Argo Rollouts",
+      "topic": "Cloud Native",
+      "abstract": "In this hands-on workshop attendees will learn the basics of how to use Argo Rollouts to progressively roll out apps. In this lab you will learn how to: \n \n* Review the Rollouts specification \n \n* Use Rollouts to perform a blue-green deployment \n \n* Update the image with continuous integration and observe the blue-green progressive delivery in action \n \n* Enhance the blue-green rollout with integrated testing by applying an AnalysisTemplate \n \n* Update the image again and review how the AnalysisTemplate works \n \n* Use Rollouts to perform a canary deployment with progressive delivery"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T10:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/nix-pr-pipeline",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/tristan.png"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "12897"
+      ],
+      "speakers": [
+        "Tristan Ross"
+      ],
+      "title": "The Nix PR Pipeline",
+      "topic": "PlanetNix",
+      "abstract": "A detailed explanation of how pull requests are staged and trickle into the different channels in Nixpkgs and NixOS."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T10:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/learn-nix-fun-way",
+      "photo": {
+        "alt": null,
+        "height": "600",
+        "width": "600",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/image%20%282%29.png"
+      },
+      "location": "Room 104",
+      "speaker_id": [
+        "11356"
+      ],
+      "speakers": [
+        "Farid Zakaria"
+      ],
+      "title": "Learn Nix the Fun Way",
+      "topic": "PlanetNix",
+      "abstract": "Learning Nix can be off-putting, as many introductions dive into complex terminology and academic concepts, missing the chance to simplify Nix's advantages. Having given talks both internally and externally, I've shifted to showcasing fun, practical examples first, leaving the nuances for later. Join me to see some straightforward examples of what Nix can offer and why it might be worth adopting."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T10:00:00-08:00",
+        "endTime": "2025-03-06T11:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/pai-os-workshop",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/sam.png"
+      },
+      "location": "Room 212",
+      "speaker_id": [
+        "12945"
+      ],
+      "speakers": [
+        "Sam Johnston"
+      ],
+      "title": "pAI-OS Workshop",
+      "topic": "Kwaai Summit",
+      "abstract": "​Get hands-on experience with pAI-OS, an innovative open-source platform designed to empower developers and researchers in the AI community. This interactive workshop offers a comprehensive introduction to the pAI-OS ecosystem, guiding participants through its core functionalities and contribution opportunities. ​During this 105-minute session, you'll dive deep into the pAI-OS codebase, learning essential concepts and practical implementation techniques."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:00:00-08:00",
+        "endTime": "2025-03-06T11:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/getting-started-openstack",
+      "photo": {
+        "alt": null,
+        "height": "3024",
+        "width": "4032",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/amyheadshot.png"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12528"
+      ],
+      "speakers": [
+        "Amy Marrich"
+      ],
+      "title": "Getting Started With OpenStack",
+      "topic": "OpenInfra Days",
+      "abstract": "Learn more about OpenStack as a whole, the different services and how to get involved."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:00:00-08:00",
+        "endTime": "2025-03-06T11:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/students-open-source-openinfra-university-partnership-program-growth-and",
+      "photo": {
+        "alt": null,
+        "height": "3024",
+        "width": "4032",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/img_0574.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12588",
+        "174",
+        "12883"
+      ],
+      "speakers": [
+        "Kendall Nelson",
+        "Stephen Walli",
+        "Corey Leong"
+      ],
+      "title": "Students in Open Source: The OpenInfra University Partnership Program Growth and Lessons Learned",
+      "topic": "OpenInfra Days",
+      "abstract": "The audience will learn about the collaboration the OpenInfra Foundation has fostered with universities to get students involved in Open Source before graduation. After reaching over 100 students, we have learned a lot and are eager to share improvements and plans for the future."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:00:00-08:00",
+        "endTime": "2025-03-06T11:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/docker-was-too-slow-so-we-replaced-it-nix-production",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Aneesh.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "12898"
+      ],
+      "speakers": [
+        "Aneesh Agrawal"
+      ],
+      "title": "Docker Was Too Slow, So We Replaced It: Nix in Production",
+      "topic": "PlanetNix",
+      "abstract": "Kubernetes means containers - but container images stop scaling once you hit 25+ GB, even if you’re building them with Nix. Learn how Anthropic took production startup times from minutes to sub-second with a multi-level, replicated cache hierarchy. We’ll deep dive into nix-sidecar: our custom tool to escape Docker, replacing slow image pulls with highly-parallel native Nix fetches, cached on every node. This talk is for anyone interested in faster deploys or advanced Nix usage!"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:00:00-08:00",
+        "endTime": "2025-03-06T11:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/generating-secrets-nixos-missing-puzzle-piece",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/kenji.png"
+      },
+      "location": "Room 104",
+      "speaker_id": [
+        "12903",
+        "12904"
+      ],
+      "speakers": [
+        "Kenji Berthold",
+        "Lassulus ."
+      ],
+      "title": "generating secrets with nixos, the missing puzzle piece",
+      "topic": "PlanetNix",
+      "abstract": "There are a lot of different secret management technologies around nixos, like sops-nix, agenix, etc. All of them still require to manually generate and encrypt secrets though. So we are happy to announce the missing piece to have full declarative services with zero user interaction: NixOS vars (name will maybe change :))"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:15:00-08:00",
+        "endTime": "2025-03-06T12:15:00-08:00"
+      },
+      "url": "/scale/22x/presentations/language-virus-locales-and-postgresql",
+      "photo": {
+        "alt": null,
+        "height": null,
+        "width": null,
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/xof%20square_0.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "929"
+      ],
+      "speakers": [
+        "Christophe Pettus"
+      ],
+      "title": "Language is a Virus: Locales and PostgreSQL",
+      "topic": "PostgreSQL",
+      "abstract": "Language is a Virus: Locales and PostgreSQL This is a pragmatic look at PostgreSQL's support for locales, in particular around character encoding and collations. This is intended for DBAs and developers who want to make use of PostgreSQL's extensive locale features with a minimum number of gotchas. Among the topics are: * A quick overview of locales, character encodings, and collations. \n \n* What a \"locale provider,\" and how do you use it? \n \n* How do various collations perform? \n \n* What are the use cases for various locales? \n \n* And what is this horrible thing about index corruption I hear ab"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:30:00-08:00",
+        "endTime": "2025-03-06T12:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/openstack-real-world",
+      "photo": {
+        "alt": null,
+        "height": "1285",
+        "width": "1285",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/jf-headshot.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "10660"
+      ],
+      "speakers": [
+        "Jay Faulkner"
+      ],
+      "title": "OpenStack in the Real World",
+      "topic": "OpenInfra Days",
+      "abstract": "A fully integrated OpenStack cluster, especially one utilizing Ironic or Neutron, touches all parts of an environment. Tight integration like this comes with a price: almost any issue in your environment may be surfaced as a failure or error to an end user. In this session, we will discuss how to properly monitor your OpenStack cluster, separating real-world failures from software bugs as well as how to market your cloud engineering work to nontechnical parts of the business."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:30:00-08:00",
+        "endTime": "2025-03-06T12:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/building-and-supporting-open-source-communities-through-metrics-reviewing",
+      "photo": {
+        "alt": null,
+        "height": "533",
+        "width": "533",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/georglink.png"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "5971"
+      ],
+      "speakers": [
+        "Georg Link"
+      ],
+      "title": "Building and Supporting Open Source Communities Through Metrics: Reviewing OpenInfra Community Metrics",
+      "topic": "OpenInfra Days",
+      "abstract": "In this talk, we will explore what metrics are available to look at communities. By leveraging these metrics, participants will gain insights into community health, engagement levels, and the overall effectiveness of support strategies. Join us to discover how data-driven approaches can enhance our efforts in building and sustaining vibrant open-source ecosystems. We will take a look at metrics from the OpenInfra communities and have an open conversation with the audience about what we’re seeing. We will field questions live and dive into the data together."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:30:00-08:00",
+        "endTime": "2025-03-06T12:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/how-make-nix-five-times-faster",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/nick.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "12899"
+      ],
+      "speakers": [
+        "Nick Johnstone"
+      ],
+      "title": "How to make Nix five times faster",
+      "topic": "PlanetNix",
+      "abstract": "I have a confession: I love Nix. So much so, that I want to use it to build all my software. But there's a catch - why is Nix so slow? My search for answers began with a bash loop run amok, and ends with Fantail - a new frontend development server powered by Nix and Haskell, with builds 5x faster than the Nix CLI. If you've ever looked up at the sky and wondered if it's possible to use the Nix C++ interface to cache Flake inputs in-memory, this is the talk for you. If not, come along anyway!"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T11:30:00-08:00",
+        "endTime": "2025-03-06T12:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/building-linux-scratch-nix",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/tim.jpg"
+      },
+      "location": "Room 104",
+      "speaker_id": [
+        "12902"
+      ],
+      "speakers": [
+        "Tim Golden"
+      ],
+      "title": "Building Linux from Scratch... from Nix",
+      "topic": "PlanetNix",
+      "abstract": "Nix is a powerful build system that enhances and simplifies software development workflows. 'Linux from Scratch' is a well-known guide to building a customized Linux operating system from source, designed for gaining a deeper understanding Linux system internals. In this talk, we will share the journey of using Nix to build Linux from Scratch, as well as the challenges faced, insights gained, and epiphanies discovered along the way."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:00:00-08:00",
+        "endTime": "2025-03-06T12:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/knowing-half-battle-end-end-observability-openstack-kubernetes",
+      "photo": {
+        "alt": null,
+        "height": "474",
+        "width": "475",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/2024Profile.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12455"
+      ],
+      "speakers": [
+        "Jamie Parker"
+      ],
+      "title": "Knowing is Half the Battle: End to End Observability in OpenStack on Kubernetes",
+      "topic": "OpenInfra Days",
+      "abstract": "Running OpenStack on Kubernetes is a great idea for many reasons, but there is one very large drawback: when something goes wrong on Day 2, how do you find it?  In this talk, we will explain our approach to a rather complex Observability problem using both OpenStack Services and Cloud Native Observability tools."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:00:00-08:00",
+        "endTime": "2025-03-06T12:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/project-gating-zuul",
+      "photo": {
+        "alt": null,
+        "height": "2128",
+        "width": "1416",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/headshot2_1.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12560"
+      ],
+      "speakers": [
+        "James Blair"
+      ],
+      "title": "Project Gating with Zuul",
+      "topic": "OpenInfra Days",
+      "abstract": "Zuul is a project gating system, which is like a CI/CD system that is primarily focused on ensuring multiple changes are well-tested with each other before being merged. Learn what makes Zuul unique, how it's used in Open Source projects like OpenStack as well as in the enterprise, and how you can get started using it to stop merging broken code."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:00:00-08:00",
+        "endTime": "2025-03-06T12:15:00-08:00"
+      },
+      "url": "/scale/22x/presentations/welcome-kwaai-summit",
+      "photo": {
+        "alt": null,
+        "height": "1900",
+        "width": "1600",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Matt%20Small-crop_1600x1900.jpg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12554",
+        "11310"
+      ],
+      "speakers": [
+        "Matthew Small",
+        "Reza Rassool"
+      ],
+      "title": "Welcome to Kwaai Summit",
+      "topic": "Kwaai Summit",
+      "abstract": "Matt and Reza will welcome you to the Kwaai Summit and introduce you to Peronsal AI"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:15:00-08:00",
+        "endTime": "2025-03-06T12:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/ai-education-amplified-intelligence-through-games",
+      "photo": {
+        "alt": null,
+        "height": "904",
+        "width": "1298",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/nolan%20copy.png"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12942"
+      ],
+      "speakers": [
+        "Nolan Bushnell"
+      ],
+      "title": "AI in Education: Amplified Intelligence through Games",
+      "topic": "Kwaai Summit",
+      "abstract": "Artificial intelligence and game-based learning are converging and transforming education by making learning more efficient, personalized, and engaging. This talk will discuss how AI-driven adaptive learning systems can improve knowledge retention and problem-solving by tailoring content to individual learners. Drawing from his vast and storied experience in both video games and educational technology, Bushnell will explain how gamification, real-time feedback, and AI-driven pattern recognition enhance learning outcomes."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:30:00-08:00",
+        "endTime": "2025-03-06T13:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/ironic-neutron-and-ovn-current-challenges",
+      "photo": null,
+      "location": "Room 106",
+      "speaker_id": [
+        "12419",
+        "12538"
+      ],
+      "speakers": [
+        "Michal Nasiadka",
+        "Bartosz Bezak"
+      ],
+      "title": "Ironic, Neutron and OVN - current challenges",
+      "topic": "OpenInfra Days",
+      "abstract": "This talk will highlight the ongoing challenges with implementing OpenStack Neutron ML2/OVN and Ironic/SR-IOV external ports."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:30:00-08:00",
+        "endTime": "2025-03-06T13:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/bringing-mongodb-workloads-back-open-source-using-ferretdb-store-data",
+      "photo": {
+        "alt": null,
+        "height": "500",
+        "width": "500",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/peterfarkas-1.png"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "12862"
+      ],
+      "speakers": [
+        "Peter Farkas"
+      ],
+      "title": "Bringing MongoDB workloads back to open source by using FerretDB to store data on PostgreSQL",
+      "topic": "PostgreSQL",
+      "abstract": "Introduction to fully open source alternative for MongoDB. Show how easily you can replace expensive and vendor-locked-in MongoDB services using PostgreSQL in the Kubernetes cluster + FerretDB."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:30:00-08:00",
+        "endTime": "2025-03-06T13:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/testing-software-defined-storage-multiple-architectures-openstack",
+      "photo": null,
+      "location": "Room 107",
+      "speaker_id": [
+        "12685"
+      ],
+      "speakers": [
+        "olaph wagoner"
+      ],
+      "title": "Testing software defined storage on multiple architectures in a OpenStack environment",
+      "topic": "OpenInfra Days",
+      "abstract": "While x86 servers certianly dominate the landscape in datacenters, they are not the only option for running an OpenStack environment.  We'll discuss some options for installation, and then examine the concrete example of how a dual architecture enivornment works in the IBM Storage Scale lab."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T12:45:00-08:00",
+        "endTime": "2025-03-06T13:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/trust-ai-beware-double-agents",
+      "photo": {
+        "alt": null,
+        "height": "467",
+        "width": "467",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/bruce.jpeg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11888"
+      ],
+      "speakers": [
+        "Bruce Schneier"
+      ],
+      "title": "Trust in AI - Beware of Double Agents",
+      "topic": "Kwaai Summit",
+      "abstract": "Trusting a friend and trusting a service are fundamentally different. The former is personal and intimate, while the latter is impersonal and can scale to all of human society. The companies behind the current generative AI systems are poised to exploit that difference. Their intimate conversational nature will cause us to think of them as friends when they are actually services, and trusted confidants when they will actually be working against us. Like much of the internet, these systems will collect our personal data behind our backs and try to manipulate our behavior."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T13:00:00-08:00",
+        "endTime": "2025-03-06T13:15:00-08:00"
+      },
+      "url": "/scale/22x/presentations/5th-element-operationalizing-agentic-economy",
+      "photo": {
+        "alt": null,
+        "height": "300",
+        "width": "300",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/faye.png"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12943"
+      ],
+      "speakers": [
+        "Fay Arjomandi"
+      ],
+      "title": "The 5th Element: Operationalizing the Agentic Economy",
+      "topic": "Kwaai Summit",
+      "abstract": "This talk explores the transition to conscious, dynamic systems and business models in the era of intelligence. By rethinking how workflows, compute, and context flow seamlessly, we move beyond the band-aid approach of containerized apps forced to orchestrate. Instead, we embrace dynamic, natural, adaptive continuums that form the foundation for equitable, scalable, and sustainable agentic ecosystems. Highlighting the diversity of AI, expanding beyond LLM-generated responses from a single vendor to a butterfly effect triggered by events that transcend the physical world."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T13:15:00-08:00",
+        "endTime": "2025-03-06T13:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/personal-vs-personalized-ai",
+      "photo": {
+        "alt": null,
+        "height": "200",
+        "width": "200",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Doc.jpeg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11887"
+      ],
+      "speakers": [
+        "Doc Searls"
+      ],
+      "title": "Personal vs. Personalized AI",
+      "topic": "Kwaai Summit",
+      "abstract": "Your AI should be as personal as your pants, your car, and your PC. It should be yours and not a suction-cup on the tentacle of a corporate giant. We don't have that yet, but we will, And when we get it, the greenfield will be infinitely large—unless we settle for the personalized kind. Doc will explain the difference and how we can make sure personal AI wins."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T13:30:00-08:00",
+        "endTime": "2025-03-06T14:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/nix-wild",
+      "photo": {
+        "alt": null,
+        "height": "977",
+        "width": "964",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/ross.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "11528"
+      ],
+      "speakers": [
+        "Ross Turk"
+      ],
+      "title": "Nix in the Wild",
+      "topic": "PlanetNix",
+      "abstract": "Nix in the Wild is a series where we interview users of Nix and ask them about their journey. We want to know about the good moments and the bad, and we want to tell it like it is. What makes users choose Nix? How long does it take for them to get their colleagues onboard? What do they learn along the way? In this quick talk, Ross from Flox will go over a few of the most amazing stories from Nix in the Wild (rawr!)...and let you know how we can help you tell yours."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T13:30:00-08:00",
+        "endTime": "2025-03-06T15:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/introduction-module-system",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_0769_square_400.jpg"
+      },
+      "location": "Room 104",
+      "speaker_id": [
+        "10829"
+      ],
+      "speakers": [
+        "Daniel Baker"
+      ],
+      "title": "Introduction to the Module System",
+      "topic": "PlanetNix",
+      "abstract": "Curious about the Nix module system but don’t know where to start? This talk introduces the core concepts and basics of the Nix module system, designed for those new to Nix. We’ll break down how it works, why it’s so powerful for declarative configuration, and how you can start using it for your own projects. No prior experience is required—just a willingness to explore and learn!"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:00:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/fedoracentos-classroom",
+      "photo": {
+        "alt": null,
+        "height": "300",
+        "width": "300",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/carl-2023-square.jpg"
+      },
+      "location": "Room 208",
+      "speaker_id": [
+        "10276",
+        "11445",
+        "409"
+      ],
+      "speakers": [
+        "Carl George",
+        "Shaun McCance",
+        "Jason Brooks"
+      ],
+      "title": "Fedora+CentOS Classroom",
+      "topic": "Workshops",
+      "abstract": "Learn about the ecosystems in the Fedora and CentOS projects, and how you can package software for both. We will present an overview of the Fedora project followed by an overview CentOS ecosystem. We'll show how both systems are developed and what the various special interest groups are doing. We will then provide a packaging workshop where you can learn how to package your favorite software, whether you want it in Fedora, EPEL, a CentOS SIG, or just for your own personal use."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:00:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/bpftrace-hands-lab",
+      "photo": {
+        "alt": null,
+        "height": "2232",
+        "width": "3060",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Scale-bio.jpg"
+      },
+      "location": "Room 211",
+      "speaker_id": [
+        "12495",
+        "12496",
+        "12505"
+      ],
+      "speakers": [
+        "Jonathan Haslam",
+        "Jordan Rome",
+        "Daniel Xu"
+      ],
+      "title": "bpftrace hands on lab",
+      "topic": "Workshops",
+      "abstract": "bpftrace is a popular high-level tracing language and CLI tool for Linux systems with a growing user base and an active development community ( ). This session will be a practical, hands-on exploration of bpftrace. No former knowledge of bpftrace required. Maintainers will guide you through the key areas of the technology in a series of carefully designed mini-tutorials and corresponding exercises. https://github.com/bpftrace/bpftrace"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:00:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/so-you-want-be-kubestronaut",
+      "photo": {
+        "alt": null,
+        "height": "4000",
+        "width": "4000",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/cda-pauyu-square-1mb_0.jpg"
+      },
+      "location": "Ballroom A",
+      "speaker_id": [
+        "11519"
+      ],
+      "speakers": [
+        "Paul Yu"
+      ],
+      "title": "So you want to be a Kubestronaut",
+      "topic": "Cloud Native",
+      "abstract": "Dive into the world of Kubernetes and discover the path to becoming a Kubestronaut. This workshop covers the journey from beginner to expert, including exam prep strategies and setting up a local environment for hands-on practice. Learn how to overcome common challenges and stay motivated on your way to achieving Kubestronaut status."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:00:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/developing-team-kubernetes-nix-and-flox",
+      "photo": {
+        "alt": null,
+        "height": "612",
+        "width": "612",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/profile-pic.png"
+      },
+      "location": "Ballroom B",
+      "speaker_id": [
+        "10897",
+        "12638",
+        "12622"
+      ],
+      "speakers": [
+        "Leigh Capili",
+        "Tanja Ulianova",
+        "Nick Lewis"
+      ],
+      "title": "Developing as a Team for Kubernetes with Nix and Flox",
+      "topic": "Cloud Native",
+      "abstract": "In this workshop, Leigh, Tanja, and Nick will show a GitOps workflow for both your team's laptops and Kubernetes clusters. \n \n We'll cover the basics of Nix and Flox, a collaborative interface for using Nix as a team. \n \n Attendees will work together in the hands-on portion to: \n - bootstrap a frontend and backend project with Javascript, Go, and Postgres \n - declare cross-platform tools and dependencies for build and development \n - containerize their build in a Nix-native way \n - use GitOps via Flux to promote their service to Kubernetes clusters with zero-downtime deploys"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:00:00-08:00",
+        "endTime": "2025-03-06T14:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/using-optstore",
+      "photo": {
+        "alt": null,
+        "height": "500",
+        "width": "483",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/berek-flight-small.jpg"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "10976"
+      ],
+      "speakers": [
+        "Thomas Bereknyei"
+      ],
+      "title": "Using /opt/store",
+      "topic": "PlanetNix",
+      "abstract": "Exploring the pros-cons of a non-/nix prefix."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:00:00-08:00",
+        "endTime": "2025-03-06T14:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/panel-ai-thought-leaders",
+      "photo": {
+        "alt": null,
+        "height": "200",
+        "width": "200",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Doc.jpeg"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11887",
+        "12943",
+        "11310",
+        "12942"
+      ],
+      "speakers": [
+        "Doc Searls",
+        "Fay Arjomandi",
+        "Reza Rassool",
+        "Nolan Bushnell"
+      ],
+      "title": "Panel: AI Thought Leaders",
+      "topic": "Kwaai Summit",
+      "abstract": "Recap the mornings learnings with a panel of AI thought leaders."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:30:00-08:00",
+        "endTime": "2025-03-06T15:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/extend-your-postgresql-world-postgresql-extensions",
+      "photo": {
+        "alt": null,
+        "height": "123",
+        "width": "128",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/devrim-avatar-014-small-128.123.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "11012"
+      ],
+      "speakers": [
+        "Devrim Gunduz"
+      ],
+      "title": "Extend your PostgreSQL: The world of PostgreSQL extensions",
+      "topic": "PostgreSQL",
+      "abstract": "This talk will mention about the world of extensions of PostgreSQL."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:30:00-08:00",
+        "endTime": "2025-03-06T15:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/rdo-openstack-okd-kubernetes-perfect-combination-modern-enterprise",
+      "photo": {
+        "alt": null,
+        "height": "800",
+        "width": "800",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/1646737789322.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12556"
+      ],
+      "speakers": [
+        "Maciej Lecki"
+      ],
+      "title": "RDO openstack on OKD kubernetes: The perfect combination for modern enterprise datacenter",
+      "topic": "OpenInfra Days",
+      "abstract": "Running RDO openstack on OKD kubernetes offers enterprises a unified, scalable solution that combines robust cloud infrastructure with efficient container orchestration, ideal for handling both cloud-native and legacy applications. This presentation highlights key benefits, deployment strategies, and best practices to optimize datacenter operations and enhance resource flexibility."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:30:00-08:00",
+        "endTime": "2025-03-06T15:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/cephfs-and-openstack-manila-file-sharing-without-headaches-mostly",
+      "photo": {
+        "alt": null,
+        "height": "782",
+        "width": "674",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Goutham_Profile.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12633",
+        "12632",
+        "12810"
+      ],
+      "speakers": [
+        "Goutham Pacha Ravi",
+        "Carlos Eduardo da Silva",
+        "Ashley Rodriguez"
+      ],
+      "title": "CephFS and OpenStack Manila: File Sharing Without the Headaches (Mostly!)",
+      "topic": "OpenInfra Days",
+      "abstract": "Explore the evolving integration of CephFS with OpenStack Manila in this session, where we’ll delve into the unique features CephFS brings to cloud file systems. We’ll cover the trade-offs of CephFS Native and CephFS NFS, highlighting practical reasons why each might not fit all use cases. Wrapping up, we’ll look at future innovations, like the SMB driver and VirtIOFS, that promise to expand functionality and use cases for OpenStack file sharing. Join us for a deep dive into these powerful tools and their future in cloud architecture."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:30:00-08:00",
+        "endTime": "2025-03-06T14:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/companion-intelligence-powered-your-digital-memory",
+      "photo": {
+        "alt": null,
+        "height": "386",
+        "width": "471",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Screenshot%202025-02-11%20at%2012.39.28%E2%80%AFAM.png"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12944"
+      ],
+      "speakers": [
+        "Liam Broza"
+      ],
+      "title": "Companion Intelligence: Powered by your Digital Memory",
+      "topic": "Kwaai Summit",
+      "abstract": "The ability to retain, understand, and act on personal data is key to building truly intelligent assistants. In this talk, Liam Broza introduces Companion Intelligence, a platform that leverages Digital Memory to give users control over their data while enabling AI-powered deep personalization and contextual awareness. He will explore the evolution of Companion Intelligence, its role in shaping embodied AI agents, and provide a demo of how these systems can enhance productivity, security, and autonomy in the digital world."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T14:45:00-08:00",
+        "endTime": "2025-03-06T15:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/open-source-personal-ai-pai-os",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/sam.png"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12945"
+      ],
+      "speakers": [
+        "Sam Johnston"
+      ],
+      "title": "Open Source Personal AI with pAI-OS",
+      "topic": "Kwaai Summit",
+      "abstract": "AI is becoming an integral part of our daily lives, assisting with everything from organization to decision-making. But if we're not careful, personal AI will once again be locked behind proprietary platforms, exposing users' most sensitive information to privacy and security risks. As the performance of personal AI systems improves with more (and more recent) data, maintaining complete control has never been more important."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:00:00-08:00",
+        "endTime": "2025-03-06T15:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/kata-containers-security-and-containers-without-compromise",
+      "photo": {
+        "alt": null,
+        "height": "2744",
+        "width": "2008",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Ildiko.Vancsa_Carlin.Ma-1306%20v2.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "11373"
+      ],
+      "speakers": [
+        "Ildiko Vancsa"
+      ],
+      "title": "Kata Containers - Security and Containers Without Compromise",
+      "topic": "OpenInfra Days",
+      "abstract": "Get a technology overview of how Kata Containers, an open source, secure container runtime project, utilizes virtualization technology to overcome the biggest gap in traditional containers, the lack of isolation. The project is running in production in large public clouds, financial institutions, and being utilized for machine learning use cases to ensure data privacy. For an additional layer of protection Kata can be integrated with the Confidential Containers (CoCo) project, which brings confidential computing mechanisms into the container space."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:00:00-08:00",
+        "endTime": "2025-03-06T15:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/scaling-ai-open-source-running-models-cpus-and-gpus-vms-openstack",
+      "photo": {
+        "alt": null,
+        "height": "266",
+        "width": "266",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/todd.png"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12803"
+      ],
+      "speakers": [
+        "Todd Robinson"
+      ],
+      "title": "Scaling AI with Open Source: Running Models on CPUs and GPUs in VMs on OpenStack",
+      "topic": "OpenInfra Days",
+      "abstract": "Unlock open-source AI with OpenStack's scalable environment. Join Todd Robinson to explore running AI models on CPU/GPU in VMs, optimize resource allocation, and scale infrastructure. Discover real-world insights and see how hosted OpenStack boosts performance, security, and cost control. Whether you're a data scientist or infrastructure manager, gain practical knowledge to build a robust AI-ready environment with OpenStack."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:00:00-08:00",
+        "endTime": "2025-03-06T15:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/charming-wild-snakes-pyprojectnix-uv2nix",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/adis.png"
+      },
+      "location": "Room 101",
+      "speaker_id": [
+        "12900"
+      ],
+      "speakers": [
+        "Adis Bladis"
+      ],
+      "title": "Charming wild snakes with pyproject.nix & uv2nix",
+      "topic": "PlanetNix",
+      "abstract": "Pip, Conda, Poetry, and now, the Rust-based Uv. Python is a complex ecosystem fraught with pitfalls, fragmentation & historic legacy. Nix provides a unifying way to deal with complex software environments. However, language integration tooling for Python has been lacking. In this talk we'll explore pyproject.nix & uv2nix to wrangle everything from simple projects using requirements.txt & pyproject.toml to complex applications and monorepos."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:00:00-08:00",
+        "endTime": "2025-03-06T16:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/mastering-nixos-integration-tests-advanced-techniques-fast-and-robust-multi",
+      "photo": {
+        "alt": null,
+        "height": "400",
+        "width": "400",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/jacek.jpg"
+      },
+      "location": "Room 104",
+      "speaker_id": [
+        "12901"
+      ],
+      "speakers": [
+        "Jacek Galowicz"
+      ],
+      "title": "Mastering NixOS Integration Tests: Advanced Techniques for Fast and Robust Multi-VM Tests",
+      "topic": "PlanetNix",
+      "abstract": "Join this hands-on workshop to explore the powerful NixOS Integration Test Driver! In just two hours, learn to simulate complex networked environments with multiple hosts and virtual networks, use the interactive mode for debugging, and apply best practices to avoid flaky tests. Perfect for enhancing your NixOS testing skills and streamlining CI/CD pipelines. Don’t miss this chance to boost your expertise with reliable, real-world testing techniques!"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:00:00-08:00",
+        "endTime": "2025-03-06T15:15:00-08:00"
+      },
+      "url": "/scale/22x/presentations/pai-abilities-education-emergencies-and-beyond",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "pAI Abilities for Education, Emergencies and Beyond",
+      "topic": "Kwaai Summit",
+      "abstract": "As Personal AI technology advances, its potential applications extend far beyond convenience—transforming education, emergency response, and real-world problem-solving. This talk explores Kwaai’s ongoing work and developing use cases for how pAI can empower individuals, institutions, and communities through intelligent, decentralized AI systems that prioritize privacy, autonomy, and adaptability."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:15:00-08:00",
+        "endTime": "2025-03-06T15:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/panel-personal-ai-technology",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Panel: Personal AI Technology",
+      "topic": "Kwaai Summit",
+      "abstract": "Join our Personal AI Technology experts and for Q&A."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:30:00-08:00",
+        "endTime": "2025-03-06T16:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/kata-container-llm",
+      "photo": {
+        "alt": null,
+        "height": "600",
+        "width": "600",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_1416-IN%20Visa%20%28format%20num%C3%A9rique%29-600x600%20px.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12484"
+      ],
+      "speakers": [
+        "Patrick BEAUCAMP"
+      ],
+      "title": "Kata Container & LLM",
+      "topic": "OpenInfra Days",
+      "abstract": "This session introduce a Dashboard-AI architecture running on Kata container The platform is powered by LLM image to provide services such as data analysis, data forecast and dashboard generation Usage of kata container allows us to scale and monitor a cluster of secured images"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:30:00-08:00",
+        "endTime": "2025-03-06T16:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/nix-faster-no-evaluation",
+      "photo": null,
+      "location": "Room 101",
+      "speaker_id": [
+        "12672"
+      ],
+      "speakers": [
+        "Yannik Sander"
+      ],
+      "title": "Nix is faster than no evaluation",
+      "topic": "PlanetNix",
+      "abstract": "Evaluating packages with big dependency trees with nix is time consuming. Currently, while there is a local eval cache, evaluation costs are sum up locally but also globally as eval caches are generally not shared across machine or user boundaries. In other places such as searching packages, evaluation is impossible, prohibitively expensive, or just annoying. In this talk I want to introduce different approaches to avoid evaluations, how they are motivated and what their limits are."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:30:00-08:00",
+        "endTime": "2025-03-06T15:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/sponsor-talk-optimizing-your-platform-architecture-vms-openstack-and",
+      "photo": {
+        "alt": null,
+        "height": "2448",
+        "width": "3264",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/PXL_20200918_182419155.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12938"
+      ],
+      "speakers": [
+        "Sagy Volkov"
+      ],
+      "title": "Sponsor Talk: Optimizing Your Platform Architecture for VMs in OpenStack and OpenShift",
+      "topic": "OpenInfra Days",
+      "abstract": "This session will illustrate how to optimize your data platform for performance, scalability, flexibility, and reliability in OpenStack and OpenShift environments."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:30:00-08:00",
+        "endTime": "2025-03-06T15:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/graphrag-frameworks-accurate-drug-side-effect-retrieval-large-language",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Graph/RAG Frameworks for Accurate Drug Side Effect Retrieval in Large Language Models",
+      "topic": "Kwaai Summit",
+      "abstract": "Drug side effects are a leading cause of morbidity and mortality worldwide, highlighting the need for improved detection and analysis methods. Large language models (LLMs) have emerged as powerful tools for generating human-like text. Yet, their knowledge is limited by black-box training data, they are prone to hallucinations, and they often lack domain-specific knowledge. Here, we propose two architectures integrating domain knowledge about drug side effects into a Llama 3-8B Language Model through Retrieval Augmented Generation (RAG) and GraphRAG."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:45:00-08:00",
+        "endTime": "2025-03-06T16:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/keeping-your-postgresql-replication-healthy-resolving-conflicts-optimal",
+      "photo": {
+        "alt": null,
+        "height": "1858",
+        "width": "1571",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_3762_1.jpg"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "10623"
+      ],
+      "speakers": [
+        "Hamid Akhtar"
+      ],
+      "title": "Keeping Your PostgreSQL Replication Healthy: Resolving Conflicts for Optimal Performance",
+      "topic": "PostgreSQL",
+      "abstract": "Replication conflicts can disrupt the consistency and reliability of a PostgreSQL database, especially in high-demand environments. This talk focuses on practical steps for monitoring, detecting, and resolving common replication conflicts."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T15:45:00-08:00",
+        "endTime": "2025-03-06T16:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/making-ai-faster-state-space-models",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Making AI Faster with State Space Models",
+      "topic": "Kwaai Summit",
+      "abstract": "State Space Models (SSMs) are emerging as a powerful alternative to the transformer-based architectures that dominate today's language models, offering greater efficiency and scalability for modern AI applications. This talk explores how SSMs are transforming AI by reducing computational overhead while maintaining strong performance. Attendees will gain insights into the fundamental principles of state space models, their real-world applications, and the cutting-edge research being conducted at Kwaai to further enhance their capabilities."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T16:00:00-08:00",
+        "endTime": "2025-03-06T16:15:00-08:00"
+      },
+      "url": "/scale/22x/presentations/technical-learnings-building-distributed-and-decentralized-ai",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [
+        "12690"
+      ],
+      "speakers": [
+        "Brian Ragazzi"
+      ],
+      "title": "Technical Learnings of Building Distributed and Decentralized AI",
+      "topic": "Kwaai Summit",
+      "abstract": "AI systems created and maintained by open-source communities are a natural counterbalance to corporate-owned AI systems. Similarly to , everyone can take some of the unused computing time on their devices, and contribute to a larger system. In this case, it forms a decentralized fabric to replace the storage and computation currently requiring expensive cloud resources from corporate providers. SETI@Home"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T16:15:00-08:00",
+        "endTime": "2025-03-06T16:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/panel-ai-research-initiatives",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Panel: AI Research Initiatives ",
+      "topic": "Kwaai Summit",
+      "abstract": "Join our experts for Q&A on AI Research Initiatives"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T16:30:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/openstack-edge-cloud-sonic-vpp-high-speed-and-low-latency-multi-cloud",
+      "photo": {
+        "alt": null,
+        "height": "1830",
+        "width": "1220",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Connect%20photo.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12626",
+        "12620",
+        "12663"
+      ],
+      "speakers": [
+        "Tom Yin",
+        "Vivekanandan Muthukrishnan",
+        "Amby Nagarajan"
+      ],
+      "title": "Openstack edge cloud with SONiC VPP for high-speed and low-latency multi-cloud connectivity",
+      "topic": "OpenInfra Days",
+      "abstract": "This demo addresses the challenges of managing latency, data locality, compliance, and availability in distributed environments. By integrating OpenStack edge cloud deployments with SONiC VPP switches over x86 servers across data centers, it enables seamless edge traffic routing through major cloud providers (AWS, Azure, Google) while retaining control at the edge. Optimized for IoT and AI/ML, this solution leverages network slicing to deliver a secure, multi-tenant environment. OpenStack and SONiC together provide high-performance, low-latency connectivity essential for edge computing."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T16:30:00-08:00",
+        "endTime": "2025-03-06T17:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/planetnix-lightning-talks",
+      "photo": null,
+      "location": "Room 101",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "PlanetNix Lightning Talks",
+      "topic": "PlanetNix",
+      "abstract": "Short sessions on all things Nix."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T16:30:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/sponsor-talk-economics-migrating-vmware-openstack",
+      "photo": {
+        "alt": null,
+        "height": "2300",
+        "width": "2259",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Ken%20Crandall%20Headshot.jpeg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12922"
+      ],
+      "speakers": [
+        "Ken Crandall"
+      ],
+      "title": "Sponsor Talk: The Economics of Migrating from VMware to OpenStack",
+      "topic": "OpenInfra Days",
+      "abstract": "A lot has been made about Broadcom's price increases for VMware, and there has also been a lot of attention paid to the technological aspects of migrating to OpenStack. Instead, let's take a look at the economics of the migration and how much it actually ends up costing organizations to migrate both in terms of licensing costs, as well as switching costs. This talk is presented by OpenInfra Days Headline Sponsor - Rackspace Technologies"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T16:45:00-08:00",
+        "endTime": "2025-03-06T17:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/ethical-learnings-building-distributed-and-decentralized-ai",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Ethical Learnings of Building Distributed and Decentralized AI ",
+      "topic": "Kwaai Summit",
+      "abstract": "AI systems created and maintained by open-source communities are a natural counterbalance to corporate-owned AI systems. Similarly to , everyone can take some of the unused computing time on their devices, and contribute to a larger system. In this case, it forms a decentralized fabric to replace the storage and computation currently requiring expensive cloud resources from corporate providers. SETI@Home"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:00:00-08:00",
+        "endTime": "2025-03-06T18:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/postgresql-ask-me-anything",
+      "photo": {
+        "alt": null,
+        "height": "866",
+        "width": "866",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/mark-sq_1.png"
+      },
+      "location": "Ballroom G",
+      "speaker_id": [
+        "9686",
+        "12720",
+        "11012",
+        "11269",
+        "5167",
+        "929"
+      ],
+      "speakers": [
+        "Mark Wong",
+        "Stacey Haysler",
+        "Devrim Gunduz",
+        "Jimmy Angelakos",
+        "Magnus Hagander",
+        "Christophe Pettus"
+      ],
+      "title": "PostgreSQL Ask Me Anything",
+      "topic": "PostgreSQL",
+      "abstract": "Various PostgreSQL community members attend SCaLE and are willing to meet with attendees and answer any questions. Many aspects of the community are covered: User groups, conference organization, core development, exhibitions, advocates and more! Please come and ask any questions!"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:00:00-08:00",
+        "endTime": "2025-03-06T17:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/empowering-openstack-oceanbase-key-features-and-seamless-integration",
+      "photo": {
+        "alt": null,
+        "height": "4470",
+        "width": "4470",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/IMG_2948.JPG"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12805",
+        "12843"
+      ],
+      "speakers": [
+        "Peng Wang",
+        "Longda Feng"
+      ],
+      "title": "Empowering OpenStack with OceanBase: Key Features and Seamless Integration",
+      "topic": "OpenInfra Days",
+      "abstract": "OceanBase is a distributed, scalable database offering high performance and reliability for OpenStack. This session covers its key features—high availability, MySQL compatibility, and scalability—enhancing OpenStack's efficiency. It also explores deploying OceanBase with Helm, the Devstack OceanBase Plugin, and SQLAlchemy compatibility. Attendees will learn how OceanBase integrates with OpenStack to meet modern cloud demands and apply it effectively."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:00:00-08:00",
+        "endTime": "2025-03-06T17:15:00-08:00"
+      },
+      "url": "/scale/22x/presentations/governing-ai-autonomous-humans",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Governing AI for Autonomous Humans",
+      "topic": "Kwaai Summit",
+      "abstract": "Data is the backbone of digital interactions and ensuring provenance and ownership is critical for security, privacy, and trust. David Grantham, CEO of Cryptid, will explore the challenges of verifying data authenticity, licensing data access, preventing manipulation, and enabling user control in decentralized systems. Drawing from his work at Cryptid Technologies, Hyperledger, and Polygon, he will discuss cryptographic techniques, zero-trust architectures, and decentralized identity frameworks that empower individuals and organizations to secure, track, and assert ownership over their data."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:15:00-08:00",
+        "endTime": "2025-03-06T17:30:00-08:00"
+      },
+      "url": "/scale/22x/presentations/ethical-learnings-building-distributed-and-decentralized-ai-0",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Ethical Learnings of Building Distributed and Decentralized AI",
+      "topic": "Kwaai Summit",
+      "abstract": "AI systems created and maintained by open-source communities are a natural counterbalance to corporate-owned AI systems. Similarly to , everyone can take some of the unused computing time on their devices, and contribute to a larger system. In this case, it forms a decentralized fabric to replace the storage and computation currently requiring expensive cloud resources from corporate providers. SETI@Home"
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:30:00-08:00",
+        "endTime": "2025-03-06T18:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/moving-authentication-single-provider-all-socials",
+      "photo": {
+        "alt": null,
+        "height": "1556",
+        "width": "1184",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Profile_20200409.jpg"
+      },
+      "location": "Room 107",
+      "speaker_id": [
+        "12487"
+      ],
+      "speakers": [
+        "Tony Breeds"
+      ],
+      "title": "Moving authentication from a single provider to all the socials!",
+      "topic": "OpenInfra Days",
+      "abstract": "OpenStack emerged in 2010 it made sense to use Ubuntu One as their authentication platform. 15 years later OpenStack has become OpenInfra and tools to support one project now need to support several aligned technologies on a single platform, OpenDev. The sysadmins have integrated Keycloak as an Identity broker and authorisation provider but this uncovers several challenges: Keycloak doesn't support OpenID (needed by Ubuntu One); a tool is needed to pre-load keycloak with some user mappings; Keycloak is written in Java. Join the OpenDev Sysadmins as they find the path from problem to solution."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:30:00-08:00",
+        "endTime": "2025-03-06T18:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/o-ran-lifecycle-management-openstack-tacker",
+      "photo": {
+        "alt": null,
+        "height": "2886",
+        "width": "2824",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/yasufum3.jpg"
+      },
+      "location": "Room 106",
+      "speaker_id": [
+        "12647",
+        "12652",
+        "12649"
+      ],
+      "speakers": [
+        "Yasufumi Ogawa",
+        "Yuya Kuno",
+        "Toshiaki Takahashi"
+      ],
+      "title": "O-RAN Lifecycle Management on OpenStack Tacker",
+      "topic": "OpenInfra Days",
+      "abstract": "OpenStack resolves many challenges even in container era and RAN. Tacker is contributing telecom usecase to O-RAN SC which is a collaboration between the O-RAN ALLIANCE and Linux Foundation aiming to achieve a solution to unify and accelerate the evolution in the RAN. Tacker is designed for managing lifecycle of RAN components and enables user to deploy network functions on OpenStack or Kubernetes for scalability and availability. In O-RAN SC model, Tacker manages network functions with StarlingX for autonomous deployment."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:30:00-08:00",
+        "endTime": "2025-03-06T17:45:00-08:00"
+      },
+      "url": "/scale/22x/presentations/panel-ai-policy",
+      "photo": null,
+      "location": "Ballroom F",
+      "speaker_id": [],
+      "speakers": [],
+      "title": "Panel: AI Policy",
+      "topic": "Kwaai Summit",
+      "abstract": "Q&A with our AI Policy panel."
+    },
+    {
+      "when": {
+        "day": "Thursday",
+        "startTime": "2025-03-06T17:45:00-08:00",
+        "endTime": "2025-03-06T18:00:00-08:00"
+      },
+      "url": "/scale/22x/presentations/closing-remarks",
+      "photo": {
+        "alt": null,
+        "height": "506",
+        "width": "508",
+        "src": "https://www.socallinuxexpo.org/sites/default/files/speakers/Reza.png"
+      },
+      "location": "Ballroom F",
+      "speaker_id": [
+        "11310"
+      ],
+      "speakers": [
+        "Reza Rassool"
+      ],
+      "title": "Closing Remarks",
+      "topic": "Kwaai Summit",
+      "abstract": "Wrap up the day with closing remarks from Reza Razool"
+    }
+  ]
+}
